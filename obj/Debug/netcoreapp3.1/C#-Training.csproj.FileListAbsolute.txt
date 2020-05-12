@@ -1,0 +1,24 @@
+/Users/mac/Desktop/C#-Training/bin/Debug/netcoreapp3.1/C#-Training.deps.json
+/Users/mac/Desktop/C#-Training/bin/Debug/netcoreapp3.1/C#-Training.runtimeconfig.json
+/Users/mac/Desktop/C#-Training/bin/Debug/netcoreapp3.1/C#-Training.runtimeconfig.dev.json
+/Users/mac/Desktop/C#-Training/bin/Debug/netcoreapp3.1/C#-Training.dll
+/Users/mac/Desktop/C#-Training/bin/Debug/netcoreapp3.1/C#-Training.pdb
+/Users/mac/Desktop/C#-Training/obj/Debug/netcoreapp3.1/C#-Training.csprojAssemblyReference.cache
+/Users/mac/Desktop/C#-Training/obj/Debug/netcoreapp3.1/C#-Training.csproj.CoreCompileInputs.cache
+/Users/mac/Desktop/C#-Training/obj/Debug/netcoreapp3.1/C#-Training.AssemblyInfoInputs.cache
+/Users/mac/Desktop/C#-Training/obj/Debug/netcoreapp3.1/C#-Training.AssemblyInfo.cs
+/Users/mac/Desktop/C#-Training/obj/Debug/netcoreapp3.1/C#-Training.dll
+/Users/mac/Desktop/C#-Training/obj/Debug/netcoreapp3.1/C#-Training.pdb
+/Users/mac/Desktop/C#-Training/obj/Debug/netcoreapp3.1/C#-Training.genruntimeconfig.cache
+/Applications/Ramzy/E D U/برمجه/كورسات/C #/Work/C#-Training/bin/Debug/netcoreapp3.1/C#-Training.deps.json
+/Applications/Ramzy/E D U/برمجه/كورسات/C #/Work/C#-Training/bin/Debug/netcoreapp3.1/C#-Training.runtimeconfig.json
+/Applications/Ramzy/E D U/برمجه/كورسات/C #/Work/C#-Training/bin/Debug/netcoreapp3.1/C#-Training.runtimeconfig.dev.json
+/Applications/Ramzy/E D U/برمجه/كورسات/C #/Work/C#-Training/bin/Debug/netcoreapp3.1/C#-Training.dll
+/Applications/Ramzy/E D U/برمجه/كورسات/C #/Work/C#-Training/bin/Debug/netcoreapp3.1/C#-Training.pdb
+/Applications/Ramzy/E D U/برمجه/كورسات/C #/Work/C#-Training/obj/Debug/netcoreapp3.1/C#-Training.csprojAssemblyReference.cache
+/Applications/Ramzy/E D U/برمجه/كورسات/C #/Work/C#-Training/obj/Debug/netcoreapp3.1/C#-Training.csproj.CoreCompileInputs.cache
+/Applications/Ramzy/E D U/برمجه/كورسات/C #/Work/C#-Training/obj/Debug/netcoreapp3.1/C#-Training.AssemblyInfoInputs.cache
+/Applications/Ramzy/E D U/برمجه/كورسات/C #/Work/C#-Training/obj/Debug/netcoreapp3.1/C#-Training.AssemblyInfo.cs
+/Applications/Ramzy/E D U/برمجه/كورسات/C #/Work/C#-Training/obj/Debug/netcoreapp3.1/C#-Training.dll
+/Applications/Ramzy/E D U/برمجه/كورسات/C #/Work/C#-Training/obj/Debug/netcoreapp3.1/C#-Training.pdb
+/Applications/Ramzy/E D U/برمجه/كورسات/C #/Work/C#-Training/obj/Debug/netcoreapp3.1/C#-Training.genruntimeconfig.cache
