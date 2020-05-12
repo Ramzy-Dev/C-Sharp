@@ -436,6 +436,19 @@ namespace Training   //مثل المجلد
             // }
             // WriteLine("You Win");
 
+            //##############################################   or if you didnt want to use --goto--
+            //Console.WriteLine("Guess Any Number Please !");
+            // var i = Convert.ToDouble(Console.ReadLine());
+            // while(i != 11)
+            // {
+            //Console.WriteLine($"Your Number Is {i}  Try Again please");
+            //Console.WriteLine("Guess Any Number Please !");
+            //i = Convert.ToDouble(Console.ReadLine());
+
+
+            // }
+            // Console.WriteLine($"Your Number is {i}  You Win !");
+
             //###############################
 
             // int i=0;
@@ -454,6 +467,43 @@ namespace Training   //مثل المجلد
             //     if (i>=20)
             //     break;
             // }
+
+            //##################  Print From 1-10 using loop
+            //             int i = 0;
+            // while (i <= 10)
+                
+            // {
+            //     Console.WriteLine(i);
+            //     i++;
+
+            // }
+
+            //############################################################   Print From 1-10 using loop and if 
+            //double i = 0;
+
+            // while (true)
+            // {
+            //     Console.WriteLine("Value of i: {0}", i);
+
+            //     i++;
+            //     if (i > 20)
+            //     {
+            //         break;
+            //     }
+
+
+            // }
+
+
+            //#####################   Calculate Total from 1-5
+            //             int i = 1 ,sum=0;
+            // while (i<=5)
+            // {
+            //     sum += i;
+            //     i++;
+
+            // }
+            // Console.WriteLine("Total is {0} ", sum);
 
         }
     }
@@ -483,6 +533,32 @@ namespace Training   //مثل المجلد
             //https://www.tutorialsteacher.com/csharp/csharp-do-while-loop
 
 
+            //##################   print   from 1-10  using   do while 
+            //             int i = 0;
+            // do
+            // {
+            //     Console.WriteLine(i);
+            //     i++;
+            // }
+            // while (i <= 10);
+
+
+            //###############################    print 1-10 using    do   while   and  if statement################
+            //             //
+            // int i = 0;
+            // do
+            // {
+            //     Console.WriteLine(i);
+            //     i++;
+            //     if (i>10)
+            //     {
+            //         break;
+
+            //     }
+            // }
+            // while (true);
+
+
 
         }
     }
@@ -492,6 +568,7 @@ namespace Training   //مثل المجلد
         {
                         // Deals with arrays 
             // string[] names={"leen", "Hamza","hadeer"};  // array
+            // Array.Sort(names);   // لعمل ترتيب ابجدى
             // foreach(string value in names)
             // {
             //     //WriteLine(value);  // لعرض الاسماء
@@ -511,6 +588,46 @@ namespace Training   //مثل المجلد
             // Int32 [] names ={3,5,7,9,10};  // مصفوفه مباشره
             // //## print  hamza ??
             // WriteLine(names[2]);
+
+
+
+            // Declare an array
+            //string[] cars;
+
+            // Add values, using new
+            //cars = new string[] {"Volvo", "BMW", "Ford"};
+
+
+
+
+            //############## #########################  EX   make overwrite and print how many elements in array#######################
+            //             string[] names = { "leen", "Hamza", "Azza" };
+            // names[1] = "Hamza Reda";   // overwrite  
+            // Console.WriteLine(names[1]);
+            //Console.WriteLine(names.Length);  // لمعرفه عدد الاراى 
+            //#########################################################
+
+            //#################  using for print Array
+            //             string[] names = { "Leen", "Hamza", "Azza" };
+            // names[0] = "Leen Reda";
+            // for (int i=0;i<names.Length;i++)
+            // {
+            //     Console.WriteLine(names[i]);
+            // }
+
+            //#########################################################################
+
+            ///#############  using name  Space called ----using System.Linq;-- to get max   min    sum
+            //             int[] numbers = { 22, 3, 1, 98, 21 };
+            // Console.WriteLine(numbers.Max());
+            // Console.WriteLine(numbers.Min());
+            // Console.WriteLine(numbers.Sum());
+
+            //##################################################################
+
+
+
+
             // foreach (var ww in names)   // var mean فى حاله عدم معرفه نوع الفاريبال او نوع مجهول وبتركه للمترجم معرفته 
             // {
             //     //WriteLine(ww);
@@ -623,4 +740,3 @@ namespace Training   //مثل المجلد
     
 }
 
-//good jop
