@@ -22,3 +22,15 @@
 /Applications/Ramzy/E D U/برمجه/كورسات/C #/Work/C#-Training/obj/Debug/netcoreapp3.1/C#-Training.dll
 /Applications/Ramzy/E D U/برمجه/كورسات/C #/Work/C#-Training/obj/Debug/netcoreapp3.1/C#-Training.pdb
 /Applications/Ramzy/E D U/برمجه/كورسات/C #/Work/C#-Training/obj/Debug/netcoreapp3.1/C#-Training.genruntimeconfig.cache
+/Users/mac/My-Githup/C-Sharp/obj/Debug/netcoreapp3.1/C#-Training.csprojAssemblyReference.cache
+/Users/mac/My-Githup/C-Sharp/obj/Debug/netcoreapp3.1/C#-Training.csproj.CoreCompileInputs.cache
+/Users/mac/My-Githup/C-Sharp/obj/Debug/netcoreapp3.1/C#-Training.AssemblyInfoInputs.cache
+/Users/mac/My-Githup/C-Sharp/obj/Debug/netcoreapp3.1/C#-Training.AssemblyInfo.cs
+/Users/mac/My-Githup/C-Sharp/obj/Debug/netcoreapp3.1/C#-Training.dll
+/Users/mac/My-Githup/C-Sharp/obj/Debug/netcoreapp3.1/C#-Training.pdb
+/Users/mac/My-Githup/C-Sharp/bin/Debug/netcoreapp3.1/C#-Training.deps.json
+/Users/mac/My-Githup/C-Sharp/bin/Debug/netcoreapp3.1/C#-Training.runtimeconfig.json
+/Users/mac/My-Githup/C-Sharp/bin/Debug/netcoreapp3.1/C#-Training.runtimeconfig.dev.json
+/Users/mac/My-Githup/C-Sharp/bin/Debug/netcoreapp3.1/C#-Training.dll
+/Users/mac/My-Githup/C-Sharp/bin/Debug/netcoreapp3.1/C#-Training.pdb
+/Users/mac/My-Githup/C-Sharp/obj/Debug/netcoreapp3.1/C#-Training.genruntimeconfig.cache

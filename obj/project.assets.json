@@ -13,14 +13,14 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Applications/Ramzy/E D U/برمجه/كورسات/C #/Work/C#-Training/C#-Training.csproj",
+      "projectUniqueName": "/Users/mac/My-Githup/C-Sharp/C#-Training.csproj",
       "projectName": "C#-Training",
-      "projectPath": "/Applications/Ramzy/E D U/برمجه/كورسات/C #/Work/C#-Training/C#-Training.csproj",
+      "projectPath": "/Users/mac/My-Githup/C-Sharp/C#-Training.csproj",
       "packagesPath": "/Users/mac/.nuget/packages/",
-      "outputPath": "/Applications/Ramzy/E D U/برمجه/كورسات/C #/Work/C#-Training/obj/",
+      "outputPath": "/Users/mac/My-Githup/C-Sharp/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/mac/.config/NuGet/NuGet.Config"
+        "/Users/mac/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"

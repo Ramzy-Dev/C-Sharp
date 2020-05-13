@@ -714,41 +714,110 @@ namespace Training   //مثل المجلد
     {
         static void Main_27()
         {
-                        string Nmmmed="leen reda mahmoud";
-            WriteLine(Nmmmed.Length);  // لمعرفه عدد الحروف 
-            WriteLine(Nmmmed.ToUpper());  // Capital letters 
-            WriteLine(Nmmmed.ToLower());
-            WriteLine(Nmmmed.Substring(0,10)); // يقتطع الكلمه المراد
-            string[]jj=Nmmmed.Split(' ');  // بيقطع الكلمه كيف ؟ الميثود بتروح للفاريبال وتشوف الفراغ ده فين
-            WriteLine(jj[0]);
-            // ممكن الدمج لهم  by using join  or concat
-            WriteLine(jj[0] + "--" + jj[1] + "-"+ jj[2]);  
-            WriteLine(string.Concat(jj[0],jj[1],jj[2])); // using concat but without spaces 
-            // if i want to put spaces 
-            WriteLine(string.Join("//",jj[0],jj[1],jj[2])); // using join with spaces 
-            WriteLine(Nmmmed.Contains("lee")); // للتاكد من ان حروف معينه موجوده
-            // another solution using if
-            if (Nmmmed.IndexOf("mahmoud")!=1)
-            {
-                WriteLine($"name is exist its numcer {Nmmmed.IndexOf("mahmoud")}");
-            }
-            else
-            {
-                WriteLine("Not exist");
+            //string Nmmmed="leen reda mahmoud";
 
-            }
-                       
-            string name = "Suresh Dasari";
-            WriteLine(name.IndexOf("u"));
-            if (name.IndexOf("esh")<=3)
-            {
-                WriteLine( $"yes {name.IndexOf("esh")}");
-            }
-            else
-            {
-                WriteLine("no");
-            }
+
+            // WriteLine(Nmmmed.Length);  // لمعرفه عدد الحروف 
+            // WriteLine(Nmmmed.ToUpper());  // Capital letters 
+            // WriteLine(Nmmmed.ToLower());
+            // WriteLine(Nmmmed.Substring(0,10)); // يقتطع الكلمه المراد
+
+            // هنا لازم اعمل تقطيع الاول ثم عمل دمج وهذا شرط 
+
+
+            //string[]jj=Nmmmed.Split(' ');  // بيقطع الكلمه كيف ؟ الميثود بتروح للفاريبال وتشوف الفراغ ده فين
+            //or can use new array like that
+            //string[]uu= "Reda Mahmoud Abd-Elgawad".Split();
+
+
+
+            ////ممكن الدمج لهم  by using join  or concat  or +
+
+
+            //using  +
+            //WriteLine(jj[0] + "--" + jj[1] + "-"+ jj[2]); 
+
+            //using concat----------- 
+            //WriteLine(string.Concat(jj[0]," ",jj[1]," ",jj[2])); // using concat but without spaces   ," " عشان المسافه
+
+            //using join-------------------
+            // if i want to put spaces 
+            //WriteLine(string.Join("//",jj[0],jj[1],jj[2])); // using join with spaces
+
+
+            //########################################################## 
+
+
+            // للتاكد من حرف معين موجود ؟؟؟؟
+            //WriteLine(Nmmmed.Contains("lee")); // للتاكد من ان حروف معينه موجوده
+
             
+            // another solution using if
+            // if (Nmmmed.IndexOf("mahmoud")!=1)
+            // {
+            //     WriteLine($"name is exist its numcer {Nmmmed.IndexOf("mahmoud")}");
+            // }
+            // else
+            // {
+            //     WriteLine("Not exist");
+
+            // }
+                       
+            // string name = "Suresh Dasari";
+            // WriteLine(name.IndexOf("u"));
+            // if (name.IndexOf("esh")<=3)
+            // {
+            //     WriteLine( $"yes {name.IndexOf("esh")}");
+            // }
+            // else
+            // {
+            //     WriteLine("no");
+            // }
+            
+
+        }
+    }
+    class Lesson28_Currency_Formating
+    {
+        static void Main_28()
+        {
+            // double number=565123.33;
+            // Console.WriteLine($"Number is {number :c} "); // c -> mean currency وتقوم بعرض على شكل مالى وتعتمد على العمله الموجود فى اعددات النظام  نفسه
+            // Console.WriteLine($"Number is {number : ###,### ###.###} "); // لعرض فراغات بين الارقام ووضع علامات كما اريد
+            // Console.WriteLine($"Number is {number: 000 000 000} "); // لاستبدال الفراغات بنقط
+
+
+
+        }
+    }
+    class Lesson_29_Date_Time_Formate
+    {
+        static void Main_29()
+        {
+            // DateTime date=DateTime.Now;
+            // Console.WriteLine(date);  // show date and time
+            // Console.WriteLine($"{date:d}");  // show date Only
+            // Console.WriteLine($"{date:dd}"); // show day
+            // Console.WriteLine($"{date:MM}"); //  show month
+            // Console.WriteLine($"{date:mm}");  // show minutes 
+            // Console.WriteLine($"{date:yy}");  // show year
+            // Console.WriteLine($"{date:yyyy}"); // show year full
+            // Console.WriteLine($"{date:MM/yyyy}");// Month+Year
+            // Console.WriteLine($"{date:hh:mm:ss}");
+            
+
+        }
+    }
+    class Lesson_30_Functin_and_Procedures
+    {
+        static void Main()
+        {
+            //###### Functions and procedures  or called  Methods   ########
+            // الغرض منها 
+            // DRY  mean dont repeat your self لاتكرر نفسك
+           // ااى تفادى التكرار
+           //procedures مجموعه من الاجراءات ولا ترجع قيمه 
+           //function ترجع قيمه  
 
         }
     }
@@ -756,7 +825,4 @@ namespace Training   //مثل المجلد
 }
 
 
-
-
-/// updated 
 
