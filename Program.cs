@@ -677,7 +677,14 @@ namespace Training   //مثل المجلد
         static void Main_26()
         {
              // types of casting 
-            //--->Implicit Casting  تلقائى     and      Explicit Casting   قصرى-اجبارى 
+            //--->Implicit Casting  (automatically)- converting a smaller type to a larger type size
+            //--ex char -> int -> long -> float -> double
+
+
+             //Explicit Casting  (manually)  قصرى-اجبارى converting a larger type to a smaller size type
+             //--ex--double -> float -> long -> int -> char
+
+
             //#### implicit casting  يتم التحويل بدون تلف البيانات وبيكون من نوع الى نوع اصغر منه 
             // int nn=10;
             // double gg =nn;
@@ -686,6 +693,14 @@ namespace Training   //مثل المجلد
             // double kk=4.6;
             // //int kj=kk;  //double  اصغر من  int  هنا هايكون فى خطأ لان 
             // //int kj=(int)kk;  //  هناا الحل للتحويل وسين عرض الرقم الصحيح فقط دون ما بعد العلامه العشريه
+
+
+
+            //Type Conversion Methods
+            //It is also possible to convert data types explicitly by using built-in methods,
+            // such as Convert.ToBoolean, Convert.ToDouble, Convert.ToString, Convert.ToInt32 (int) and Convert.ToInt64 (long):
+
+            
             // // can use convert  but it different 
             // int kj=ToInt32(kk);// الاختلاف فقط ان هنا هايقوم بالتقريب ويكون الناتج ٥
             // //### ex 
