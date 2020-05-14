@@ -810,19 +810,57 @@ namespace Training   //مثل المجلد
     }
     class Lesson_30_Functin_and_Procedures
     {
-        static void Main()
-        {
-            //###### Functions and procedures  or called  Methods   ########
-            // الغرض منها 
-            // DRY  mean dont repeat your self لاتكرر نفسك
-           // ااى تفادى التكرار
-           //procedures مجموعه من الاجراءات ولا ترجع قيمه 
-           //function ترجع قيمه  
 
-        }
+                
+        //###### Functions and procedures  or called  Methods   ########
+        // الغرض منها 
+        // DRY  mean dont repeat your self لاتكرر نفسك
+        // ااى تفادى التكرار
+        //procedures مجموعه من الاجراءات ولا ترجع قيمه 
+        //function ترجع قيمه  
+        
+
+        //static ->Mean means that the method belongs to the Program class and not an object of the Program class.
+        //void ->means that this method does not have a return value.
+        //show ->is the name of the method
+
+
+        // static void Show(string name)  // name -> called parameter  // use to show name// called procedures
+        // {
+        //     Console.WriteLine($"Welcome {name}");
+        // }
+
+        // //###################  another ex
+        // static void Name_Age(string name, int age)
+        // {
+        //     Console.WriteLine("Name is " + name + "Age is " + age + "Years Old");
+        // }
+
+        //###########################################
+        // static int Addition(int a , int b)  // method or function -->must return somthing    use for additinal 2 numbers
+        // {
+            // int result=a+b;
+            // return result;
+            //or
+            //return a+b; 
+
+        // }
+
+        // static void Main_30()
+        // {
+            // Show("Leen Reda ");
+            // Console.WriteLine(Addition(22,44));  // call function addition 
+
+
+            // Name_Age("Leen Reda ", 4);
+            // Name_Age("Hamza Reda ", 2);
+            // Name_Age("Hadeer Mohamed", 26);
+        // }
+       
+
+
+        
     }
     
 }
-
-
 
