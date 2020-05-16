@@ -861,6 +861,93 @@ namespace Training   //مثل المجلد
 
         
     }
+    class Lesson_31_Parameter_Passing_by_Valueـreference_out
+    {
+        // static int By_value(int x)
+        // {
+        //     //return x *= 2;
+        //     //or
+        //     x=x*2;
+        //     return x;
+        // }
+
+        // static int By_Reference(ref int x)
+        // {
+        //     return x *=3;
+        // }
+
+        // static int By_out(out int x)
+        // {
+        //     x=1000;
+        //     return x *=6;
+        // }
+
+        // static void Main()
+        // {
+        //     int x=100;
+        //     //or can use ant variable 
+        //     //int yy=100;
+        //     Console.WriteLine($"Result Befor Pass By value is  {x} ");
+        //     Console.WriteLine($"Result inside Pass By value is  {By_value(x)} ");
+        //     Console.WriteLine($"Result After Pass By value is  {x} ");
+        //     Console.WriteLine("---------------------------------------");
+
+        //     Console.WriteLine($"Result Befor Pass By value is  {x} ");
+        //     Console.WriteLine($"Result inside Pass By value is  {By_Reference(ref x)} ");
+        //     Console.WriteLine($"Result After Pass By value is  {x} ");
+        //     Console.WriteLine("---------------------------------------");
+
+        //     Console.WriteLine("---------------------------------------");
+        //     Console.WriteLine($"Result Befor Pass By value is  {x} ");
+        //     Console.WriteLine($"Result inside Pass By value is  {By_out(out x)} ");
+        //     Console.WriteLine($"Result After Pass By value is  {x} ");
+        //     Console.WriteLine("---------------------------------------");
+
+            
+
+        // }
+    }
+    class Lesson_32_Exception_Handling
+    {
+        static void Main()
+        {
+            // اداره الاستثناءات والاخطاء
+            // هى اخطاء قد تحدث عند عمل البرنامج
+            // مثال القسمه على صفر او تعريف متغير واسناد له قيمه من نوع اخر 
+            //############  example
+            // Console.WriteLine("Enter Your Age Please :");
+            // int age=Convert.ToInt32(ReadLine());
+            // Console.WriteLine("Your Age is {0} ",age);
+            // Unhandled exception نفترض ان المستخدم ادخل حروف بدلا من ارقام ؟ وقتها بيطون هناك  
+            // والحل ؟؟؟
+            // use   try  and catch  ونقوم بوضع فى تراى الاوامر المحتمل فيها الخطأ
+            Console.WriteLine("Enter Your Age Please");
+            try
+            {
+                int age=Convert.ToInt32(ReadLine());
+            }
+            catch (FormatException xx)
+            {
+                Console.WriteLine("Age Not Valid {0} ",xx.Message);
+            }
+
+            catch (OverflowException xx)
+            {
+                Console.WriteLine("Age Too Big {0} ",xx.Message);
+            }
+            catch (Exception xx)  // or can use finally ----- catch  وهو ينفذ فى جميع الحالات ونستخدمه فى قاعده البيانات // ممكن استخدام اكثر من 
+            {
+                Console.WriteLine("Age Not Correct {0} ",xx.Message);
+            }
+
+            finally
+            {
+                Console.WriteLine("Finally Block Is excuted");
+            }
+
+        }
+        
+    }
     
 }
 
