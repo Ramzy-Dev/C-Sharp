@@ -909,7 +909,7 @@ namespace Training   //مثل المجلد
     }
     class Lesson_32_Exception_Handling
     {
-        static void Main()
+        static void Main_32()
         {
             // اداره الاستثناءات والاخطاء
             // هى اخطاء قد تحدث عند عمل البرنامج
@@ -921,32 +921,180 @@ namespace Training   //مثل المجلد
             // Unhandled exception نفترض ان المستخدم ادخل حروف بدلا من ارقام ؟ وقتها بيطون هناك  
             // والحل ؟؟؟
             // use   try  and catch  ونقوم بوضع فى تراى الاوامر المحتمل فيها الخطأ
-            Console.WriteLine("Enter Your Age Please");
-            try
-            {
-                int age=Convert.ToInt32(ReadLine());
-            }
-            catch (FormatException xx)
-            {
-                Console.WriteLine("Age Not Valid {0} ",xx.Message);
-            }
+            // Console.WriteLine("Enter Your Age Please");
+            // try
+            // {
+            //     int age=Convert.ToInt32(ReadLine());
+            // }
+            // catch (FormatException xx)
+            // {
+            //     Console.WriteLine("Age Not Valid {0} ",xx.Message);
+            // }
 
-            catch (OverflowException xx)
-            {
-                Console.WriteLine("Age Too Big {0} ",xx.Message);
-            }
-            catch (Exception xx)  // or can use finally ----- catch  وهو ينفذ فى جميع الحالات ونستخدمه فى قاعده البيانات // ممكن استخدام اكثر من 
-            {
-                Console.WriteLine("Age Not Correct {0} ",xx.Message);
-            }
+            // catch (OverflowException xx)
+            // {
+            //     Console.WriteLine("Age Too Big {0} ",xx.Message);
+            // }
+            // catch (Exception xx)  // or can use finally ----- catch  وهو ينفذ فى جميع الحالات ونستخدمه فى قاعده البيانات // ممكن استخدام اكثر من 
+            // {
+            //     Console.WriteLine("Age Not Correct {0} ",xx.Message);
+            // }
 
-            finally
-            {
-                Console.WriteLine("Finally Block Is excuted");
-            }
+            // finally
+            // {
+            //     Console.WriteLine("Finally Block Is excuted");
+            // }
+
+            // //####################   another example 
+
+            // try
+            // {
+            //     int[] number = { 1, 2, 3, 4 };
+            //     Console.WriteLine("Number is {0} ", number[2]);
+            // }
+            // catch (Exception ex)
+            // {
+            //     Console.WriteLine("Not exist Man {0} ", ex.Message);
+            // }
+            // finally
+            // {
+            //     Console.WriteLine("End OF programme ! ");
+            // }
+
+            // can use also throw   look to w3school
+            //https://www.w3schools.com/cs/cs_exceptions.asp
 
         }
         
+    }
+    class Lesson_33_Enums_and_constants
+    {
+        // contants  like variables  But it never change !
+        //Enumerations التعدادات 
+        //enumerations -->تسمح لنا بتخزين قيم ثابته مثل ايام الاسبوع مثلا 
+        //enums
+        //# using do-while   guess number to go next level
+        // enum Levels
+        // {
+        //     easy,
+        //     medieum,
+        //     hard
+        // }
+        static void Main_33()
+        {
+        //     int number;
+        //     Levels cc = Levels.easy;
+        //     Console.WriteLine("Your Level Now is "+ cc);
+        //     do
+        //     {
+        //         Console.WriteLine("Guess Number Please:");
+        //         number = Convert.ToInt32(Console.ReadLine());
+        //     } while (number != 10);
+        //     Console.WriteLine("You Win ");
+        //     cc++;
+        //     Console.WriteLine("your Level now is " + cc);
+        //     do
+        //     {
+        //         Console.WriteLine("Guess Number Please:");
+        //         number = Convert.ToInt32(Console.ReadLine());
+        //     } while (number != 20);
+        //     Console.WriteLine("You Win ");
+        //     cc++;
+        //     Console.WriteLine("your Level now is " + cc);
+
+        }
+
+
+    }
+    class Lesson_34_Structs
+    {
+
+            // structs --->  Mean structure
+            // // نستخدم هذه التقنيه فى حال تخزين بيانات متعدده فى  كيان واحد مثل بيانات طالب معين
+            // struct Student
+            // {
+            //     public String name;
+            //     public byte age;
+            //     public string address;
+
+            // }
+            // static void Main()
+            // {
+            //     Student std=new Student();
+            //     std.name="Leen Reda";
+            //     std.age=4;
+            //     std.address="Saudi Arabia";
+
+            //     Console.WriteLine(std.name);
+
+
+            // }
+
+            //#############  another way/////
+
+        // struct Student
+        // {
+        //     public string name;
+        //     public int age;
+        //     public string address;
+        //     public Student(string n,int ag,string add)
+        //     {
+        //         name = n;
+        //         age = ag;
+        //         address = add;
+
+        //     }
+
+        //     static void Main()
+        //     {
+        //         Student std = new Student("Leen Reda ", 4,"saudi arabia");
+        //         Console.WriteLine(std.name);
+        //     }
+            
+
+
+        // }
+            
+        
+    }
+    class Lesson_35_checking_for_overflow
+    {
+        // static void Main()
+        // {
+        //     //ex
+        //     byte b=byte.MaxValue;//255 
+        //     b++; // لان تم تعدى الحد الاقصى overflow  هنا معناه تم عمل له  
+        //     // وبذلك سنفقد البيانات وستكون النتيجه صفر اى يذهب اوتوماتيك الى اول رقم فى المجال المتاح له
+        //     Console.WriteLine(b);
+
+        //     // للتاكد checked  ممكن استخدام 
+
+        //     checked
+        //     {
+        //         int i=int.MaxValue;
+        //         Console.WriteLine(i);
+        //         i++;
+        //         Console.WriteLine(i);
+        //     }
+
+        //     // or by using try-catch
+        //                 try
+        //     {
+        //     checked
+        //         {
+        //             int age = int.MaxValue;
+        //             Console.WriteLine(age);
+        //             age++;
+        //             Console.WriteLine(age);
+        //         }
+
+        //     }
+        //     catch(OverflowException ex)
+        //     {
+        //         Console.WriteLine(ex.Message);
+        //     }
+
+        // }
     }
     
 }
