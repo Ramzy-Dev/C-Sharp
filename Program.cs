@@ -1096,7 +1096,7 @@ namespace Training   //مثل المجلد
 
         // }
     }
-    class OOP 
+    class Lesson_36_OOP 
     {
         static void Main()
         {
@@ -1107,7 +1107,7 @@ namespace Training   //مثل المجلد
         }
 
     }
-    class Properties_and_access_Modifiers
+    class Lesson_37_Properties_and_access_Modifiers
     {
         //properties - or Attributes    مثلا كمبيوتر وله خصائص وهذه هى الخصائص
         public string brand;   
@@ -1126,6 +1126,36 @@ namespace Training   //مثل المجلد
 
 
 
+    }
+    class lesson_38_Encapsulation_Full_properties_autoproperties
+    {
+        //encapsulation حمايه بيانات الكلاس من الوصول المباشر
+        //properties طريقه كتابه 
+        //طريقتان
+        //1-full properties----------
+        private string brand;  //barndProperty حتى لا اتعامل معه مباشره سنتعامل مع encapsulation  لو عايز اخلى دى 
+        public string color {get;set;}  // auto property without encapsulation
+        // to make barand encapsulation 
+        //first way  with full properties
+        public string barndProperty
+        {
+            get  // can read it
+            {
+                return brand.ToUpper(); // مثلا ارجاع حروف كبيره
+            }
+            set  // can write also on it
+            {
+                brand=value;
+            }
+        }
+
+        // second way called auto properties ولكن هنا لا يتم تطبيق انكابسوليشن  انظر الى اللون فوق ماذا حدث 
+
+    }
+    class Lesson_39_Methods
+    {
+        // function or procedures عباره عن داله او اجراء 
+    
     }
         
     
