@@ -1149,12 +1149,13 @@ namespace Training   //مثل المجلد
             }
         }
 
-        // second way called auto properties ولكن هنا لا يتم تطبيق انكابسوليشن  انظر الى اللون فوق ماذا حدث 
+        //2- auto properties ولكن هنا لا يتم تطبيق انكابسوليشن  انظر الى اللون فوق ماذا حدث 
 
     }
     class Lesson_39_Methods
     {
-        // function or procedures عباره عن داله او اجراء 
+        // function or procedures عباره عن داله او اجراء method <----
+        // الشرح موجود فى فجيول بيسيك ستوديو
     
     }
         
