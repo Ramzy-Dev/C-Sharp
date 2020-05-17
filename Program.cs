@@ -1096,6 +1096,38 @@ namespace Training   //مثل المجلد
 
         // }
     }
+    class OOP 
+    {
+        static void Main()
+        {
+            //  اهم شئ فيها الكلاس والكلاس يعتبر تمثيل شامل 
+            // copy from class called object  this operation called instance
+            //Can make new class called for ex computer include 1- properties 2-methods 3-events
+
+        }
+
+    }
+    class Properties_and_access_Modifiers
+    {
+        //properties - or Attributes    مثلا كمبيوتر وله خصائص وهذه هى الخصائص
+        public string brand;   
+        public double price;
+        public DateTime manufacturedate;
+        public string color;
+
+        // access modifiers  
+        //public   private   internal    protected 
+        //public اى ممكن الوصول له من اى مكان حتى لو ملف اخر 
+        //private على مستوى الكلاس التى تحتوى عليه فقط
+        //internal تسمح من الداخل والخارج 
+        //protected  فقط على مستوى الفئات او مشتقاته
+        
+
+
+
+
+    }
+        
     
 }
 
