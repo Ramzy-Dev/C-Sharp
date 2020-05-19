@@ -1110,10 +1110,10 @@ namespace Training   //مثل المجلد
     class Lesson_37_Properties_and_access_Modifiers
     {
         //properties - or Attributes    مثلا كمبيوتر وله خصائص وهذه هى الخصائص
-        public string brand;   
-        public double price;
-        public DateTime manufacturedate;
-        public string color;
+        // public string brand;   
+        // public double price;
+        // public DateTime manufacturedate;
+        // public string color;
 
         // access modifiers  
         //public   private   internal    protected 
@@ -1133,21 +1133,21 @@ namespace Training   //مثل المجلد
         //properties طريقه كتابه 
         //طريقتان
         //1-full properties----------
-        private string brand;  //barndProperty حتى لا اتعامل معه مباشره سنتعامل مع encapsulation  لو عايز اخلى دى 
-        public string color {get;set;}  // auto property without encapsulation
+        // private string brand;  //barndProperty حتى لا اتعامل معه مباشره سنتعامل مع encapsulation  لو عايز اخلى دى 
+        // public string color {get;set;}  // auto property without encapsulation
         // to make barand encapsulation 
         //first way  with full properties
-        public string barndProperty
-        {
-            get  // can read it
-            {
-                return brand.ToUpper(); // مثلا ارجاع حروف كبيره
-            }
-            set  // can write also on it
-            {
-                brand=value;
-            }
-        }
+        // public string barndProperty
+        // {
+        //     get  // can read it
+        //     {
+        //         return brand.ToUpper(); // مثلا ارجاع حروف كبيره
+        //     }
+        //     set  // can write also on it
+        //     {
+        //         brand=value;
+        //     }
+        // }
 
         //2- auto properties ولكن هنا لا يتم تطبيق انكابسوليشن  انظر الى اللون فوق ماذا حدث 
 
