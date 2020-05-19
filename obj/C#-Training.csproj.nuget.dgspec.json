@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/Users/mac/My-Githup/C-Sharp/C#-Training.csproj": {}
+    "D:\\RZ\\My-Githup\\C-Sharp\\C#-Training.csproj": {}
   },
   "projects": {
-    "/Users/mac/My-Githup/C-Sharp/C#-Training.csproj": {
+    "D:\\RZ\\My-Githup\\C-Sharp\\C#-Training.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mac/My-Githup/C-Sharp/C#-Training.csproj",
+        "projectUniqueName": "D:\\RZ\\My-Githup\\C-Sharp\\C#-Training.csproj",
         "projectName": "C#-Training",
-        "projectPath": "/Users/mac/My-Githup/C-Sharp/C#-Training.csproj",
-        "packagesPath": "/Users/mac/.nuget/packages/",
-        "outputPath": "/Users/mac/My-Githup/C-Sharp/obj/",
+        "projectPath": "D:\\RZ\\My-Githup\\C-Sharp\\C#-Training.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "D:\\RZ\\My-Githup\\C-Sharp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/mac/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -50,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.202/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

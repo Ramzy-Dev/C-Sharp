@@ -34,3 +34,16 @@
 /Users/mac/My-Githup/C-Sharp/bin/Debug/netcoreapp3.1/C#-Training.dll
 /Users/mac/My-Githup/C-Sharp/bin/Debug/netcoreapp3.1/C#-Training.pdb
 /Users/mac/My-Githup/C-Sharp/obj/Debug/netcoreapp3.1/C#-Training.genruntimeconfig.cache
+D:\RZ\My-Githup\C-Sharp\bin\Debug\netcoreapp3.1\C#-Training.exe
+D:\RZ\My-Githup\C-Sharp\bin\Debug\netcoreapp3.1\C#-Training.deps.json
+D:\RZ\My-Githup\C-Sharp\bin\Debug\netcoreapp3.1\C#-Training.runtimeconfig.json
+D:\RZ\My-Githup\C-Sharp\bin\Debug\netcoreapp3.1\C#-Training.runtimeconfig.dev.json
+D:\RZ\My-Githup\C-Sharp\bin\Debug\netcoreapp3.1\C#-Training.dll
+D:\RZ\My-Githup\C-Sharp\bin\Debug\netcoreapp3.1\C#-Training.pdb
+D:\RZ\My-Githup\C-Sharp\obj\Debug\netcoreapp3.1\C#-Training.csprojAssemblyReference.cache
+D:\RZ\My-Githup\C-Sharp\obj\Debug\netcoreapp3.1\C#-Training.csproj.CoreCompileInputs.cache
+D:\RZ\My-Githup\C-Sharp\obj\Debug\netcoreapp3.1\C#-Training.AssemblyInfoInputs.cache
+D:\RZ\My-Githup\C-Sharp\obj\Debug\netcoreapp3.1\C#-Training.AssemblyInfo.cs
+D:\RZ\My-Githup\C-Sharp\obj\Debug\netcoreapp3.1\C#-Training.dll
+D:\RZ\My-Githup\C-Sharp\obj\Debug\netcoreapp3.1\C#-Training.pdb
+D:\RZ\My-Githup\C-Sharp\obj\Debug\netcoreapp3.1\C#-Training.genruntimeconfig.cache
