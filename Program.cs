@@ -1098,7 +1098,7 @@ namespace Training   //مثل المجلد
     }
     class Lesson_36_OOP 
     {
-        static void Main()
+        static void Main_36()
         {
             //  اهم شئ فيها الكلاس والكلاس يعتبر تمثيل شامل 
             // copy from class called object  this operation called instance
