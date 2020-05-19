@@ -1158,6 +1158,14 @@ namespace Training   //مثل المجلد
         // الشرح موجود فى فجيول بيسيك ستوديو
     
     }
+    class Lesson_40_Constructor
+    {
+        // Constructor  maen->  A constructor is a  special method that is used to initialize objects.
+        //يحمل نفس اسم الكلاس وليس له ارجاع 
+       // public بمعنى ممكن عمله عند انشاؤ الكلاس وبيكون بنفس اسمه ويكون  
+       // look at next slid in lesson 39
+
+    }
         
     
 }
