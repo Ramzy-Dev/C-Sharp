@@ -1,50 +1,44 @@
 using System;
-namespace Test
+namespace Encapsulation
 {
-    class Leen
+    class Encap
     {
         private string name;
-        public double price;
-        public string color{get;set;}  //auto prpperties
-        public bool isnew =true;
-        public DateTime manufacture;
-        public string newname
+        public string color;  //field
+        //constructors ..........
+
+        //full property
+        public string Name  
         {
             get
             {
-                return name.ToUpper();
+                return name;
             }
             set
             {
-                name=value;
+                if(value=="Leen")
+                {
+                    name=value;
+                }
             }
         }
-        public Leen ()
+        public Encap()
         {
-            this.name="Leen Reda";
-            this.price=600.5;
-            this.color="Silver";
-            this.isnew=true;
-            this.manufacture=DateTime.Now;  // لز عايز الوقت الحالى 
-        }
-        public Leen (double pprice,string ccolor , string nname)
-        {
-            price=pprice;
-            color=ccolor;
-            name=nname;
-
+            color="green";
+            
         }
 
-        public void multi()
+    }
+    class Printing
+    {
+        static void Main()
         {
-            int x=30 , y=40;
-            Console.WriteLine($"Multiplication is {x*y} ");
-        }
-
-        public int addition()
-        {
-            int a=20 , b=190;
-            return a+b;
+            Encap kk=new Encap();
+            kk.Name="Leen";
+            //kk.color="yellow";
+            
+            Console.WriteLine(kk.Name+"\n"+kk.color);
         }
     }
+
 }
