@@ -33,8 +33,11 @@ namespace Training   //مثل المجلد
     }
     class Lesson_12_Data_Types_Variables 
     {
-        static void Main_12()
+        static void Main_12()  // called main method  or function 
         {
+            //Curved brackets  ()
+            //square brackets []
+            //curly brackets {}
              
             //Data Type :-
             //1- Numeric Data Type consists of  مرتبين ترتيب تصاعدى
@@ -75,9 +78,14 @@ namespace Training   //مثل المجلد
             //------------------------------------------------------------------
 
             // can make default value for variables 
-            //string wew=default (string);  //  output zero  or nothing 
+            //string wew=default (string);  //  output zero  or nothing  in this case we can print it withou errors
+
             // we can declare variable without assign it 
-            //string df;
+            // also declare with null
+            //string x=null; // string accept
+            //short? xx=null;// any thing ekse not accept must put ? to accept
+
+            //string name;  // in this case we must declare it in another statement to  can print 
             //or Multiple Declarations
             //int x,y,z;
             //then assignment fo variable
@@ -89,8 +97,17 @@ namespace Training   //مثل المجلد
     {
         static void Main_13()
         {
-            //Console.WriteLine(ss);  // called also method and all  methods has ()  and called also statement because has end of it ;
-            //Console.Write("Leen"); //Write نستخدمها للطباعه ولكن بدون عمل سطر جديد
+            //Console.WriteLine(ss);  // called also method and all  methods has curved brackets ()  and called also statement because has end of it ;
+            //Console.Write("Leen"); //Write  نستخدمها للطباعه ولكن بدون عمل سطر جديد داخل الكونسول 
+            //Console  ---> called class 
+            //WriteLine ---called method
+            //------------------------------------------------------------------------------
+            //WriteLine --> this method its implementation or its code  inside  class called Console and console inside System   so we declare namespace called System
+            //----------------------------------------------------------------------------
+            //Did namespace contain only class? No .. if you write namespace System after main method followed by . you with see many kinds 
+
+            // we can also use namespace System before class console without using "using System;"in the beggining 
+
             //Console.WriteLine("Leen"); //writeline -> مثلها ولكن تعمل سطر جديد
             //  ways to print variables ---------
             //string name = "Leen love";
@@ -113,6 +130,19 @@ namespace Training   //مثل المجلد
             //Console.WriteLine("Enter Your Age Please:");
             //age_1 =Convert.ToByte(Console.ReadLine());  // لابد من عمل تحويل لان ريدلاين لاترجع الا نصوص فقط
             //Console.WriteLine($"Welcome mr {name_1} your Age is { age_1 } Years Old  ");
+
+            //main method only البرنامج بيدا التنفيذ من 
+            //  ex----------------
+
+        //     static void print()
+        //     {
+        //     Console.WriteLine("Hello im ramzy");
+        //     }
+        //     static void Main()
+        //     {
+        //     Console.WriteLine("Hello Leen");
+        //     print();   // call function or call method 
+        //    }
 
 
         }
