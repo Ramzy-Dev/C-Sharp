@@ -7,7 +7,7 @@
 //     {
 //         // class --->consist of class + object -> class = (attributes or properties  +  methods--> (function or procedures))  and object is an instance of a typical class
 //         //1- Attributes or properties 
-//
+
 //         //Generally, in object-oriented programming languages like c# you need to define fields as private,
 //         //and then use properties to access their values in a public way with get and set accessors.
 //         //properties can contain one or two code blocks called accessors and those are called a get accessor and set accessor. 
@@ -38,8 +38,8 @@
 
 //         public Computer()  // can write it automatic by write (ctor)
 //         // when creat constructor must be public and must take same name for class 
-           // we use it to define prperty or attributes in class by many methods 
-           // we use constructor to save time with short code
+//            we use it to define prperty or attributes in class by many methods 
+//            we use constructor to save time with short code
 
 //         {
 //          // this --> Mean الكلاس الحالى /// وممكن الاستغناء عنها 
@@ -91,11 +91,12 @@
 //     //Base Class- main class  (parent)
 //     class Inheritanc_Person
 //     {
-//         public string inheritanc_name{get;set;}
+//         public string inheritanc_name{get;set;}  // property
 //         public string inheritanc_adress {get;set;}
 //         public byte inheritanc_age {get;set;}
 //         public string inheritanc_kind {get;set;}
-
+        
+           
 //          public void inheritanc_Speak()
 //          {
 //              Console.WriteLine("I speak .....");
@@ -135,5 +136,101 @@
 
 //         } 
 
+//     }
+
+
+//         class OOP
+//     {
+//         // first declare properties,fields,attributes
+//         public string name;
+//         public string color { get; set; }
+//         private string tall { get; set; }
+
+//         //encapsulation for accress modifier private --- tall
+//         public string _tall
+//         {
+//             get
+//             {
+//                 return tall = "good"; 
+//             }
+//             set
+//             {
+//                 tall = value;
+//             }
+//         }
+
+//         //constructors to assign values
+//         public OOP()
+//         {
+//             this.name = "leen";
+//             this.color = "yellow yellow ";  // ok
+//             this.tall = "very tall";  // not make overwrite
+//         }
+
+//         //----------------------------------------------------
+
+//         // another way for constructor------  in this case must creat another constructor in Drived class (child)
+//         // look chang in line 64  and  75
+//         //public OOP(string nname, string ccolor,string ttall)
+//         //{
+//         //    this.name = nname;
+//         //    this.color = ccolor;
+//         //    this.tall = ttall;
+//         //}
+
+
+//         // methods
+//         //-------------procedures--------------//ok
+//         public void multi(int x, int y)  
+//         {
+//             int z = x * y;
+//             Console.WriteLine($"Multiplication is {z} ");
+//         }
+
+//         //-------------- function ----------------//ok
+//         public int add(int a, int b)
+//         {
+//             return a + b;
+//         }
+
+
+
+//     }
+
+//     //-------------lesson     41---------------------
+//     class Excute : OOP    // inheritance
+//     {
+//         public string hand { get; set; }  // can put here as i like (add more)
+//         //public Excute(string nname, string ccolor, string ttall) :base(nname,ccolor,ttall )
+//         //{
+
+//         //}
+
+//         static void Main()
+//         {
+
+
+//             // object--------------
+//             //var exc_OOP = new OOP();
+//             //var XXX = new Excute("fathiya","fucken black","short");
+//             var XXX = new Excute();
+
+//             // overwrite 
+
+//             XXX.name = "Hamza leen";  //ok
+//             //-------------------------
+
+//             XXX.hand = "very soft";
+//             // ------  call function -------
+//             XXX.multi(100, 2);
+//             //------- print ------------
+//             Console.WriteLine(XXX.name);
+//             Console.WriteLine(XXX.color);
+//             Console.WriteLine(XXX._tall);
+//             //------call function ------------
+//             Console.WriteLine(XXX.add(22, 100));
+//             Console.WriteLine(XXX.hand);
+
+//         }
 //     }
 // }

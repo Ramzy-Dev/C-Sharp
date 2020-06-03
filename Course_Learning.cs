@@ -1207,11 +1207,33 @@ namespace Training   //مثل المجلد
         //Derived Class (child) - the class that inherits from another class
         //Base Class (parent) - the class being inherited from
         // اى نقل مكونات الفئه الرئيسيه الى الفئه المشتقه
+        //الغرض منه تفادى تكرار الاكواد
+
         
     }
-    class SSS
+    class Method_Overloading
+
     {
-        
+      // 
+        // static int Multi(int x, int y)
+        // {
+        //     return x * y;
+        // }
+        // static double Multi(double x, double y)
+        // {
+        //     return x + y;
+        // }
+        // static string Multi(string name)
+        // {
+        //     return name;
+        // }
+        // static void Main()
+        // {
+        //     Console.WriteLine(Multi(10, 5));
+        //     Console.WriteLine(Multi(10.8, 5));
+        //     Console.WriteLine(Multi("Hamza"));
+
+        // } 
     }
         
     

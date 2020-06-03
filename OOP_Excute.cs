@@ -37,5 +37,67 @@
 //         }
 //     }
 
+//         class OOP
+//     {
+//         // first declare properties,fields,attributes
+//         public string name;
+//         public string color { get; set; }
+//         private string tall { get; set; }
+
+//         //encapsulation for accress modifier private --- tall
+//         public string _tall
+//         {
+//             get
+//             {
+//                 return tall = "good"; 
+//             }
+//             set
+//             {
+//                 tall = value;
+//             }
+//         }
+
+//         //constructors to assign values
+//         public OOP()
+//         {
+//             this.name = "leen";
+//             this.color = "yellow yellow ";  // ok
+//             this.tall = "very tall";  // not make overwrite
+//         }
+
+//         //----------------------------------------------------
+
+//         // another way for constructor------  in this case must creat another constructor in Drived class (child)
+//         // look chang in line 64  and  75
+//         //public OOP(string nname, string ccolor,string ttall)
+//         //{
+//         //    this.name = nname;
+//         //    this.color = ccolor;
+//         //    this.tall = ttall;
+//         //}
+
+
+//         // methods
+//         //-------------procedures--------------//ok
+//         public void multi(int x, int y)  
+//         {
+//             int z = x * y;
+//             Console.WriteLine($"Multiplication is {z} ");
+//         }
+
+//         //-------------- function ----------------//ok
+//         public int add(int a, int b)
+//         {
+//             return a + b;
+//         }
+
+
+
+//     }
+
+
+
+
+
 
 // }
