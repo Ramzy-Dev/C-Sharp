@@ -1,27 +1,26 @@
 ﻿using System;  // called namespace // that mean i will use namespace called "System"  //تسمى مكتبه  library..................
 using static System.Console; //console  فى حاله لو لا نريد كتابه   <----
 using static System.Convert; //convert  فى حاله لو لا نريد كتابه   <----
+
+//------------------------------------------------------------
 //الكمبيوتر لا يفهم الا رقمين صفر و  واحد
-// fisrt languqge called assembly code    and was very difficult
+// fisrt languqge called   (((assembly code)))    and was very difficult
 // then low level language like c  and  C++  work direct with machin 
-//the high level languge that languages use copilier to translat to language machine
-//IDE (integrated development environment) insid it copilier     بيئه تطوير متكامله
+//the high level languge that languages use copiler to translat to language machine
+//IDE (integrated development environment) insid it copiler     وهو المسئول عن تنفيد البرنامح   CLR   بيئه تطوير متكامله  ويحتوى على مكتبات و 
+//IDE   --->>  Write Code --> compiler-->bytecode->CLR-->native code
 //لو فى اى خطا فى كتابه الكود بيظهر ان فى خطا ولذلك لان داخله كومبيلر
 // syntax هى قواعد بيتم استخدامها لتكون مفهومه للكمبيوتر والاله
 // namespace system use to organize code and is collection of classes,interfaces,structs,enums,delegates
-<<<<<<< HEAD
-
-=======
->>>>>>> 00a7f83153119b7e6c9e7ded62e5f1adc9927b6b
-
-
+// OOP كل شئ فى السى شارب عباره عن اوبجت لانها 
+ 
 
 
 namespace Training   //  مثل المجلد  ويقوم بترتيب الكود وعن طريقه عن انشاء واحد جديد وقتها اقدر استخدم كلاس بنفس الاسم فى كلاس سابق عادى 
 // اى يسمح لنا بعمل كلاس بنفس الاسم فى كلاس اخر
 {
 
-    class Lesson_11_Rules_Isentifiers //ولكن خاص بنا  namespace    ملف تحت المجلد ويسمى ايضا  //class---> object يتم كتابه داخلها كل الاوامر لان السى شارب عباره عن اوبجت اورينتيت وكل شئ عباره عن كائن او 
+    class Lesson_11_Rules_Isentifiers //ولكن خاص بنا  namespace    ملف تحت المجلد ويسمى ايضا  //class---> object يتم كتابه داخلها كل الاوامر لان السى شارب عباره عن اوبجت اورينتيت وكل شئ عباره عن   
     {
         static void Main_11()  // called method    called main method  // all is reserved keywords 
         {
@@ -53,6 +52,9 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
             //Curved brackets  ()
             //square brackets []
             //curly brackets {}
+
+            //double quotes  ""
+            //single quotes  ''
              
             //Data Type :-
             //1- Numeric Data Type consists of  مرتبين ترتيب تصاعدى
@@ -105,6 +107,9 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
             //int x,y,z;
             //then assignment fo variable
 
+            // لمعرفه اقصى واقل قيمه لاى متغير
+            //Console.WriteLine(int.MaxValue);
+
 
         }
     }
@@ -117,7 +122,7 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
             //Console  ---> called class 
             //WriteLine ---called method
             //------------------------------------------------------------------------------
-            //WriteLine --> this method its implementation or its code  inside  class called Console and console inside System   so we declare namespace called System
+            //WriteLine --> this method it's implementation or it's code  inside  class called Console and console inside System   so we declare namespace called System
             //----------------------------------------------------------------------------
             //Did namespace contain only class? No .. if you write namespace System after main method followed by . you with see many kinds 
 
@@ -130,7 +135,8 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
             //Console.WriteLine("My lovely daughter is " + name + " clearHer Age is " + age); 
             // + -> called concatenation يقوم بعمليه الدمج بين النصوص ويستخدم ايضا للجمع بين الاعداد
             //-- another way for concatenation 
-            //Console.WriteLine("My love is {0} and her age is {1} " , name , age);
+            //Console.WriteLine("My love is {0} and her age is {1} " , name , age);  // called pace holder 
+            // its prefer use pace holder beacause its mor readable 
             // another way for concatenation which appeared in c#6  called "String Interpolation " -->$
             //Console.WriteLine($"My lovely name is {name} and here age is: {age} years Old !!! ");
 
@@ -189,6 +195,14 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
 
             
             //Console.WriteLine($"The Number is {count} ");
+
+            //----------------------  // escape sequence-----
+            // string name = "\"leen\"";  // using backslash  to write "
+            // string name = "\\leen\\;  // using backslash for write \
+            //string name = "one \n two \n three";  // using backsalsh for new line 
+            //string name = @"one\leen\reda";  // using verbatim literal to print \
+            //string name = "one\\leen\\reda";  // using backslash to print \
+            // Console.WriteLine(name);
 
         }
     }
