@@ -1,6 +1,15 @@
 ﻿using System;  // called namespace // that mean i will use namespace called "System"
 using static System.Console; //console  فى حاله لو لا نريد كتابه   <----
 using static System.Convert; //convert  فى حاله لو لا نريد كتابه   <----
+//الكمبيوتر لا يفهم الا رقمين صفر و  واحد
+// fisrt languqge called assembly code    and was very difficult
+// then low level language like c  and  C++  work direct with machin 
+//the high level languge that languages use copilier to translat to language machine
+//IDE (integrated development environment) insid it copilier     بيئه تطوير متكامله
+//لو فى اى خطا فى كتابه الكود بيظهر ان فى خطا ولذلك لان داخله كومبيلر
+// syntax هى قواعد بيتم استخدامها لتكون مفهومه للكمبيوتر والاله
+// namespace system use to organize code and is collection of classes,interfaces,structs,enums,delegates
+
 
 
 
@@ -33,6 +42,7 @@ namespace Training   //مثل المجلد
     }
     class Lesson_12_Data_Types_Variables 
     {
+
         static void Main_12()  // called main method  or function 
         {
             //Curved brackets  ()
