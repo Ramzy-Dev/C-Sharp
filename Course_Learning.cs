@@ -6,7 +6,7 @@ using static System.Convert; //convert  فى حاله لو لا نريد كتا�
 //الكمبيوتر لا يفهم الا رقمين صفر و  واحد
 // fisrt languqge called   (((assembly code)))    and was very difficult
 // then low level language like c  and  C++  work direct with machin 
-//the high level languge that languages use copiler to translat to language machine
+//the high level languge that languages use copiler to translat to machine language
 //IDE (integrated development environment) insid it copiler     وهو المسئول عن تنفيد البرنامح   CLR   بيئه تطوير متكامله  ويحتوى على مكتبات و 
 //IDE   --->>  Write Code --> compiler-->bytecode->CLR-->native code
 //لو فى اى خطا فى كتابه الكود بيظهر ان فى خطا ولذلك لان داخله كومبيلر
@@ -22,15 +22,16 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
 
     class Lesson_11_Rules_Isentifiers //ولكن خاص بنا  namespace    ملف تحت المجلد ويسمى ايضا  //class---> object يتم كتابه داخلها كل الاوامر لان السى شارب عباره عن اوبجت اورينتيت وكل شئ عباره عن   
     {
-        static void Main_11()  // called method    called main method  // all is reserved keywords 
+        static void Main_11()  // called method    called main method  // all is reserved keywords // ومن هنا يتم تنفيذ البرنامج 
         {
             
             //identifier //هو المعرف    اسم يتم اعطائه وغير مسحموح برقم بالاول 
-            //like --> program - main  -names of variables-   وله ضوابط 
+            //   Rules Of identifiers 
             // تبدا  بحروف و واندر سكور وبعدها ارقام فقط وغير مسحموح بارقام بالاول  
             // م وغير مسموح برموز غير الرمز اندرسكور
             //------
             // Case sesitive اللغه حساسه جدا للحروف 
+
             // ;-> when we see it in end if line we will call it   "statement" 
             // Variable -> هو مكان فى الذاكره لتخزين عليه البيانات 
             // حيث يت تخزين البيانات فى الرامات وتتم العمليات الحسابيه فى البروسيسور 
@@ -49,6 +50,10 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
 
         static void Main_12()  // called main method  or function 
         {
+            // variable consits of Data Type + identifier
+            // variables   has  kind  Called "data Type"   and has name called  "identifier"
+
+
             //Curved brackets  ()
             //square brackets []
             //curly brackets {}
@@ -99,7 +104,9 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
 
             // we can declare variable without assign it 
             // also declare with null
-            //string x=null; // string accept
+            // Nullable Types ------------------------------------
+
+            //string x=null; // string accept  // called nullable type------------
             //short? xx=null;// any thing ekse not accept must put ? to accept
 
             //string name;  // in this case we must declare it in another statement to  can print 
@@ -150,6 +157,8 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
             //x# ثم يتم التخرين فى المتغير console class  االموجوده فى   mithod which called Readline  او بمعنى اخر يتم قراءه النص المدخل عن طريق  <----
             //Console.WriteLine("Enter Your Age Please:");
             //age_1 =Convert.ToByte(Console.ReadLine());  // لابد من عمل تحويل لان ريدلاين لاترجع الا نصوص فقط
+            // or can kind data type is   "var"  without making convert
+
             //Console.WriteLine($"Welcome mr {name_1} your Age is { age_1 } Years Old  ");
 
             //main method only البرنامج بيدا التنفيذ من 
@@ -165,13 +174,23 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
         //     print();   // call function or call method 
         //    }
 
+            //----------------------  // escape sequence----- and verbatim literal------------------
+            // string name = "\"leen\"";  // using backslash  to write "
+            // string name = "\\leen\\;  // using backslash to   write \
+            //string name = "one \n two \n three";  // using backsalsh for new line 
+            //string name = @"one\leen\reda";  // using verbatim literal to print \
+            //string name = "one\\leen\\reda";  // using backslash to print \
+            // Console.WriteLine(name);
+
 
         }
     }
-    class Lesson_14_Arithmetic_Operators
+    class Lesson_14_Arithmetic_Operators_and_Assignment_Operator
     {
         static void Main_14()
         {
+            // assignment operator     =
+
             // + addition      - substaction    * multiplication  / division    % -> Modulus اى متبقى قسمه   ++ increemnt   -- decrement
             //int number_1 = 10, number_2 = 5 , count = number_1 * number_2; // Can declare One Data Type if all same 
             // ################   using  +=
@@ -196,13 +215,6 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
             
             //Console.WriteLine($"The Number is {count} ");
 
-            //----------------------  // escape sequence-----
-            // string name = "\"leen\"";  // using backslash  to write "
-            // string name = "\\leen\\;  // using backslash for write \
-            //string name = "one \n two \n three";  // using backsalsh for new line 
-            //string name = @"one\leen\reda";  // using verbatim literal to print \
-            //string name = "one\\leen\\reda";  // using backslash to print \
-            // Console.WriteLine(name);
 
         }
     }
