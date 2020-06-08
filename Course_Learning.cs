@@ -5,7 +5,7 @@ using static System.Convert; //convert  فى حاله لو لا نريد كتا�
 //------------------------------------------------------------
 //الكمبيوتر لا يفهم الا رقمين صفر و  واحد
 // fisrt languqge called   (((assembly code)))    and was very difficult
-// then low level language like c  and  C++  work direct with machin 
+// then low level language like c  and  C++  work direct with machin called also native language
 //the high level languge that languages use copiler to translat to machine language
 //IDE (integrated development environment) insid it copiler     وهو المسئول عن تنفيد البرنامح   CLR   بيئه تطوير متكامله  ويحتوى على مكتبات و 
 //IDE   --->>  Write Code --> compiler-->bytecode->CLR-->native code
@@ -13,8 +13,8 @@ using static System.Convert; //convert  فى حاله لو لا نريد كتا�
 // syntax هى قواعد بيتم استخدامها لتكون مفهومه للكمبيوتر والاله
 // namespace system use to organize code and is collection of classes,interfaces,structs,enums,delegates
 // OOP كل شئ فى السى شارب عباره عن اوبجت لانها 
-//How Memory works?? by process called "garbage collection  "ويتاكد ايضا ان لا يوجد فاريبال محجوز بدون فائده  memory heap  بتحديد الاماكن وحجزها ويسمى هذا الجزء  CLR  حيث يقوم  
-//Variable  or  object  --> حجز مكان فى الذاكره ---> do that ?? CLR automati   ->> ثم تحرير المحجوز   ---> that proceess called garbage collection 
+//How Memory works?? by process called "garbage collection .  ---- "ويتاكد ايضا ان لا يوجد فاريبال محجوز بدون فائده  memory heap  بتحديد الاماكن وحجزها ويسمى هذا الجزء  CLR  حيث يقوم  
+//Variable  or  object  --> حجز مكان فى الذاكره --->who  do that ?? CLR automatic   ->> ثم تحرير المحجوز   ---> that proceess called garbage collection 
 //native language  (c   c++)
 //managed language (csharp   java)
 //strongly typed  ==  case sensitive 
@@ -35,9 +35,9 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
             // تبدا  بحروف و واندر سكور وبعدها ارقام فقط وغير مسحموح بارقام بالاول  
             // م وغير مسموح برموز غير الرمز اندرسكور
             //------
-            // Case sesitive اللغه حساسه جدا للحروف 
+            // Case sesitive  or strongly typed    اللغه حساسه جدا للحروف 
 
-            // ;-> when we see it in end if line we will call it   "statement" 
+            // ;   -> when we see it in end if line we will call it   "statement" 
             // Variable -> هو مكان فى الذاكره لتخزين عليه البيانات 
             // حيث يت تخزين البيانات فى الرامات وتتم العمليات الحسابيه فى البروسيسور 
             // variables   has  kind  Called "data Type"   and has name called  "identifier"
@@ -55,7 +55,7 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
 
         static void Main_12()  // called main method  or function 
         {
-            // variable consits of Data Type + identifier
+         
             // variables   has  kind  Called "data Type"   and has name called  "identifier"
 
 
@@ -73,7 +73,7 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
             //1- Numeric Data Type consists of  مرتبين ترتيب تصاعدى
 
             /*byte b=10;  //byte   // maxvalue is 255 
-             * we can use method to know that ->console.Writeline(byte.maxvalue); //->output is 255
+             * we can use method to know that  ->console.Writeline(byte.maxvalue); //->output is 255
              *short s=10;   // int16
              *int i=10; //int 32
              *long l=10; //in 64
@@ -125,6 +125,9 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
 
             // لمعرفه اقصى واقل قيمه لاى متغير
             //Console.WriteLine(int.MaxValue);
+
+            
+            // intialize  that mean give value for variable
 
 
         }
@@ -789,7 +792,7 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
         static void Main_26()
         {
             // types of casting 
-            //--->Implicit Casting  (automatically)- converting a smaller type to a larger type size
+            //--->Implicit Casting or convertion   (automatically)- converting a smaller type to a larger type size
             //--ex char -> int -> long -> float -> double
 
 
@@ -818,6 +821,28 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
              // //### ex 
              // long pl=long.MaxValue;  // هنا بقوله اعطنى اكبر قيمه ممكنه
              // int md =(int)pl;  // الناتج هنا هايكون ١- لانه لن يستوعبها 
+
+
+            //---------------------- casting -----string------ using two ways
+            // first way using parse if im sure entered number
+            //string x = "129";
+            //int y = Convert.ToInt32(x);
+            //int y = int.Parse(x);
+            //Console.WriteLine(y);
+            // second way if im not sure for entered number that return bool (true or false)
+            string x = "129";
+            int result = 0;
+            bool y = int.TryParse(x, out result); // الطريقه دى لابد من بوول ثم النتيجه لازم تخزن فى فاريبال جديد
+            //Console.WriteLine(y);
+            //or using if
+            if (y == true)
+            {
+                Console.WriteLine("Conversion Done !");
+            }
+            else
+            {
+                Console.WriteLine("Invalid Input number check again Please!");
+            }
 
 
         }
