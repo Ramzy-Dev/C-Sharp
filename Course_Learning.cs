@@ -13,6 +13,11 @@ using static System.Convert; //convert  فى حاله لو لا نريد كتا�
 // syntax هى قواعد بيتم استخدامها لتكون مفهومه للكمبيوتر والاله
 // namespace system use to organize code and is collection of classes,interfaces,structs,enums,delegates
 // OOP كل شئ فى السى شارب عباره عن اوبجت لانها 
+//How Memory works?? by process called "garbage collection  "ويتاكد ايضا ان لا يوجد فاريبال محجوز بدون فائده  memory heap  بتحديد الاماكن وحجزها ويسمى هذا الجزء  CLR  حيث يقوم  
+//Variable  or  object  --> حجز مكان فى الذاكره ---> do that ?? CLR automati   ->> ثم تحرير المحجوز   ---> that proceess called garbage collection 
+//native language  (c   c++)
+//managed language (csharp   java)
+//strongly typed  ==  case sensitive 
  
 
 
@@ -60,6 +65,9 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
 
             //double quotes  ""
             //single quotes  ''
+            // semi-colon   ;
+            //  forward Salsh    /
+            // back slash        \
              
             //Data Type :-
             //1- Numeric Data Type consists of  مرتبين ترتيب تصاعدى
@@ -104,10 +112,11 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
 
             // we can declare variable without assign it 
             // also declare with null
+
             // Nullable Types ------------------------------------
 
             //string x=null; // string accept  // called nullable type------------
-            //short? xx=null;// any thing ekse not accept must put ? to accept
+            //short? xx=null;// any thing else not accept must put ? to accept   using question mark
 
             //string name;  // in this case we must declare it in another statement to  can print 
             //or Multiple Declarations
@@ -258,6 +267,27 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
             //#######  EX     !
             //             int x = 10;
             // Console.WriteLine(!(x < 1 || x > 5));//Reverse the result, returns false if the result is true
+
+
+
+
+            //----------------------------null coalecing Operator-----------------------
+            int ? ticketonsale = null;
+            // int availableticket;
+            // if (ticketonsale == null)
+            // {
+            //     availableticket = 0;
+            // }
+            // else
+            // {
+            //     availableticket = ticketonsale.Value;  //  or       availableticket = (int)ticketonsale;// casting
+            // }
+
+            // or On one Step Using    null coalecing operator
+            int availableticket = ticketonsale ?? 0;   // mean if ticketonsale = null that will use 0 (default) or any number you will put if no will use value of ticketonsale
+            Console.WriteLine("Available is {0}",availableticket); 
+
+
 
         }
     }
@@ -414,9 +444,20 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
     {
         static void Main_19()
         {
-                        // int n_1=10  , nn_2=20;
+            // int n_1=10  , nn_2=20;
             // var massage=n_1<nn_2 ? "greater" : "less";  // var or string but i use var to let compiler choose 
             // Console.WriteLine(massage);
+
+            //Ternary Operator..............................................
+
+            // int x = 10;
+            // var aa = x == 10 ? "Fucken yes" : "fucken no";
+            // Console.WriteLine(aa);
+
+            // nested Trnary Operator................................
+            // int x = 20, y = 20;
+            // var z = x < y ? "Greather Than" : x > y ? "Less Than" : x == y ? "Equal" : "Nothing";
+            // Console.WriteLine(z);
 
         }
     }
@@ -747,7 +788,7 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
     {
         static void Main_26()
         {
-             // types of casting 
+            // types of casting 
             //--->Implicit Casting  (automatically)- converting a smaller type to a larger type size
             //--ex char -> int -> long -> float -> double
 
@@ -756,27 +797,27 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
              //--ex--double -> float -> long -> int -> char
 
 
-            //#### implicit casting  يتم التحويل بدون تلف البيانات وبيكون من نوع الى نوع اصغر منه 
-            // int nn=10;
-            // double gg =nn;
+             //#### implicit casting  يتم التحويل بدون تلف البيانات وبيكون من نوع الى نوع اصغر منه 
+             // int nn=10;
+             // double gg =nn;
 
-            // //explicit casting  وهنا لو تم التحوويل بالعكس 
-            // double kk=4.6;
-            // //int kj=kk;  //double  اصغر من  int  هنا هايكون فى خطأ لان 
-            // //int kj=(int)kk;  //  هناا الحل للتحويل وسين عرض الرقم الصحيح فقط دون ما بعد العلامه العشريه
+             // //explicit casting  وهنا لو تم التحوويل بالعكس 
+             // double kk=4.6;
+             // //int kj=kk;  //double  اصغر من  int  هنا هايكون فى خطأ لان 
+             // //int kj=(int)kk;  //  هناا الحل للتحويل وسين عرض الرقم الصحيح فقط دون ما بعد العلامه العشريه
 
 
 
-            //Type Conversion Methods
-            //It is also possible to convert data types explicitly by using built-in methods,
-            // such as Convert.ToBoolean, Convert.ToDouble, Convert.ToString, Convert.ToInt32 (int) and Convert.ToInt64 (long):
+             //Type Conversion Methods
+             //It is also possible to convert data types explicitly by using built-in methods,
+             // such as Convert.ToBoolean, Convert.ToDouble, Convert.ToString, Convert.ToInt32 (int) and Convert.ToInt64 (long):
 
             
-            // // can use convert  but it different 
-            // int kj=ToInt32(kk);// الاختلاف فقط ان هنا هايقوم بالتقريب ويكون الناتج ٥
-            // //### ex 
-            // long pl=long.MaxValue;  // هنا بقوله اعطنى اكبر قيمه ممكنه
-            // int md =(int)pl;  // الناتج هنا هايكون ١- لانه لن يستوعبها 
+             // // can use convert  but it different 
+             // int kj=ToInt32(kk);// الاختلاف فقط ان هنا هايقوم بالتقريب ويكون الناتج ٥
+             // //### ex 
+             // long pl=long.MaxValue;  // هنا بقوله اعطنى اكبر قيمه ممكنه
+             // int md =(int)pl;  // الناتج هنا هايكون ١- لانه لن يستوعبها 
 
 
         }
