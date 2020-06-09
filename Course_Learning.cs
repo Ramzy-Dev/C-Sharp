@@ -257,6 +257,7 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
         static void Main_16()
         {
                         //  AND &&      OR ||      NOT  !
+                        // can use  &     and  |   but in this case cmpiler must check all بمعنى لو تحقق شرط لازم ايضا يعمل فحص للطرف الاخر ايضا بعكس الاخريات
             //bool result_5 = 6<5  && 8>9;  // تعتبر صحيحه لو تحقق كل الشروط 
             //bool result_6 = 6>3 || 6>6; // اى طرف صحيح يكون 
             //bool result_7 = !(6>3 || 6>6);// mean not true 
@@ -298,6 +299,7 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
     {
         static void Main_17()
         {
+            //ولكن فى هذه الحاله سياخذ البرنامج وقت ويكون ابطئ لانه حتى لو تحقق الشرط بيفحص الباقى ايضا  else if بدلان من  if ممكن تكرار 
             // int n_1 ;
             // Console.WriteLine("Enter Number Please:");
             // n_1=Convert.ToInt32 (Console.ReadLine());
@@ -757,7 +759,7 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
     {
         static void Main_25()
         {
-             // int[,] mnmn = new int [3,5]; // حجز ٣ صفوف و٥ اعمده 
+            // int[,] mnmn = new int [3,5]; // حجز ٣ صفوف و٥ اعمده 
             // //first row
             // mnmn[0,0]=10;
             // mnmn[0,1]=44;
@@ -824,15 +826,17 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
 
 
             //---------------------- casting -----string------ using two ways
-            // first way using parse if im sure entered number
+            //---------------------- first way using parse if im sure entered number
+
             //string x = "129";
             //int y = Convert.ToInt32(x);
             //int y = int.Parse(x);
             //Console.WriteLine(y);
-            // second way if im not sure for entered number that return bool (true or false)
+
+            //------------------------second way if im not sure for entered number that return bool (true or false)
             string x = "129";
             int result = 0;
-            bool y = int.TryParse(x, out result); // الطريقه دى لابد من بوول ثم النتيجه لازم تخزن فى فاريبال جديد
+            bool y = int.TryParse(x, out result); // الطريقه دى لابد من بوول  ثم النتيجه لازم تخزن فى فاريبال جديد
             //Console.WriteLine(y);
             //or using if
             if (y == true)
@@ -843,6 +847,13 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
             {
                 Console.WriteLine("Invalid Input number check again Please!");
             }
+
+            // what diffrent between type casting and convertion 
+            // فى حاله تحويل متغير يحتوى على رقم كبير جدا 
+            // type casting use that  (int)    // outbut--> يتم تنفيذه لاقرب رقم 
+            //convertion  use  Convert.toint32  // give excepion namre is overflow  ولا يتم التنفيذ
+            
+
 
 
         }
