@@ -18,6 +18,11 @@ using static System.Convert; //convert  فى حاله لو لا نريد كتا�
 //native language  (c   c++)
 //managed language (csharp   java)
 //strongly typed  ==  case sensitive 
+// .net framework consists of   (class Library)    +     (Common Language Runtime  (CLR))
+// Bulid  exe   ----->>>> Excutable file  معناه ان اعمل للبرنامج بتاعه عشان اقدره انفذه وهنا يسمى  <------------
+//Run   يعنى اشغل البرنامج عشان بس اشوف بدون عمل له بناء
+//Debug ----->      عند سطر معين عشان انفذ الكود سطر سطر واعرف وين المشكله    break point  معناها عمل تصحيح للكود   وممكن عمل   <--------------
+
  
 
 
@@ -373,7 +378,7 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
             // char ch ;
             
             // Console.WriteLine("Enter First Number please ");
-            // nn_1 =Convert.ToInt32(Console.ReadLine());
+            //nn_1 =Int32.Parse((Console.ReadLine()));
 
             // Console.WriteLine("Enter The Second Number Please ");
             // nn_2=Convert.ToInt32(Console.ReadLine());
@@ -544,7 +549,8 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
             // using static System.Console; //console  فى حاله لو لا نريد كتابه   <----
             //using static System.Convert; //convert  فى حاله لو لا نريد كتابه   <----
             // int i;
-            // back:WriteLine("Guess Any Number");
+            // back:   // label
+            //WriteLine("Guess Any Number");
             // i=ToInt32(ReadLine());
             // while (i !=13)
             // {
