@@ -447,6 +447,45 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
             // Console.WriteLine("The Result is " + result);
 
 
+            // another ex using   GOTO
+            //decimal cost = 0;
+            // agin:
+            // Console.WriteLine("1-Honey , 2-Milk , 3-Dates");
+            // var enteredNumber = int.Parse(Console.ReadLine());
+            // switch (enteredNumber)
+            // {
+            //     case 1:
+            //         cost += 6;
+            //         break;
+            //     case 2:
+            //         cost += 7;
+            //         break;
+            //     case 3:
+            //         cost += 10;
+            //         break;
+            //     default:
+            //         Console.WriteLine(" Sorry !!! Try Again number  {0}  you entered isnt Valid",enteredNumber);
+            //         break;
+
+
+            // }
+            // decide:  // label
+            // Console.WriteLine("Do You want Another Thing Yes or No ?");
+            // var decession = Console.ReadLine();
+            // switch (decession.ToUpper())
+            // {
+            //     case "YES":
+            //         goto agin;  // Iteration statement لا ينصح باستخدامها لان تتبع البرنامج بيكون صعب جدا ولها بديل 
+            //     case "NO":
+            //         break;
+            //     default:
+            //         Console.WriteLine("Not Correct {0} Try agin",decession);
+            //         goto decide;
+            // }
+            // Console.WriteLine("Total Bill  Amount is  {0}", cost);
+            // Console.WriteLine("Thank You ❤");
+
+
 
         }
     }
