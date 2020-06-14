@@ -720,6 +720,16 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
             // }
             // while (true);
 
+            //---------------------اطبع برنامج يطلب الرقم ثم يطبع الارقام الزوجيه له
+            // Console.WriteLine("Enter Number");
+            // int number = int.Parse(Console.ReadLine());
+            // int i = 0;
+            // while (number >= i)
+            // {
+            //     Console.WriteLine(i);
+            //     i += 2;
+            // }
+
 
 
         }
