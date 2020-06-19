@@ -573,6 +573,27 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
             //     Console.WriteLine(i);
 
             // }
+            // loop called also iteration 
+            // برمج برنامج يطبع الارقامن من ١-٢٠ ويتوقف عن ١٠
+            // for(int i = 1; i <= 20; i++)
+            // {
+            //     Console.Write(i+" ");
+            //     if (i == 10)
+            //     {
+            //         break ;
+            //     }
+            // }
+
+            // برنامج يطبع الارقام الزوجيه باستخدام شرط 
+            // for(int i = 0; i <= 20; i++)
+            // {
+            //     if (i % 2 == 1)
+            //     {
+            //         continue;
+            //     }
+            //     Console.Write(i+" ");
+
+            // }
 
 
 
@@ -1298,6 +1319,124 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
         //     }
 
         // }
+    }
+    class Methods_OR_Function
+    {
+        public static void Main() 
+        {
+            /*
+             * The Structure Of a Method (access Modifier-return type-parameter-method body)
+             * The Difference between Static and Instance Method
+             * Methods Useful because the allow you define your logic once and use it at many places
+             * Maintenance is easier
+             * 
+             */
+
+            //must creat intance or object from that class to can call instance Function
+            Methods_OR_Function M = new Methods_OR_Function();
+            //M.EvenNumbers();
+            //if it static method in this case just write name class and call static methos
+            Methods_OR_Function.EvenNumbers(20);// or EvenNumbers(20); // مباشر لانها داخل نفس الكلاس
+            int result=M.Multi(10, 90); //
+            Console.WriteLine(result);
+
+            
+        }
+        // Make Method calling Even Numbers
+        public static void EvenNumbers(int y)  // public called access Modifiers //void called return type
+        {
+            int n = 0;
+            while (n <= y)
+            {
+                Console.WriteLine(n);
+                n++;
+            }
+        }
+        // method which contain static called static methos same like main method وهنا عشان انادى عليها فقط اكتب اسم الكلاس
+        //method which dosent contain ststic called intance method same like EvenNumbers عشان انادى  عليها لازم عمل اوبجت جديد
+        public int Multi(int a,int b)  // mean will trturn data type int
+        {
+            return a + b;  // this called intance method and return int
+        }
+
+
+
+    }
+    class DifferentTypesOfMethodsParameters
+    {
+        // 4 types of method parameters
+        /*
+         * value parameters
+         * Reference Parameters
+         * Out parameters
+         * Parameter Arrays
+         * 
+         * and what different between  Method parameters and method arguments
+         *Method parameter بيقال عليها ذلك لما بعرفها مع الميثود 
+         *Method arguments بيقال عليها ذلك فى حاله انادى على الفانكش واضع لها قيم 
+         */
+
+        //-------Value parameter-------- المتغير الجديد لا يؤثر على المتغير القديم وممكن طباعه كل متغير على حده وكل منهم له مكان بالذاكره 
+        public static void Main()
+        {
+            int y = 500;
+            Number(y);
+            Console.WriteLine(y);
+        }
+        public static void Number(int i)
+        {
+            i = 101;
+            Console.WriteLine(i);
+        }
+        //--------Reference parameter--------
+                //-------Reference  parameter--------  تؤشر على نفس المكان فى الذاكره والمتعير الجديد ياخذ نفس قيمه القديم 
+        public static void Mainn()
+        {
+            int y = 900;
+            Number(ref y);
+            Console.WriteLine(y);
+        }
+        public static void Number(ref int i)
+        {
+            i = 101;
+            
+        }
+
+        //-------Out Parameters---فى حاله ارجاع اكثر من قيمه 
+        public static void Mainn1()
+        {
+            int sum;
+            int multi;
+            int devesion;
+            Addition(900, 99, out sum, out multi,out devesion);
+            Console.WriteLine("Addition = {0} and Multiplication = {1} and devesion = {2}", sum, multi,devesion);
+
+        }
+        public static void Addition(int x,int y,out int sum,out int multi,out int devesion)
+        {
+            sum=x + y;
+            multi = x * y;
+            devesion = x / y;
+
+
+        }
+        //------- Parameters array----------------------
+        static void Mainm()
+        {
+            string [] students = { "Leen", "Hamza", "RR" };
+            TestArray(students);
+
+        }
+        public static void TestArray(params string [] arr)  // can use params to make parameter in calling function is optional
+            // l ممكن ايضا نستخدمها لوضع قيم مباشره فى البراميتر فى كول فانكشن
+            //l مكانها بيكون اخر مكان وبتكون مره واحده فقط
+        {
+            Console.WriteLine("Ther are {0} Elements in array",arr.Length);
+            foreach(string i in arr)
+            {
+                Console.WriteLine(i);
+            }
+        }
     }
     class Lesson_36_OOP 
     {
