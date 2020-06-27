@@ -31,7 +31,7 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
 {
 
     class Lesson_11_Rules_Isentifiers //ولكن خاص بنا  namespace    ملف تحت المجلد ويسمى ايضا  //class---> object يتم كتابه داخلها كل الاوامر لان السى شارب عباره عن اوبجت اورينتيت وكل شئ عباره عن   
-    {
+     {
         static void Main_11()  // called method    called main method  // all is reserved keywords // ومن هنا يتم تنفيذ البرنامج 
         {
             
@@ -54,9 +54,9 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
 
 
         }
-    }
+     }
     class Lesson_12_Data_Types_Variables 
-    {
+     {
 
         static void Main_12()  // called main method  or function 
         {
@@ -136,9 +136,9 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
 
 
         }
-    }
+     }
     class Lesson_13_Printing
-    {
+     {
         static void Main_13()
         {
             //Console.WriteLine(ss);  // called also method and all  methods has curved brackets ()  and called also statement because has end of it ;
@@ -201,9 +201,9 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
 
 
         }
-    }
+     }
     class Lesson_14_Arithmetic_Operators_and_Assignment_Operator
-    {
+     {
         static void Main_14()
         {
             // assignment operator     =
@@ -234,9 +234,9 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
 
 
         }
-    }
+     }
     class Lesson_15_Comparison_Operators
-    {
+     {
         static void Main_15()
         {
                         // < > <= >=   ==   != 
@@ -256,7 +256,7 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
             // Console.WriteLine(result_1 +"\n"+ result_2 +"\n"+ result_3 +"\n"+ result_4);  
 
         }
-    }
+     }
     class Lesson_16_Logical_Operators
     {
         static void Main_16()
@@ -1556,7 +1556,7 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
     }
     namespace classes
     {
-        class Programme
+          class Programme
     {
         static void Main()
         {
@@ -1567,7 +1567,13 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
              * understanding this keyword
              * Destructors
              */
+            //Class consists of 
+            /*
+             * fields
+             * methods
+             */
             Customer CC = new Customer("Leen", "Reda");
+            CC.PrintFullName();
         }
     }
     class Customer
@@ -1575,21 +1581,24 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
         string firstName;   // called field
         string lastName;
         // then creat constructor to initialization to fields
-        public Customer(string fName,string lName)  // called constructor  لاعطاء قيم ابتدائيه 
+        public Customer(string fName, string lName)  // called constructor  لاعطاء قيم ابتدائيه 
         {
-            this.firstName = fName;
+            this.firstName = fName;  // We Can Dispense with "this" why use this ? that mean as if كما لو  i created object from class called "Customer "
             this.lastName = lName;
-                
+             
+        }
+        public void PrintFullName()
+        {
+            Console.WriteLine("Full Name is {0} {1}", firstName,lastName);
         }
         //destructors
         // Make Release for resources  يقوم بنتظيف الذاكره بعد انتهاء البرنامج
         ~Customer()
         {
-
+            // garbage collection make calling automatic for this Destructor
         }
 
     }
-
 
     }
     class Lesson_36_OOP 
