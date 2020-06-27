@@ -366,6 +366,69 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
             //         Console.WriteLine("No");
             //     }
             // }
+
+                /*
+                 * 
+                 * 
+                 * 
+                 * اكتب برنامج يحسب قيمه الوزن المدخل اوتوماتيي
+                 * الوزن من 1-19=15ريال
+                 * الوزن من 20-50=30ريال
+                 * الوزن من 51-100=45ريال
+                 *لكل 50كيلو زياده فق 100كيلو يتم زياده 22ريال
+                 * 
+                 * 
+                 */
+             int cost = 0;
+             string decession;
+                do
+            {
+
+                Console.WriteLine("Enter Wight Please From 1 Kg : 100 Kg");
+                int wight = int.Parse(Console.ReadLine());
+                if (wight >= 1 && wight <= 19)
+                {
+                    cost = 15;
+                }
+                else if (wight >= 20 && wight <= 50)
+                {
+                    cost = 30;
+                }
+                else if (wight >= 51 && wight <= 100)
+                {
+                    cost = 45;
+                }
+                else if (wight >= 101)
+                {
+                     int sub = wight - 51;
+                     int div = sub / 50;
+                     cost = 45 + 22 * (int)div;
+                }
+                else
+                {
+                    Console.WriteLine("Sorry You Entered Wrong Wight");
+                    Console.WriteLine("Try Again Later  \n Thank You for using my App.");
+                    break;
+
+                }
+                Console.WriteLine("You Must Pay {0}", cost);
+                Console.WriteLine("Thank You for using my App.");
+                do
+                {
+                    Console.WriteLine("Another Proceess ? Yes Or No");
+                    decession = Console.ReadLine().ToUpper();
+                    if (decession != "YES" && decession != "NO")
+                    {
+                        Console.WriteLine("Invlaid Choice Try Again Please");
+                    }
+                    else if (decession == "NO")
+                    {
+                        Console.WriteLine("Thank You !! Wainting You Soon");
+                    }
+                } while (decession != "YES" && decession != "NO");
+
+            } while (decession == "YES");
+
         }
     }
     class Lesson_18_switch_case
