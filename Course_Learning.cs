@@ -1438,6 +1438,97 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
             }
         }
     }
+    class Namespace_
+    {
+     // using TeamBb= ProjectA.TeamB; // can use directive name with any alias name  and do-without full qualified name
+     //     namespace Program
+     //     {
+     //    class Edu
+     //     {
+     //     static void Main()
+     //     {
+     //         ProjectA.TeamA.One.Print();// call namespace using full qualified name
+     //         TeamBb.One.Print();  // using alias name
+
+     //     }
+     //     }
+     //     }  
+
+
+
+        //  namespace ProjectA  
+        //  {
+        //  namespace TeamA // we can dispense with namespace by using (namespace ProjectA.TeamA)// called also
+        // //namespace indside namespace.
+        //  {
+        //  class One
+        //   {
+        //     public static void Print()
+        //     {
+        //         Console.WriteLine("Team A //  Project A");
+        //     }
+
+        //  }
+        //  }
+
+
+        // }
+
+
+
+        //  namespace ProjectA
+        //    {
+        //  namespace TeamB
+        //  {
+        //   class One
+        //       {
+        //         public static void Print()
+        //         {
+        //             Console.WriteLine("Team  B // Project A");
+        //         }
+
+        //     }
+        // }
+
+    }
+    namespace classes
+    {
+        class Programme
+    {
+        static void Main()
+        {
+            /*
+             * what is a class
+             * purpose of a class constructor
+             * overloading class constructor
+             * understanding this keyword
+             * Destructors
+             */
+            Customer CC = new Customer("Leen", "Reda");
+        }
+    }
+    class Customer
+    {
+        string firstName;   // called field
+        string lastName;
+        // then creat constructor to initialization to fields
+        public Customer(string fName,string lName)  // called constructor  لاعطاء قيم ابتدائيه 
+        {
+            this.firstName = fName;
+            this.lastName = lName;
+                
+        }
+        //destructors
+        // Make Release for resources  يقوم بنتظيف الذاكره بعد انتهاء البرنامج
+        ~Customer()
+        {
+
+        }
+
+    }
+
+
+    }
     class Lesson_36_OOP 
     {
         static void Main_36()
