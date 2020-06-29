@@ -2,6 +2,41 @@
 using static System.Console; //console  فى حاله لو لا نريد كتابه   <----
 using static System.Convert; //convert  فى حاله لو لا نريد كتابه   <----
 
+// Whats the different between Coder and Developer 
+   /*
+    *Coder بس بيكتب الكود وليس له علاقه بدوره البرنامج
+    *Developer بيعمل كل شئ
+    */
+
+
+//Software Life Cycle
+  /*
+   *Gathering Requirements (Planning) شخص يذهب للعميل لمعرفه متطلباته وكتابتها
+   *Analysis تحليل هذه المعطيات وتحيلها وارجع للعميل تانى اذا فى شئ 
+   *Design  كيف يتم عمل هذه المعطيات واصصمم شاشات واعرضها على العميل مره اخرى للتاكد انه طلبه 
+   *Development اى كتابه الكود البرمجى 
+   *Testing التاكد من الكود 
+   *Deployment اقوم بتنزل التطبيق عند العميل 
+   *Maintenance اى اعطى للعميل فتره عام ضمان مثلا تجنبا لظهور اى مشاكل 
+   */
+//Testing .....
+   /*
+    *Unit Test اى عمل اختبار لجزئيه صغيره فى التطبيق
+    *Functional Test  اى اختبار الدوال الحسابيه هل تعمل صحيحه ام لا
+    *Performance Test اختبار السرعه
+    *Stress Test اختبار لو استخدم التطبيق اكثر من مستخدم 
+    *User Acceptance Test اختبار وموافق العميل نفسه صاحب التطبيق
+    */
+
+// diffrent betwwen A compiler   and  Interpreter
+   /*
+    *Machine Language كلهم مترجمين الى  
+    *A compiler  يترجم كل شئ مره واحده ولو فى مشكله يقوم بعرضه مره واحده 
+    *Interpreter  يقوم بالترجمه سطر سطر واذا فى مشكله لا يكمل
+    *ممكن كتابه الكود فى اى مكان حتى لو ورد مثلا بس عند الحفظ نكتب الامتداد سى اس 
+    *
+    */
+
 //------------------------------------------------------------
 //الكمبيوتر لا يفهم الا رقمين صفر و  واحد
 // fisrt languqge called   (((assembly code)))    and was very difficult
@@ -77,7 +112,7 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
             //Data Type :-
             //1- Numeric Data Type consists of  مرتبين ترتيب تصاعدى
 
-            /*byte b=10;  //byte   // maxvalue is 255 
+            /*byte b=10;  //byte   // max value is 255 
              * we can use method to know that  ->console.Writeline(byte.maxvalue); //->output is 255
              *short s=10;   // int16
              *int i=10; //int 32
