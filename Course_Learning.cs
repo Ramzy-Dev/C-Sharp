@@ -1594,7 +1594,7 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
           class Programme
     {
         static void Main()
-        {
+        {  
             /*
              * what is a class
              * purpose of a class constructor
@@ -1607,8 +1607,9 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
              * fields
              * methods
              */
-            Customer CC = new Customer("Leen", "Reda");
-            CC.PrintFullName();
+            Customer CC = new Customer("Leen", "Reda");// Her Must use parameter but there are way for not use by creat another constructor
+            // her---->لان يوجد عدد ٢ كونستراكتور بنفس اسم الكلاس Over Loading  هنا يظهر كلمه 
+            // CC.PrintFullName();
         }
     }
     class Customer
@@ -1616,16 +1617,23 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
         string firstName;   // called field
         string lastName;
         // then creat constructor to initialization to fields
+        //the pupose of a class constructor is to initialize class fields
+        // Constructor do not have return vlaues and always have the same name as the class
+        // Constructors are not mandatory . if we dont provide a constructor a default parameters less constructor is automatically provided
+
+        // then creat constructor to initialization to fields
+        // لو  اعطيت قيم للفيدلز لن احتاج الى كونستراكتور
         public Customer(string fName, string lName)  // called constructor  لاعطاء قيم ابتدائيه 
         {
             this.firstName = fName;  // We Can Dispense with "this" why use this ? that mean as if كما لو  i created object from class called "Customer "
             this.lastName = lName;
              
         }
-        public void PrintFullName()
+        public Customer() : this("No First Name", "No Last name")  // بقوم بانشاء ذلك لو مش عايز استخدم فوق اى براميتر
         {
-            Console.WriteLine("Full Name is {0} {1}", firstName,lastName);
+
         }
+   
         //destructors
         // Make Release for resources  يقوم بنتظيف الذاكره بعد انتهاء البرنامج
         ~Customer()
@@ -1636,6 +1644,68 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
     }
 
     }
+
+    namespace Static_And_Instance_Class_Mmbers
+{
+    class Static_And_Instance_Class_Mmbers
+    {
+        static void Main()
+        {
+            /*
+             * Class Member : = field,method,properties,events,indexers,constructors.
+             * static member : are invoked using class name ,where as instance members are invoked using instance(object) Of the class
+             * static constructor:are used to initialize static field in class and only called once and called befor instance constructor
+             * Static Class Members: 
+             * Instance Class Members
+             * Difference between Static and Instance Members
+             * An example explaining when you should make certain Members Static
+             */
+            //first Object 
+            Circle Cr = new Circle(5);  // object
+            float area_a=Cr.CalculateArea(); // Call instance Method  وتم تخزينها فى متغير فلووت لانها هاترجع فلووت
+            Console.WriteLine("Area is {0} ", area_a);
+            // Second object  
+            Circle Cr2 = new Circle(9);  // نصف القطر ٩
+            float araea_b=Cr2.CalculateArea();
+            Console.WriteLine("Area ={0}", araea_b);
+            // if i want many objects the value of "PI" Never change .
+            // every time we creat new object we store pi in memory and that way not good so what solution ??
+            // we will declare variable pi as static field
+
+
+            // if i want print direct must first change static to public
+            Console.WriteLine(Circle.pi);
+
+
+        }
+    }
+    class Circle
+    {
+        // k--حساب مساحه الدائره التى  نصف قطرها ٥  
+        //static float pi = 3.14f;  // static field to improve memory and if i want to initial value must creat static constructor
+        public static float pi = 3.14f;  // make it public to can use direct in line 28
+        int radius;
+        static Circle()  // static constructor didnt have access modifiers like (public) حيث يتم تنفيذه مره واحده فقط  وبيكون اول شئ بيتم تنفيذه
+        {
+            // if i use print here لو استخدمت اى جمله طباعه هنا سيتم الطابعه مره واحده مع ان يوجد ٢ اوبجت
+            Console.WriteLine("static constructor");
+            pi =3.14f;
+        }
+
+        public Circle(int rRadius) // intance constructor 
+        {
+            Console.WriteLine("Instance constructor");  // هنا سيتم الطباعه مرتين لان يوجد عدد ٢ اوبجت
+            this.radius = rRadius;
+        } 
+         public float CalculateArea()
+        {
+            //return this.pi * this.radius * this.radius;
+            return Circle.pi * this.radius * this.radius;    //to improve memory
+        }
+
+    }
+
+}
     class Lesson_36_OOP 
     {
         static void Main_36()
