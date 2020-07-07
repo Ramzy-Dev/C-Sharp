@@ -1662,7 +1662,7 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
              */
             //first Object 
             Circle Cr = new Circle(5);  // object
-            float area_a=Cr.CalculateArea(); // Call instance Method  وتم تخزينها فى متغير فلووت لانها هاترجع فلووت
+            float area_a=Cr.CalculateArea(); // To Call instance Method  وتم تخزينها فى متغير فلووت لانها هاترجع فلووت
             Console.WriteLine("Area is {0} ", area_a);
             // Second object  
             Circle Cr2 = new Circle(9);  // نصف القطر ٩
@@ -1673,7 +1673,7 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
             // we will declare variable pi as static field
 
 
-            // if i want print direct must first change static to public
+            // if i want print direct must first add  public before static
             Console.WriteLine(Circle.pi);
 
 
