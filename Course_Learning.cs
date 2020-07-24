@@ -39,7 +39,7 @@ using static System.Convert; //convert  فى حاله لو لا نريد كتا�
 
 //------------------------------------------------------------
 //الكمبيوتر لا يفهم الا رقمين صفر و  واحد
-// fisrt languqge called   (((assembly code)))    and was very difficult
+// fisrt language called   (((assembly code)))    and was very difficult
 // then low level language like c  and  C++  work direct with machin called also native language
 //the high level languge that languages use copiler to translat to machine language
 //IDE (integrated development environment) insid it copiler     وهو المسئول عن تنفيد البرنامح   CLR   بيئه تطوير متكامله  ويحتوى على مكتبات و 
