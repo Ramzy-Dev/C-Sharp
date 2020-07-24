@@ -41,8 +41,8 @@ using static System.Convert; //convert  فى حاله لو لا نريد كتا�
 //الكمبيوتر لا يفهم الا رقمين صفر و  واحد
 // fisrt language called   (((assembly code)))    and was very difficult
 // then low level language like c  and  C++  work direct with machin called also native language
-//the high level languge that languages use copiler to translat to machine language
-//IDE (integrated development environment) insid it copiler     وهو المسئول عن تنفيد البرنامح   CLR   بيئه تطوير متكامله  ويحتوى على مكتبات و 
+//the high level languge that languages use compiler to translat to machine language
+//IDE (integrated development environment) insid it compiler     وهو المسئول عن تنفيد البرنامح   CLR   بيئه تطوير متكامله  ويحتوى على مكتبات و 
 //IDE   --->>  Write Code --> compiler-->bytecode->CLR-->native code
 //لو فى اى خطا فى كتابه الكود بيظهر ان فى خطا ولذلك لان داخله كومبيلر
 // syntax هى قواعد بيتم استخدامها لتكون مفهومه للكمبيوتر والاله
@@ -82,7 +82,7 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
             // حيث يت تخزين البيانات فى الرامات وتتم العمليات الحسابيه فى البروسيسور 
             // variables   has  kind  Called "data Type"   and has name called  "identifier"
             //x//  _  يفضل عدم استخدامه بالبدايه عند تعريف اسم متغير 
-            //x#// المتعيرات يفضل ان تبدا بخرف صغير
+            //x#// المتعيرات يفضل ان تبدا بحرف صغير
             // = called    assignment  operator
             //----------------------------------------------------
 
