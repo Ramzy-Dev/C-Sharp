@@ -39,7 +39,18 @@ using static System.Convert; //convert  فى حاله لو لا نريد كتا�
 
 //------------------------------------------------------------
 //الكمبيوتر لا يفهم الا رقمين صفر و  واحد
-// fisrt language called   (((assembly code)))    and was very difficult
+// for Understanding it open link  ......
+//https://medium.com/@LindaVivah/learn-how-to-read-binary-in-5-minutes-dac1feb991e
+//http://khaled-pcinfo.blogspot.com/2012/09/0-1.html
+//computer just understand 0,1 that called binary 
+//0 mean off   1   maen  on  حيث تتم هذه العمليه عن طريق اطفاء الكهرباء او تشغيلها عن طريق الترانستور الذى داخل المعالج ومنه ملايين
+//decemal men  0,1,2,3,4,5,6,7,8,9
+// what if i want write characters ?  by using ASCII convert it 
+//bit=binary digit
+//1 bit=0 or 1
+//byte = 8 bit    (10001101) that 8 bit and all called byte 
+//---------------------------------------------------
+// fisrt language called   (((assembly code)))    and was very difficult وتستخدم فى الهندسه العكسيه الان للاختراق
 // then low level language like c  and  C++  work direct with machin called also native language
 //the high level languge that languages use compiler to translat to machine language
 //IDE (integrated development environment) insid it compiler     وهو المسئول عن تنفيد البرنامح   CLR   بيئه تطوير متكامله  ويحتوى على مكتبات و 
@@ -150,13 +161,13 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
             // can make default value for variables 
             //string wew=default (string);  //  output zero  or nothing  in this case we can print it withou errors
 
-            // we can declare variable without assign it 
+            // we can declare variable without assign it  Or Intialize it
             // also declare with null
 
             // Nullable Types ------------------------------------
 
             //string x=null; // string accept  // called nullable type------------
-            //short? xx=null;// any thing else not accept must put ? to accept   using question mark
+            //short? xx=null;// any thing else not accept must put ? to accept   using question mark ?
 
             //string name;  // in this case we must declare it in another statement to  can print 
             //or Multiple Declarations
@@ -167,7 +178,7 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
             //Console.WriteLine(int.MaxValue);
 
             
-            // intialize  that mean give value for variable
+            // intialize ---?  that mean give value for variable
 
 
         }
@@ -194,7 +205,7 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
             //Console.WriteLine("My lovely daughter is " + name + " clearHer Age is " + age); 
             // + -> called concatenation يقوم بعمليه الدمج بين النصوص ويستخدم ايضا للجمع بين الاعداد
             //-- another way for concatenation 
-            //Console.WriteLine("My love is {0} and her age is {1} " , name , age);  // called pace holder 
+            //Console.WriteLine("My love is {0} and her age is {1} " , name , age);  // called place holder 
             // its prefer use pace holder beacause its mor readable 
             // another way for concatenation which appeared in c#6  called "String Interpolation " -->$
             //Console.WriteLine($"My lovely name is {name} and here age is: {age} years Old !!! ");
