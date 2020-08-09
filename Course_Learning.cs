@@ -66,7 +66,7 @@ using static System.Convert; //convert  فى حاله لو لا نريد كتا�
 //strongly typed  ==  case sensitive 
 // .net framework consists of   (class Library)    +     (Common Language Runtime  (CLR))
 // Bulid  exe   ----->>>> Excutable file  معناه ان اعمل للبرنامج بتاعه عشان اقدره انفذه وهنا يسمى  <------------
-//Run   يعنى اشغل البرنامج عشان بس اشوف بدون عمل له بناء
+//Run   يعنى اشغل البرنامج عشان بس اشوفه بدون عمل له بناء
 //Debug ----->      عند سطر معين عشان انفذ الكود سطر سطر واعرف وين المشكله    break point  معناها عمل تصحيح للكود   وممكن عمل   <--------------
 
  
@@ -76,7 +76,7 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
 // اى يسمح لنا بعمل كلاس بنفس الاسم فى كلاس اخر
 {
 
-    class Lesson_11_Rules_Isentifiers //ولكن خاص بنا  namespace    ملف تحت المجلد ويسمى ايضا  //class---> object يتم كتابه داخلها كل الاوامر لان السى شارب عباره عن اوبجت اورينتيت وكل شئ عباره عن   
+    class Lesson_11_Rules_Identifiers //ولكن خاص بنا  namespace    ملف تحت المجلد ويسمى ايضا  //class---> object يتم كتابه داخلها كل الاوامر لان السى شارب عباره عن اوبجت اورينتيت وكل شئ عباره عن   
      {
         static void Main_11()  // called method    called main method  // all is reserved keywords // ومن هنا يتم تنفيذ البرنامج 
         {
@@ -159,14 +159,14 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
             //------------------------------------------------------------------
 
             // can make default value for variables 
-            //string wew=default (string);  //  output zero  or nothing  in this case we can print it withou errors
+            //string wew=default (string);  //  output zero  or nothing  in this case we can print it without errors
 
             // we can declare variable without assign it  Or Intialize it
             // also declare with null
 
             // Nullable Types ------------------------------------
 
-            //string x=null; // string accept  // called nullable type------------
+            //string x=null; // string accept that without any problems // called nullable type------------
             //short? xx=null;// any thing else not accept must put ? to accept   using question mark ?
 
             //string name;  // in this case we must declare it in another statement to  can print 
@@ -239,9 +239,9 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
 
             //----------------------  // escape sequence----- and verbatim literal------------------
             // string name = "\"leen\"";  // using backslash  to write "
-            // string name = "\\leen\\;  // using backslash to   write \
+            // string name = "\\leen\\";  // using backslash to   write \
             //string name = "one \n two \n three";  // using backsalsh for new line 
-            //string name = @"one\leen\reda";  // using verbatim literal to print \
+            //string name = @"one\leen\reda";  // using verbatim literal to print \ (لترتيب افضل نستخدمها)
             //string name = "one\\leen\\reda";  // using backslash to print \
             // Console.WriteLine(name);
 
