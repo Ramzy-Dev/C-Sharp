@@ -2,6 +2,7 @@
 using static System.Console; //console  فى حاله لو لا نريد كتابه   <----
 using static System.Convert; //convert  فى حاله لو لا نريد كتابه   <----
 //------
+//--------------------
 // Whats the different between Coder and Developer 
    /*
     *Coder بس بيكتب الكود وليس له علاقه بدوره البرنامج
