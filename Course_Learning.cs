@@ -254,7 +254,7 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
         {
             // assignment operator     =
 
-            // + addition      - substaction    * multiplication  / division    % -> Modulus اى متبقى قسمه   ++ increemnt   -- decrement
+            // + addition      - subtraction    * multiplication  / division    % -> Modulus اى متبقى قسمه   ++ increemnt   -- decrement
             //int number_1 = 10, number_2 = 5 , count = number_1 * number_2; // Can declare One Data Type if all same 
             // ################   using  +=
             /*
@@ -326,8 +326,8 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
 
 
 
-            //----------------------------null coalecing Operator-----------------------
-            int ? ticketonsale = null;
+            //----------------------------null coalecing Operator   Mean ??   تستخدم فى اختصار الاكواد-----------------------
+            //int ? ticketonsale = null;
             // int availableticket;
             // if (ticketonsale == null)
             // {
@@ -339,8 +339,8 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
             // }
 
             // or On one Step Using    null coalecing operator
-            int availableticket = ticketonsale ?? 0;   // mean if ticketonsale = null that will use 0 (default) or any number you will put if no will use value of ticketonsale
-            Console.WriteLine("Available is {0}",availableticket); 
+            //int availableticket = ticketonsale ?? 0;   // mean if ticketonsale = null that will use 0 (default) or any number you will put if no will use value of ticketonsale
+            //Console.WriteLine("Available is {0}",availableticket); 
 
 
 
