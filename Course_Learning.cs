@@ -1,7 +1,12 @@
 ﻿using System;  // called namespace // that mean i will use namespace called "System"  //تسمى مكتبه  library..................
 using static System.Console; //console  فى حاله لو لا نريد كتابه   <----
 using static System.Convert; //convert  فى حاله لو لا نريد كتابه   <----
+
 //leen
+
+
+//------
+//--------------------
 
 // Whats the different between Coder and Developer 
    /*
