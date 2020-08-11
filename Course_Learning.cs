@@ -2,11 +2,6 @@
 using static System.Console; //console  فى حاله لو لا نريد كتابه   <----
 using static System.Convert; //convert  فى حاله لو لا نريد كتابه   <----
 
-//leen
-
-
-//------leen
-//--------------------
 
 // Whats the different between Coder and Developer 
    /*
@@ -356,7 +351,10 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
     {
         static void Main_17()
         {
-            //ولكن فى هذه الحاله سياخذ البرنامج وقت ويكون ابطئ لانه حتى لو تحقق الشرط بيفحص الباقى ايضا  else if بدلان من  if ممكن تكرار 
+            //ولكن فى هذه الحاله سياخذ البرنامج وقت ويكون ابطئ لانه حتى لو تحقق الشرط بيفحص الباقى ايضا  else if بدلا من  if ممكن تكرار 
+            //------------------------------------------------------------------------
+            // write Programme that if number positive or negative ✅✅✅✅✅✅
+            //---------------------------------------------------------------------------
             // int n_1 ;
             // Console.WriteLine("Enter Number Please:");
             // n_1=Convert.ToInt32 (Console.ReadLine());
@@ -373,7 +371,7 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
 
 
             //#########################Quize######################################
-            //######### using if -->use two numbers if chracter is + - *  excute that
+            //######### using if -->use two numbers if chracter is + - *  excute that  ✅✅✅✅✅
             // int nn_1 ,  nn_2 , result ; 
             // char ch ;
             
@@ -404,8 +402,10 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
             //     Console.WriteLine("Unknown ");
             // }
 
+            //////////////////////////////////////-----------------------------------------------------
+
             //Nested If
-            //             int x = 10;
+            // int x = 10;
             // if (x>=0)
             // {
             //     if (x==10)
