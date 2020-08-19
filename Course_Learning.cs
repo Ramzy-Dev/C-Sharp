@@ -759,14 +759,18 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
             // }
 
             //###################  another solution  
-            //             int i = 0;
-            // for(; ; )
+            // var i = 0;
+            // Console.WriteLine("Enter Number ");
+            // var number = Int32.Parse(Console.ReadLine());
+
+            // for (; ; )
             // {
-            //     if (i<=10)
+            //     if (i <= 10)
             //     {
-            //         Console.WriteLine($"Multiplication 2  *  {i} =  {i * 2} ");
+            //         Console.WriteLine($"{number} *  {i} =  {i * 2}");
             //         i++;
             //     }
+            // }
             //     else
             //     {
             //         break;
@@ -775,23 +779,11 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
 
             //##################################  EX
 
-            //             int i = 0;
-            // for(; ; )
-            // {
-            //     if (i<10)
-            //     {
-            //         Console.WriteLine($"Number of i is : {i} ");
-            //         i++;
-            //     }
-            //     else
-            //     {
-            //         break;
-            //     }
-            // }
 
 
             //##################################
-            //             for (int i=0;i<=10;i++)
+            ///------اطبع من ١ الى ١٠ واذا وصل الى الرقم ٧ انهى العمليهك
+            //  for (int i=0;i<=10;i++)
             // {
             //     if (i == 7)
             //         break;   // when found 7 stop
@@ -799,16 +791,33 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
 
             // }
 
+            //-------------------another solution 
+            // for (var i = 0; i <= 10; i++)
+            // {
+            //     if (i == 7)
+            //     {
+                  
+            //         break;
+                    
+            //     }
+            //     Console.WriteLine(i);
+            // }
+
 
             //######################################
-            //             for (int i=0;i<=10;i++)
+            //--------------------- اطبع الارقام من واحد الى  ١٠ واذا صادف رقم ٧ اعمل له تخطى 
+            //   for (int i=0;i<=10;i++)
             // {
             //     if (i == 7)
             //         continue;    // skip for 7 only 
             //     Console.WriteLine(i);
 
             // }
-            // loop called also iteration 
+
+
+            // loop called also ----->    iteration 
+
+
             // برمج برنامج يطبع الارقامن من ١-٢٠ ويتوقف عن ١٠
             // for(int i = 1; i <= 20; i++)
             // {
@@ -818,16 +827,15 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
             //         break ;
             //     }
             // }
-
+            //------------------------------------------------
             // برنامج يطبع الارقام الزوجيه باستخدام شرط 
-            // for(int i = 0; i <= 20; i++)
+            // for (var i = 0; i <= 10; i++)
             // {
             //     if (i % 2 == 1)
             //     {
-            //         continue;
+            //         continue;  // mean skip
             //     }
-            //     Console.Write(i+" ");
-
+            //     Console.WriteLine(i);
             // }
 
 
