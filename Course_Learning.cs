@@ -492,7 +492,9 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
         static void Main_18()
         {
             //#########################Quize######################################
-            //######### using swich  -->use two numbers if chracter is + - *  excute that
+            //######### using swich  -->use two numbers if chracter is + - *  excute that ✅✅✅✅✅
+
+
             // int nn_1 ,  nn_2 , result ; 
             // char ch ;
             
@@ -528,9 +530,52 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
             // }
             // Console.WriteLine($"The result Is {result}");
 
+            //----------------another solution 
+            // int n_1, n_2, result;
+            // char xx;
+            // string decession;
+            // do
+            // {
+            //     Console.WriteLine("Enter First Number Please");
+            //     n_1 = Convert.ToInt32(Console.ReadLine());
 
-            //#############   Same EX
-            //             Console.WriteLine("Enter First Number ");
+            //     Console.WriteLine("Enter Second Number Please");
+            //     n_2 = Int32.Parse(Console.ReadLine());
+
+            //     Console.WriteLine("Enter Character Please");
+            //     xx = char.Parse(Console.ReadLine());
+
+            //     if (xx == '+')
+            //     {
+            //         result = n_2 + n_1;
+            //         Console.WriteLine($"You Entered {xx}  and toltal amount is {result}");
+            //     }
+            //     if (xx == '*')
+            //     {
+            //         result = n_1 * n_2;
+            //         Console.WriteLine($"You Entered {xx}  And Result is {result}");
+            //     }
+
+            //     do
+            //     {
+            //         Console.WriteLine("Do you want to Try Again  YES  or NO ");
+            //         decession = Console.ReadLine().ToUpper();
+            //         if (decession!="YES"&& decession != "NO")
+            //         {
+            //             Console.WriteLine("Invalid   YES Or  NO");
+            //         }
+            //         else if (decession == "NO")
+            //         {
+            //             Console.WriteLine("Thank You  BYYYYYY");
+            //         }
+            //     }
+            //     while (decession != "YES" && decession != "NO") ;
+            // } while (decession == "YES");
+
+
+
+            //#############   Same EX  but using Switch ✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+            // Console.WriteLine("Enter First Number ");
             // double n1 = Convert.ToDouble(Console.ReadLine());
             // Console.WriteLine("Enter Second Number ");
             // double n2 = Convert.ToDouble(Console.ReadLine());
@@ -566,7 +611,7 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
             // Console.WriteLine("The Result is " + result);
 
 
-            // another ex using   GOTO
+            // another ex using   GOTO   
             //decimal cost = 0;
             // agin:
             // Console.WriteLine("1-Honey , 2-Milk , 3-Dates");
