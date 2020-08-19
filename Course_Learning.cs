@@ -209,7 +209,18 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
 
             //----------------------------------------------------------
                                //-------------------DateTime - bool Variables متغيرات التاريخ والوقت-------------------🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠
-            
+            // DateTime d;
+            // d = DateTime.Now;  // calculate date automatic 
+            // d = new DateTime(2020,08,19,12,30,00);// if i want make it manual 
+            // // if i want to devide Time what can i do ? نسخدمها لو حابب اعرض التاريخ بشكل معين
+            // int year = d.Year;
+            // int month = d.Month;
+            // int day = d.Day;
+            // //Console.WriteLine(day +"/"+ month +"/"+ year);
+            // // another way for printing
+            // string output = d.ToString("yyyy/MM/dd");
+            // string output_2 = d.ToString("hh:mm:ss  tt");
+            // Console.WriteLine(output_2);
 
             //------------------------------------------------------------------
 
@@ -704,7 +715,7 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
 
         }
     }
-    class Lesson_19_Ternary_Oeraor
+    class Lesson_19_Ternary_Opraor
     {
         static void Main_19()
         {
@@ -722,6 +733,15 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
             // int x = 20, y = 20;
             // var z = x < y ? "Greather Than" : x > y ? "Less Than" : x == y ? "Equal" : "Nothing";
             // Console.WriteLine(z);
+
+            //-------------------------Thinking   💚💚💚💚💚💚
+                        // ternary Operator
+            // int result=default;
+            // Console.WriteLine("Guss Number Please");
+            // int number = Int32.Parse(Console.ReadLine());
+            // Console.WriteLine(result);
+            // result=number == 7 ? "You Win !!!!!!!!!" : "Fucken no";
+
 
         }
     }
