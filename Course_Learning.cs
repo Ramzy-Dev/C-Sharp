@@ -749,7 +749,7 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
     {
         static void Main_20()
         {
-                        //##############   QUIZE  اعرض جدول الضرب لاى رقم 
+            //##############   QUIZE  اعرض جدول الضرب لاى رقم 
             // int number;
             // Console.WriteLine("Enter Number Please");
             // number=Convert.ToInt32(Console.ReadLine());
