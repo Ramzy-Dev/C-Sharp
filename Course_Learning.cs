@@ -592,7 +592,7 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
             // }
             // Console.WriteLine($"The result Is {result}");
 
-            //----------------another solution 💙💜❤️💕😎😃🤪💁💁💙💜❤️💕😎😃🤪💁💁 
+            //----------------another solution 
             // int n_1, n_2, result;
             // char xx;
             // string decession;
@@ -852,7 +852,7 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
             // using static System.Console; //console  فى حاله لو لا نريد كتابه   <----
             //using static System.Convert; //convert  فى حاله لو لا نريد كتابه   <----
 
-            //--Write A programme like lucky number every time he choose 💙💜❤️💕😎😃🤪💁💁💙💜❤️💕😎😃🤪💁💁
+            //-----------------------------------------Write A programme like lucky number every time he choose 🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠
 
 
             // int i;
@@ -880,7 +880,7 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
             // Console.WriteLine($"Your Number is {i}  You Win !");
 
             //###############################
-            //--------Print Numbers From 1-5  using while  🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠
+            //-----------------------------------------------------------------Print Numbers From 1-5  using while  🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠
 
 
             // int i=0;
@@ -891,7 +891,7 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
             // }
 
             //#######################################
-            //----------print numbers from 0-20 using while true   with if 🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠
+            //------------------------------------------------------------print numbers from 0-20 using while true   with if 🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠
             //int i = 0;
             // while (true)
             // {
@@ -903,7 +903,7 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
             // }
 
             //##################  
-            //--------------print numbers from 0-10 using while🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠
+            //------------------------------------------------------------print numbers from 0-10 using while🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠
             //             int i = 0;
             // while (i <= 10)
                 
@@ -914,7 +914,8 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
             // }
 
             //############################################################
-            //----------------------   Print From 1-10 using loop and if 🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠
+            //------------------------------------------------------------   Print From 1-10 using loop and if 🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠
+
             //double i = 0;
 
             // while (true)
@@ -931,7 +932,8 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
             // }
 
 
-            //#####################   Calculate Total from 1-5
+            //#####################  
+            //---------------------------------------------------------------------------- Calculate Total from 1-5  outbut  must be 15   🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠
             //             int i = 1 ,sum=0;
             // while (i<=5)
             // {
@@ -958,7 +960,7 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
             // while (name !="leen");
             // WriteLine("You Win!!!");
 
-            //##########################💙💜❤️💕😎😃🤪💁💁💙💜❤️💕😎😃🤪💁💁##########################
+            //####################################################
             // int i =0;
             // do{
             //     WriteLine("Number is {0} " , i);
@@ -1053,7 +1055,7 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
             //Console.WriteLine(names.Length);  // لمعرفه عدد الاراى 
             //#########################################################
 
-            //#################  using for  to   print Array
+            //#################  using for print Array
             //             string[] names = { "Leen", "Hamza", "Azza" };
             // names[0] = "Leen Reda";
             // for (int i=0;i<names.Length;i++)
@@ -1073,12 +1075,12 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
 
 
 
-            //-----------------Array + Foeach      نفذ برنامج لعرض جدول الضرب لاى رقم باستخدام   
+
             // foreach (var ww in names)   // var mean فى حاله عدم معرفه نوع الفاريبال او نوع مجهول وبتركه للمترجم معرفته 
             // {
             //     //WriteLine(ww);
             //     //or
-            //     Console.WriteLine($"Result is {ww} * 2 = { ww * 2}");  // لعرض حاصل ضرب ٢
+            //     WriteLine($"Result is {ww} * 2 = { ww * 2}");  // لعرض حاصل ضرب ٢
             // }
 
 
@@ -1159,11 +1161,10 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
 
             //string x = "129";
             //int y = Convert.ToInt32(x);
-            //int y = int.Parse(x);   // use only with string  
+            //int y = int.Parse(x);
             //Console.WriteLine(y);
 
             //------------------------second way if im not sure for entered number that return bool (true or false)
-            //using     Trypars()-----------
             string x = "129";
             int result = 0;
             bool y = int.TryParse(x, out result); // الطريقه دى لابد من بوول  ثم النتيجه لازم تخزن فى فاريبال جديد
@@ -1192,8 +1193,6 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
     {
         static void Main_27()
         {
-
-            //  اى التعامل مع النصوص
             //string Nmmmed="leen reda mahmoud";
 
 
@@ -1204,11 +1203,12 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
 
             // هنا لازم اعمل تقطيع الاول ثم عمل دمج وهذا شرط 
 
-            // Split  تسمح لنا بتقطيع النص الى احرف وتخزينها فى مصفوفه 
 
             //string[]jj=Nmmmed.Split(' ');  // بيقطع الكلمه كيف ؟ الميثود بتروح للفاريبال وتشوف الفراغ ده فين
-            //Console.WriteLine(Nammed[1]);
-             
+            //or can use new array like that
+            //string[]uu= "Reda Mahmoud Abd-Elgawad".Split();
+
+
 
             ////ممكن الدمج لهم  by using join  or concat  or +
 
@@ -1220,7 +1220,7 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
             //WriteLine(string.Concat(jj[0]," ",jj[1]," ",jj[2])); // using concat but without spaces   ," " عشان المسافه
 
             //using join-------------------
-            // if i want to put spaces  or any character 
+            // if i want to put spaces 
             //WriteLine(string.Join("//",jj[0],jj[1],jj[2])); // using join with spaces
 
 
@@ -1275,7 +1275,6 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
         {
             // DateTime date=DateTime.Now;
             // Console.WriteLine(date);  // show date and time
-
             // Console.WriteLine($"{date:d}");  // show date Only
             // Console.WriteLine($"{date:dd}"); // show day
             // Console.WriteLine($"{date:MM}"); //  show month
@@ -1288,10 +1287,8 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
 
         }
     }
-    class Lesson_30_Methods___Functin_and_Procedures
+    class Lesson_30_Functin_and_Procedures
     {
-
-        // Method   =   (Procedures   +   Function)
 
                 
         //###### Functions and procedures  or called  Methods   ########
@@ -1300,39 +1297,25 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
         // ااى تفادى التكرار
         //procedures مجموعه من الاجراءات ولا ترجع قيمه 
         //function ترجع قيمه  
-        //  ------ whats the different between parameters    and   Arguments ????
-        //---   Parameters  that when creat method and declare insid curved brackets ( int x) 
-        //---- arguments   that when call method and asign value inside curved brackets (3)
-
-
         
 
         //static ->Mean means that the method belongs to the Program class and not an object of the Program class.
         //void ->means that this method does not have a return value.
         //show ->is the name of the method
 
-        // First Type called   Procedures -----------------------------------------
-        //-------**************************************************
+
         // static void Show(string name)  // name -> called parameter  // use to show name// called procedures
         // {
-        //     Console.WriteLine($"Welcome {name}");  //block code// or body method
+        //     Console.WriteLine($"Welcome {name}");
         // }
-        //-----------------How to call procedures ???----------
-        //Show("Leen");   // and put argument as you want 
-
-        //--------------------------------------------------------------------
 
         // //###################  another ex
         // static void Name_Age(string name, int age)
         // {
         //     Console.WriteLine("Name is " + name + "Age is " + age + "Years Old");
         // }
-        //--------How to call procedures ???-
-        //Name_Age("Leeeen" +5);  // and asign arguments 
 
-        //-----------------------------------------------------------------------------------
-
-        //###########################################   Type 2   called Function ---------- or  returned Type-----
+        //###########################################
         // static int Addition(int a , int b)  // method or function -->must return somthing    use for additinal 2 numbers
         // {
             // int result=a+b;
@@ -1341,17 +1324,7 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
             //return a+b; 
 
         // }
-        //---- How to call Function ????????
-        //by Two Ways 
-        //  1-
-        //int result=ddition(10, 20);
-        //Console.writeLine(result);
 
-        //-2
-        //Console.WriteLine(ddition(10, 20));
-
-        //------------------------------------------------------------------------
-        // Another Ex----
         // static void Main_30()
         // {
             // Show("Leen Reda ");
@@ -1369,64 +1342,25 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
     }
     class Lesson_31_Parameter_Passing_by_Valueـreference_out
     {
-        // to declare parameter  we have 3 ways
-        // اولا الطريقه الاعتياديه وهى كالاتى 
-        //وهنا بمرر اى قيمه انا عايزها 
-        // static void Main()
+        // static int By_value(int x)
         // {
-        //     
-        //     Console.WriteLine(passByVaue(10));  // output 20
-        //     static int passByVaue(int number)
-        //     {
-        //         return number *= 2;
-        //     }
-
+        //     //return x *= 2;
+        //     //or
+        //     x=x*2;
+        //     return x;
         // }
 
-
-        // اما هذه الطرق فيوجد شئ اضافى وهى انى بقوم بالاعلان عن متغير جديد وله قيمه وبقوم باستخدامه وهنا له ثلاث طرق مختلفه
-        //-1  by value ----
-        // static void Main()
+        // static int By_Reference(ref int x)
         // {
-        //     int number = 90;  // هنا الفرق ياصديقى ركز
-        //     Console.WriteLine(passByVaue(number));  // outpur 180 وهنا بقى بهذه الطريقه لن تتغير قيمه المتغير الجديد يعنى ستظل قيمته ٩٠ ولن ياخذ القيمه الجديده
-        //     static int passByVaue(int number)
-        //     {
-        //         return number *= 2;
-        //     }
-
+        //     return x *=3;
         // }
 
-        //-------------------------------------
-
-        //-2  by reference 
-        // static void Main()
+        // static int By_out(out int x)
         // {
-        //     int number = 90;
-        //     Console.WriteLine(passReference(ref number));
-
-        //     static int passByReference(ref int number) //output 180 وهنا بقى سيتغير المتغير الجديد ويصبح قيمته الان ١٨٠ وليس ٩٠ فهمت حاجه ؟؟
-        //     {
-        //         return number *= 2;
-        //     }
-
+        //     x=1000;
+        //     return x *=6;
         // }
-        //----------------------------------
 
-        //-3   by  out
-
-        //     int number = 90;  لن ينظر اليه
-        //     Console.WriteLine(passByOut(out number));
-
-        //     static int passByOut(out int number) //output 66 هنا بقى يتوجب تعريف متغير داخل الداله وليس خارجها يعنى لن ينظر الى المتغير الخارجى وسيتغير ايضا قيمه المتغير الجديد بالقيمه الجديده 
-        //     {
-        //         number = 33;  // هنا شرط تعريفه هنا 
-        //         return number *= 2;
-        //     }
-
-        // }
-        //---------------------------------------
-        // مثال توضيحى شامل ولكن ليس مهم اذا فهمت بالاعلى 
         // static void Main()
         // {
         //     int x=100;
@@ -1463,57 +1397,34 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
             // Console.WriteLine("Enter Your Age Please :");
             // int age=Convert.ToInt32(ReadLine());
             // Console.WriteLine("Your Age is {0} ",age);
-            // Unhandled exception نفترض ان المستخدم ادخل حروف بدلا من ارقام ؟ وقتها بيكون هناك  
-            // والحل ؟؟؟ 
-            //---💙💜❤️💕😎😃🤪💁💁💙💜❤️💕😎😃🤪💁💁💙💜❤️💕😎😃🤪💁💁
-
+            // Unhandled exception نفترض ان المستخدم ادخل حروف بدلا من ارقام ؟ وقتها بيطون هناك  
+            // والحل ؟؟؟
             // use   try  and catch  ونقوم بوضع فى تراى الاوامر المحتمل فيها الخطأ
             // Console.WriteLine("Enter Your Age Please");
             // try
             // {
-            //     int age=Convert.ToInt32(ReadLine());  // المحتمل الخطا به او شاكك به 
+            //     int age=Convert.ToInt32(ReadLine());
             // }
-            // catch (Exception xx)  
+            // catch (FormatException xx)
             // {
             //     Console.WriteLine("Age Not Valid {0} ",xx.Message);
             // }
-            //  finally  // ممكن لا استخدمها 
+
+            // catch (OverflowException xx)
             // {
-            //     Console.WriteLine("End");  // ممكن لا نسخدمها ولكن لها استخدام فى قواعد البيانات وتنفذ فى حاله خطأ او غير خطأ
+            //     Console.WriteLine("Age Too Big {0} ",xx.Message);
+            // }
+            // catch (Exception xx)  // or can use finally ----- catch  وهو ينفذ فى جميع الحالات ونستخدمه فى قاعده البيانات // ممكن استخدام اكثر من 
+            // {
+            //     Console.WriteLine("Age Not Correct {0} ",xx.Message);
             // }
 
-            // ممكن ايضا اكرر كاتش وهو هنا بيختار نوع الخطا ويعرضه
-            // another ex
-
-            //--------💙💜❤️💕😎😃🤪💁💁💙💜❤️💕😎😃🤪💁💁💙💜❤️💕😎😃🤪💁💁💙💜❤️💕😎😃🤪💁💁-------
-            //             Console.WriteLine("Age Please");
-            // try
-            // {
-            //     int age = int.Parse(Console.ReadLine());  // نضع هنا فى حاله الشك ان ممكن تحصل مشكله هنا حتى لايقف البرنامج
-
-            // }
-
-            // catch (FormatException ex)  // ممكن تكرارها بدون اى مشاكل 
-            // {
-            //     Console.WriteLine($"Fuck You you Not Correct,  \n {ex.Message}");
-            // }
-            // catch (OverflowException ex)  //  ممكن تكرارها بدون اى مشاكل وهذا النوع بيعرف نوع المشكله وبيعرضها
-            // {
-            //     Console.WriteLine($"Fuck You you Not Correct,  \n {ex.Message}");
-            // }
-            // catch (Exception ex)  // ممكن تكرارها بدون اى مشاكل 
-            // {
-            //     Console.WriteLine($"Fuck You you Not Correct,  \n {ex.Message}");
-            // }
             // finally
             // {
-            //     Console.WriteLine("End");  // ممكن لا نسخدمها ولكن لها استخدام فى قواعد البيانات وتنفذ فى حاله خطأ او غير خطأ
+            //     Console.WriteLine("Finally Block Is excuted");
             // }
-            
 
-
-
-            // //####################  💙💜❤️💕😎😃🤪💁💁💙💜❤️💕😎😃🤪💁💁💙💜❤️💕😎😃🤪💁💁 another example 
+            // //####################   another example 
 
             // try
             // {
@@ -1537,32 +1448,10 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
     }
     class Lesson_33_Enums_and_constants
     {
-        // constants  like variables  But it never change !
-        //Enumerations  kind if constants 
+        // contants  like variables  But it never change !
+        //Enumerations التعدادات 
         //enumerations -->تسمح لنا بتخزين قيم ثابته مثل ايام الاسبوع مثلا 
         //enums
-
-        // ex:--💙💜❤️💕😎😃🤪💁💁💙💜❤️💕😎😃🤪💁💁💙💜❤️💕😎😃🤪💁💁-
-        // static void Main()
-        // {
-        //     Console.WriteLine(Days.Monday);
-        // }
-        // enum Levels
-        // {
-        //     Easy,  // can initial value 
-        //     Medium,
-        //     Hard
-        // }
-        // enum Days
-        // {
-        //     Saturday,
-        //     Sunday,
-        //     Monday
-        // }
-
-        //-------------------------💙💜❤️💕😎😃🤪💁💁💙💜❤️💕😎😃🤪💁💁-----------------------
-
-        // Write A programe that Guess Number to get higher level by using (do-while   enum    )  (((((((Thinking🧠)))))))
         //# using do-while   guess number to go next level
         // enum Levels
         // {
@@ -1570,8 +1459,8 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
         //     medieum,
         //     hard
         // }
-        // static void Main_33()
-        // {
+        static void Main_33()
+        {
         //     int number;
         //     Levels cc = Levels.easy;
         //     Console.WriteLine("Your Level Now is "+ cc);
@@ -1592,7 +1481,7 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
         //     cc++;
         //     Console.WriteLine("your Level now is " + cc);
 
-        // }
+        }
 
 
     }
@@ -1601,28 +1490,26 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
 
             // structs --->  Mean structure
             // // نستخدم هذه التقنيه فى حال تخزين بيانات متعدده فى  كيان واحد مثل بيانات طالب معين
-            // can make it by classes  but we will use her  struct
+            // struct Student
+            // {
+            //     public String name;
+            //     public byte age;
+            //     public string address;
 
-            //------------------------------------------
-            // make object  وذلك لانه يميل الى البرمجه الكائنيه
-        //     Student st = new Student();
-        //     st.name = "Leen";
-        //     st.address = "QUTOR";
-        //     st.age = 5;
+            // }
+            // static void Main()
+            // {
+            //     Student std=new Student();
+            //     std.name="Leen Reda";
+            //     std.age=4;
+            //     std.address="Saudi Arabia";
 
-        //     Console.WriteLine(st.name);
+            //     Console.WriteLine(std.name);
 
 
+            // }
 
-        // }
-        // struct Student
-        // {
-        //     public string name;  //public حتى يكون الوصول له عام
-        //     public byte age;
-        //     public string address;
-        // }
-
-            //#############  another way  by constructor lesson 40 /////💙💜❤️💕😎😃🤪💁💁💙💜❤️💕😎😃🤪💁💁💙💜❤️💕😎😃🤪💁💁
+            //#############  another way/////
 
         // struct Student
         // {
@@ -1670,7 +1557,7 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
         //     }
 
         //     // or by using try-catch
-        //    try
+        //                 try
         //     {
         //     checked
         //         {
@@ -1687,6 +1574,48 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
         //     }
 
         // }
+    }
+    class Methods_OR_Function
+    {
+        public static void Main() 
+        {
+            /*
+             * The Structure Of a Method (access Modifier-return type-parameter-method body)
+             * The Difference between Static and Instance Method
+             * Methods Useful because the allow you define your logic once and use it at many places
+             * Maintenance is easier
+             * 
+             */
+
+            //must creat intance or object from that class to can call instance Function
+            Methods_OR_Function M = new Methods_OR_Function();
+            //M.EvenNumbers();
+            //if it static method in this case just write name class and call static methos
+            Methods_OR_Function.EvenNumbers(20);// or EvenNumbers(20); // مباشر لانها داخل نفس الكلاس
+            int result=M.Multi(10, 90); //
+            Console.WriteLine(result);
+
+            
+        }
+        // Make Method calling Even Numbers
+        public static void EvenNumbers(int y)  // public called access Modifiers //void called return type
+        {
+            int n = 0;
+            while (n <= y)
+            {
+                Console.WriteLine(n);
+                n++;
+            }
+        }
+        // method which contain static called static methos same like main method وهنا عشان انادى عليها فقط اكتب اسم الكلاس
+        //method which dosent contain ststic called intance method same like EvenNumbers عشان انادى  عليها لازم عمل اوبجت جديد
+        public int Multi(int a,int b)  // mean will trturn data type int
+        {
+            return a + b;  // this called intance method and return int
+        }
+
+
+
     }
     class DifferentTypesOfMethodsParameters
     {
@@ -1764,194 +1693,72 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
             }
         }
     }
-    class  classes_Kudvenkat
+    class Namespace_
     {
-          class Programme
-    {
-        static void Main()
-        {  
-            /*
-             * what is a class
-             * purpose of a class constructor
-             * overloading class constructor
-             * understanding this keyword
-             * Destructors
-             */
-            //Class consists of 
-            /*
-             * fields
-             * methods
-             */
-            Customer CC = new Customer("Leen", "Reda");// Her Must use parameter but there are way for not use by creat another constructor
-            // her---->لان يوجد عدد ٢ كونستراكتور بنفس اسم الكلاس Over Loading  هنا يظهر كلمه 
-            // CC.PrintFullName();
-        }
-    }
-    class Customer
-    {
-        string firstName;   // called field
-        string lastName;
-        // then creat constructor to initialization to fields
-        //the pupose of a class constructor is to initialize class fields
-        // Constructor do not have return vlaues and always have the same name as the class
-        // Constructors are not mandatory . if we dont provide a constructor a default parameters less constructor is automatically provided
+     // using TeamBb= ProjectA.TeamB; // can use directive name with any alias name  and do-without full qualified name
+     //     namespace Program
+     //     {
+     //    class Edu
+     //     {
+     //     static void Main()
+     //     {
+     //         ProjectA.TeamA.One.Print();// call namespace using full qualified name
+     //         TeamBb.One.Print();  // using alias name
 
-        // then creat constructor to initialization to fields
-        // لو  اعطيت قيم للفيدلز لن احتاج الى كونستراكتور
-        public Customer(string fName, string lName)  // called constructor  لاعطاء قيم ابتدائيه 
-        {
-            this.firstName = fName;  // We Can Dispense with "this" why use this ? that mean as if كما لو  i created object from class called "Customer "
-            this.lastName = lName;
-             
-        }
-        public Customer() : this("No First Name", "No Last name")  // بقوم بانشاء ذلك لو مش عايز استخدم فوق اى براميتر
-        {
+     //     }
+     //     }
+     //     }  
 
-        }
-   
-        //destructors
-        // Make Release for resources  يقوم بنتظيف الذاكره بعد انتهاء البرنامج
-        ~Customer()
-        {
-            // garbage collection make calling automatic for this Destructor
-        }
 
-    }
+
+        //  namespace ProjectA  
+        //  {
+        //  namespace TeamA // we can dispense with namespace by using (namespace ProjectA.TeamA)// called also
+        // //namespace indside namespace.
+        //  {
+        //  class One
+        //   {
+        //     public static void Print()
+        //     {
+        //         Console.WriteLine("Team A //  Project A");
+        //     }
+
+        //  }
+        //  }
+
+
+        // }
+
+
+
+        //  namespace ProjectA
+        //    {
+        //  namespace TeamB
+        //  {
+        //   class One
+        //       {
+        //         public static void Print()
+        //         {
+        //             Console.WriteLine("Team  B // Project A");
+        //         }
+
+        //     }
+        // }
 
     }
-    class Static_And_Instance_Class_Mmbers_Kudvenkat
+    class Lesson_36_OOP 
     {
-        static void Main()
+        static void Main_36()
         {
-            /*
-             * Class Member : = field,method,properties,events,indexers,constructors.
-             * static member : are invoked using class name ,where as instance members are invoked using instance(object) Of the class
-             * static constructor:are used to initialize static field in class and only called once and called befor instance constructor
-             * Static Class Members: 
-             * Instance Class Members
-             * Difference between Static and Instance Members
-             * An example explaining when you should make certain Members Static
-             */
-            //first Object 
-            // Circle Cr = new Circle(5);  // object
-            // float area_a=Cr.CalculateArea(); // To Call instance Method  وتم تخزينها فى متغير فلووت لانها هاترجع فلووت
-            // Console.WriteLine("Area is {0} ", area_a);
-            // Second object  
-            // Circle Cr2 = new Circle(9);  // نصف القطر ٩
-            // float araea_b=Cr2.CalculateArea();
-            // Console.WriteLine("Area ={0}", araea_b);
-            // if i want many objects the value of "PI" Never change .
-            // every time we creat new object we store pi in memory and that way not good so what solution ??
-            // we will declare variable pi as static field
+            //  اهم شئ فيها الكلاس والكلاس يعتبر تمثيل شامل 
+            // copy from class called object  this operation called instance
+            //Can make new class called for ex computer include 1- properties 2-methods 3-events
 
+        }
 
-            // if i want print direct must first add  public before static
-            // Console.WriteLine(Circle.pi);
-
-
-
-                    // k--حساب مساحه الدائره التى  نصف قطرها ٥  
-             //static float pi = 3.14f;  // static field to improve memory and if i want to initial value must creat static constructor
-             // public static float pi = 3.14f;  // make it public to can use direct in line 28
-             // int radius;
-             // static Circle()  // static constructor didnt have access modifiers like (public) حيث يتم تنفيذه مره واحده فقط  وبيكون اول شئ بيتم تنفيذه
-             // {
-             //     // if i use print here لو استخدمت اى جمله طباعه هنا سيتم الطابعه مره واحده مع ان يوجد ٢ اوبجت
-             //     Console.WriteLine("static constructor");
-             //     pi =3.14f;
-             // }
-
-             // public Circle(int rRadius) // intance constructor 
-             // {
-             //     Console.WriteLine("Instance constructor");  // هنا سيتم الطباعه مرتين لان يوجد عدد ٢ اوبجت
-             //     this.radius = rRadius;
-             // } 
-             //  public float CalculateArea()
-             // {
-             //     //return this.pi * this.radius * this.radius;
-             //     return Circle.pi * this.radius * this.radius;    //to improve memory
-             // }
-
-            }
-          }
-    class                          OOP_OOP_OOP_OOP
-          {
-
-          }
-    class Lesson_OOP_Classes_And_Objects 
+    }
+    class Lesson_37_Properties_and_access_Modifiers
     {
-// using System;
-// namespace Prog
-// {
-//     class Executable
-//     {
-//         static void Main()
-//         {
-//             //-----How To call Methods------💙💜❤️💕😎😃
-//             ProjectOne.Methods.print();  // calling static procedures
-//             Console.WriteLine(ProjectOne.Methods.Addition(100, 9000));
-
-//             //--------------💙💜❤️💕😎😃   OBJECTS----------------------💙💜❤️💕😎😃
-//             // Object is Instance of Class
-//             ProjectOne.CarOne carFirst= new ProjectOne.CarOne();
-//             carFirst.Info("Red", "Ford", 1000);
-//             carFirst.showData();
-
-
-
-//         }
-
-//     }
-// }
-
-
-// namespace ProjectOne
-// {
-
-//     class Methods
-//     {
-//         /// <summary>
-//         /// class:-  Consists Of ........
-//         /// 
-//         /// 1-prpperties 0r Fields 0r Attributes
-//         /// 2-Methods [Procedures-Functions]
-//         /// 3-Events 
-//         /// </summary>
-//         ///
-//         // Ex For prpperties💁💙💜❤️💕😎😃🤪💁💁
-//         //public string Xx;  // public mean accress modifier that mean can accress it any where
-
-//         // Types Of access Modifiers🤪💁💁💙💜❤️💕😎😃
-//         // public --> can access it out of class and prject also
-//         //private -->access it inside of class only and all be default if didnt make access modifiers will be private
-//         //intrtnal-->like public but the only difference is cant access it out of assembly (Cant out of project)
-//         //protected -->can access it inside class and all inheritance from it
-
-
-
-
-//         //  kاهم شئ فى البرمجه الكائنيه  هو   الكلاس والكلاس يعتبر تمثيل شامل 
-//         // lولما بعمل اوبجت هنا بيكون تمثيل خاص 
-//         // copy from class called object  this operation called instance
-//         //Can make new class called for ex computer include 1- properties-fields-attributes  2-methods 3-events
-//         //properties like variables but this belong to class
-
-
-//         // EX:--🤪💁💁💙💜❤️💕😎😃
-//         //public static void print()
-//         // Public ---->because it out of scoop main class to can see
-//         // static --->    to didnt make object if remove it must be make object
-//         // void ---->  that mean that procedure didnt return any thing and called procedures
-
-
-//         //public string Xx;  // public mean accress modifier that mean can accress it any where
-//         // Types Of access Modifiers🤪💁💁💙💜❤️💕😎😃
-//         // public --> can access it out of class and prject also
-//         //private -->access it inside of class only and all be default if didnt make access modifiers will be private
-//         //intrtnal-->like public but the only difference is cant access it out of assembly (Cant out of project)
-//         //protected -->can access it inside class and all inheritance from it  
-
-
         //properties - or Attributes    مثلا كمبيوتر وله خصائص وهذه هى الخصائص
         // public string brand;   
         // public double price;
@@ -1969,264 +1776,53 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
 
 
 
-
-
-
-//         //--------💙💜❤️💕😎😃  Methods [procedures   and functions ] -----------💙💜❤️💕😎😃
-
-//         public static void print()
-//             // Public ---->because it out of scoop main class to can see
-//                                    // static --->    to didnt make object if remove it must be make object
-//                                    // void ---->  that mean that procedure didnt return any thing and called procedures
-//         {
-//             Console.WriteLine("Leen");
-//         }
-//         public static int Addition(int a, int b)
-//         {
-//             // int that  mean called function and return thing
-
-//             return a + b;
-//         }
-//         public int Multi(int a, int b)
-//         {
-//             return a * b;
-//         }
-//         public int Substraction(int a, int b)
-//         {
-//             return a / b;
-//         }
-
-//         public static int cv;
-
-
-//         //--------------💙💜❤️💕😎😃   OBJECTS----------------------💙💜❤️💕😎😃
-
-//     }
-//     class CarOne
-//     {
-//         //----Fields 
-//         string color;  // called poperties - Fields 
-//         string model;
-//         int price;
-
-//         // Then give values for this fields by Methods
-//         public void Info(string _color,string _model,int _pric) // between here called parameters 
-//         {
-//             color = _color;
-//             model = _model;
-//             price = _pric;
-//         }
-
-//         //then show class data.....
-//         public void showData()
-//         {
-//             Console.WriteLine("Color is {0}\nModel is {1}\nPrice is {2}",color,model,price);
-//         }
-//     }
-// }
-
-
-        
-
     }
-    class Assemblies_And_Namespaces_36
+    class lesson_38_Encapsulation_Full_properties_autoproperties
     {
-        // Assembly  هو ملف يضم على كل شئ فى المشروع 
-        // Assemby extention may be  .exe if it application 
-        // assembly extention may be .dll  it library 
+        //encapsulation حمايه بيانات الكلاس من الوصول المباشر
+        //properties طريقه كتابه 
+        //طريقتان
+        //1-full properties----------
+        // private string brand; // called field//   //barndProperty حتى لا اتعامل معه مباشره سنتعامل مع encapsulation  لو عايز اخلى دى 
+        // public string color {get;set;}  // auto property without encapsulation
+        // to make barand encapsulation 
+        //first way  with full properties
+        // public string barndProperty
+        // {
+        //     get  // can read it
+        //     {
+        //         return brand.ToUpper(); // مثلا ارجاع حروف كبيره
+        //     }
+        //     set  // can write also on it
+        //     {
+        //         brand=value;
+        //     }
+        // }
 
-        // Namespaces that names after using system  for ex   using System.linq;  linq her called namespace and also system 
-        // called namespace
+        //2- auto properties ولكن هنا لا يتم تطبيق انكابسوليشن  انظر الى اللون فوق ماذا حدث 
 
-        // How to Creat namespce belong to us ???
-        //فقط عمل نيمسبيس منفصل عن الموجود ووضع فيه كلاسات وكل شئ نريده 
-
-        //------💙💜❤️💕😎😃🤪💁💁💙💜❤️💕😎😃🤪💁💁💙💜❤️💕😎😃🤪💁💁
-//         using System;
-// namespace Prog
-// {
-//     class Prog
-//     {
-//         static void Main()
-//         {
-//             ProjectA.TeamA.A.Print();
-//             ProjectA.TeamB.A.Print();
-
-//         }
-//     }
-// }
-// namespace ProjectA
-// {
-//     namespace TeamA
-//     {
-//         class A
-//         {
-//            public static void Print()
-//             {
-//                 Console.WriteLine("Project A  ------- Team A");
-//             } 
-//         }
-//     }
-// }
-// namespace ProjectA
-// {
-//     namespace TeamB
-//     {
-//         class A
-//         {
-//             public static  void Print()
-//             {
-//                 Console.WriteLine(" Project  A----------Team B");
-//             }
-//         }
-//     }
-// }
     }
-    class lesson_Encapsulation
+    class Lesson_39_Methods
     {
-//             using System;
-// namespace Executable
-// {
-//     class Prog
-//     {
-//         static void Main()
-//         {
-//             Tests.Encapsulation Enc = new Tests.Encapsulation("Ford", 120.00, DateTime.Now, "Red");
-//             Enc.Printing();  // That represent get
-
-            // //taht represent  set
-            // Enc.brandProperty = "BMW";
-            // Enc.Printing();
-//         }
-//     }
-// }
-// namespace Tests
-// {
-//     class Encapsulation
-//     {
-//         // Properties-Attributes-Fields  ---> but properties Have another Deep Meaning that let us To can Incapulate Fields
-//         // Encapsulation اى حمايه ييانات الفيلدز من الوصول المباشر من الاوبجكت وهنا لازم يكون الفيلد برافيت
-//         //there are two ways to write Encapsulation
-
-//         //First way Called      Full Properties
-//         private string brand; // A هذا معرف على مستوى الكلاس فقط 
-//         public double price;    // by default is private not necessary to declare private 
-//         public DateTime manufacturDate;
-//         public string color { get; set; }  // Auto Properties   and we put get and set that maen can read and write on this field
-//         // Auto Properties can write it by Prop + Double tabe
-//         //auti properties  هى  شائعه الاستخدام الا فى حاله تطبيق شرط معين على الفيلد وقتها نستخدم الطريقه الاولى مثال على ذلك سطر رقم ٣٤ لو عايز ارجع حروف كبيره
-
-
-
-//         public string brandProperty  //Encapsulation For Field brand  by Full properties
-//         {
-//             get  // Mean i can Read it Value 
-//             {
-//                 return brand;// if i want return upper characters
-//             }
-//             set // Mean I can Give it Value  that maen can Write  ---- Using get and set Mean اى نستطيع الوصل له كتابه وقراءه
-//             {
-//                 brand = value;
-//             }
-//         }
-//         //-- Second Way Called Auto Properties
-//         //A-هنا لا نطبق فيها مفهوم انكابسوليشن لان الفيلد يبقى بابلك
-//         //For ex  Look Synatx No 24
-
-
-
-//         public Encapsulation(string brandProperty,double price,DateTime manufacturDate,string color) // same name properties here why ? to use this
-//         {
-//             this.brandProperty = brandProperty;  //we you this to confirm that brandProperty belong to class not in parameters
-//             this.price = price;
-//             this.manufacturDate = manufacturDate;
-//             this.color = color;
-//         }
-
-
-
-//         public void Printing()   //  Procedures 
-//         {
-//             Console.WriteLine(brandProperty +"\n"+ price +"\n"+ manufacturDate+"\n"+color);  // cw + Double tabe
-//         }
-//     }
-// }
-
+        // function or procedures عباره عن داله او اجراء method <----
+        // الشرح موجود فى فجيول بيسيك ستوديو
+    
     }
-    class Lesson_Methods
-    {
-                    /*
-             * The Structure Of a Method (access Modifier-return type-parameter-method body)
-             * The Difference between Static and Instance Method
-             * Methods Useful because the allow you define your logic once and use it at many places
-             * Maintenance is easier
-             * 
-             */
-
-//         using System;
-// namespace Executable
-// {
-//     class Prog
-//     {
-//         static void Main()
-//         {
-//             //calling procedure 
-//             Methods.Meth.EvenNumbers(20); // call direct without make intance of class (Object)
-
-//             //calling function
-//             Methods.Meth newMeth = new Methods.Meth();
-//             //output data by two ways   first way;-
-//             var result=newMeth.Multi(30, 900);
-//             Console.WriteLine(result);
-//             //second way---
-//             Console.WriteLine(newMeth.Multi(200,100)); // direct way without intialize new variable
-//         }
-
-//     }
-// }
-
-// //--------------
-// namespace Methods
-// {
-//     class Meth
-//     {
-//         //---------Procedures----------------------
-
-//         // write a programe   calling Even Numbers
-
-//         // will not return any thing and its name procedure 
-//         public static void EvenNumbers(int y)  // public mean  access Modifiers //void mean return type and that mean 
-//         {
-//             int n = 0;
-//             while (n <= y)
-//             {
-//                 Console.WriteLine(n);
-//                 n+=2;
-//             }
-//         }
-//         // method which contain static called static methos or procedure  same like main method وهنا عشان انادى عليها فقط اكتب اسم الكلاس
-//         //method which dosent contain ststic called intance method  or funtion same like EvenNumbers عشان انادى  عليها لازم عمل اوبجت جديد
-
-
-
-
-//         //------------Functions----------------------
-
-//         public int Multi(int a, int b)  // mean will trturn data type int
-//         {
-//             return a + b;  // this called intance method and return int
-//         }
-//     }
-// }
-
-    }
-    class Lesson_Constructor
+    class Lesson_40_Constructor
     {
         // Constructor  maen->  A constructor is a  special method that is used to initialize objects.
         //يحمل نفس اسم الكلاس وليس له ارجاع 
-        // public بمعنى ممكن عمله عند انشاؤ الكلاس وبيكون بنفس اسمه ويكون  
-        //
+       // public بمعنى ممكن عمله عند انشاؤ الكلاس وبيكون بنفس اسمه ويكون  
+       // look at next slid in lesson 39
 
+
+
+
+
+       // public string name{get;set;}
+        // public byte age{get;set;}
+        // public string color;
+        // public string love;
 
 
              //can write it automatic by write (ctor)
@@ -2234,59 +1830,27 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
              // we use it to define prperty or attributes in class by many methods 
              // we use constructor to save time with short code
 
-//              using System;
-// namespace Executable
-// {
-//     class Prog
-//     {
-//         static void Main()
-//         {
-//             Tests.Car newCar = new Tests.Car("Yellow", "Ford", 20000);
-//             newCar.ShowData();
+
+        // public Constructors(string newname,byte newage)  
+        // {
+        //     name=newname;  //  can define by parameter   عند استخدام البراميتر لازم ايضا تعريفه فى براميتر الاوبجت عند عمله 
+        //     age=newage;   //  can define by parameter
+        //     love="Family";  // can also define it direct
+        //     this.color="red";  // can use this 
+ 
+        // }
+        // static void Main()
+        // {
+        //     Constructors pp=new Constructors("loloooooooo",66);
+           
+        //     Console.WriteLine("My daughter's name is " + pp.name + " \n " + "Her age is "+ pp.age + " Years old"+"\n its color is "+pp.color + "\n"+pp.love);
+        // }
 
 
 
-//         }
-//     }
-// }
-// //---------------------------------------------------------
-// namespace Tests
-// {
-//     class Car
-//     {
-//         //prpperties-fields-attributes
-//         string color;
-//         string brand;
-//         int price;
 
-//         //Constructor 
-//         public Car (string _color, string _brand,int _price)  // Con Put Parameters or no as you like
-//         {
-//             this.color = _color; // this--- can use or no as you like
-//             this.brand = _brand;
-//             this.price = _price;
-//         }
-//         //A-ملحوظه مهمه اذا لم يتم عمل كونستراكنور بيتم عملها اتوماتيك وبيكون اسمها Default Constructor
-//         //public Car()
-//         //{
-//            // Default Constructor which in c#  // وتستخدم ايضا لازاله اى خطا لكى لا نستخدم ارجيومينتش     
-//         //}
-
-//         // Old Way --------
-//         //public void sameConstructor(string _house, string _tall)
-//         //{
-//         //    house = _house;
-//         //    tall = _tall;
-//         //}
-
-//         public void ShowData()
-//         {
-//             Console.WriteLine($"My car color is {color} , My car brand is {brand} and its price is {price}");
-//         }
-//     }
-// }
     }
-    class Lesson_Inheritance
+    class Lesson_41_Inheritance
     {
         // Inheritance mean t is possible to inherit fields and methods from one class to another. 
 
@@ -2295,131 +1859,12 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
         // اى نقل مكونات الفئه الرئيسيه الى الفئه المشتقه
         //الغرض منه تفادى تكرار الاكواد
 
-        //using System;
-//namespace Executable
-//{
-//    class Prog
-//    {
-//        static void Main()
-//        {
-//            Inheritance.Programmer Prog = new Inheritance.Programmer("Leen", "Qutor", 10, 10.00);
-//            Prog.Languags("French");
-//            Console.WriteLine(Prog.salary);
-
-//----------------------------- For   💚💛🧡❤️❣️ Another Ex-----
-//Abstraction.AbstractTwo Abs = new Abstraction.AbstractTwo("LoLAAAA");
-
-//Abs.showMassages();
-
-
-//        }
-//    }
-//}
-
-////--------------------------------------------------
-
-//namespace Inheritance
-//{
-//    // Inheritance represnts relationship betwwen 2 classes (based class or parent class or Main Class   and  Drived Class or child class)
-
-//    class Person  // Based Class
-//    {
-//        public string name { get; set; }
-//        public string address { get; set; }
-//        public int age { get; set; }
-
-//        //Constructor
-//        public Person(string name, string address, int age)  // i فى هذه الحاله او فى حاله عمل ذلك لابد من عملها تحت ايضا
-//        {
-//            this.name = name;
-//            this.address = address;
-//            this.age = age;
-//        }
-//        public Person()
-//        {
-//                // Aنستخدمه حتى لا نعمل للكنستراكتور وراثه وايضا  فى الاوبجت لو مش عايز استخدم ارجيومنت   
-//        }
-
-//        // Procedure ........
-//        public  void Speak()
-//        {
-//            Console.WriteLine("I can speak");
-//        }
-//        // procedure........
-//        public  void Work()
-//        {
-//            Console.WriteLine("I can speak");
-//        }
-
-
-//    }
-//    //deived class 
-//    class Programmer:Person   // drived Class/Child Class
-//    {
-//        // here هنا تم اخذ كل الخصائص من اعلى وممكن ايضا اضافه خاصائص جديده
-//        public double salary { get; set; }
-//        public string waight { get; set; }
-//        //procedure.....
-//        public void Languags(string lang)
-//        {
-//            Console.WriteLine("I love language " + lang);
-
-//        }
-//        //inheritance   for Constructor.....
-//        public Programmer(string _name, string _address, int _age, double _salary) : base(_name, _address, _age) //l  طريقه عمل وراثه للكونستراكتور ووممكن لا اعمل له وراثه لو عملت كونستراكتور فارغ
-//        {
-//            this.salary = _salary;
-//        }
-
-
-
-//    }
-//}
-
-//-----------------------------💚💛🧡❤️❣️ Another Ex-----
-//namespace Abstraction
-//{
-//    class AbstractOne
-//    {
-//        //A-انشاء انواع عامه لايمكن استنساخها  اى لا يمكن عمل اوبجت منها والحل وقتها ان لابد من عمل كلاس يرث منها
-//        //A-الهدف انشاء انواع عامه تسمح لنا باختبارات معينه
-//        //A-هى شئ افتراضى وغير حقيقى
-
-//        //Properties
-//        public string name { get; set; }
-
-//        //Constructor
-//        public AbstractOne(string name)
-//        {
-//            this.name = name;
-//        }
-
-
-//        //Procedure....
-//        public void showMassages()
-//        {
-
-//            Console.WriteLine($"My Name is {name}");
-//        }
-
-//    }
-//    class AbstractTwo : AbstractOne
-//    {
-//        public AbstractTwo(string name) : base(name)
-//        {
-//            this.name = name;
-//        }
-//    }
-//}
-
-
-
-
         
     }
     class Method_Overloading
+
     {
-              // 
+      // 
         // static int Multi(int x, int y)
         // {
         //     return x * y;
@@ -2438,11 +1883,9 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
         //     Console.WriteLine(Multi(10.8, 5));
         //     Console.WriteLine(Multi("Hamza"));
 
+        // } 
     }
-}
-
-    
         
     
-
+}
 
