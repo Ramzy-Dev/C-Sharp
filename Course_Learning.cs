@@ -1575,48 +1575,6 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
 
         // }
     }
-    class Methods_OR_Function
-    {
-        public static void Main() 
-        {
-            /*
-             * The Structure Of a Method (access Modifier-return type-parameter-method body)
-             * The Difference between Static and Instance Method
-             * Methods Useful because the allow you define your logic once and use it at many places
-             * Maintenance is easier
-             * 
-             */
-
-            //must creat intance or object from that class to can call instance Function
-            Methods_OR_Function M = new Methods_OR_Function();
-            //M.EvenNumbers();
-            //if it static method in this case just write name class and call static methos
-            Methods_OR_Function.EvenNumbers(20);// or EvenNumbers(20); // مباشر لانها داخل نفس الكلاس
-            int result=M.Multi(10, 90); //
-            Console.WriteLine(result);
-
-            
-        }
-        // Make Method calling Even Numbers
-        public static void EvenNumbers(int y)  // public called access Modifiers //void called return type
-        {
-            int n = 0;
-            while (n <= y)
-            {
-                Console.WriteLine(n);
-                n++;
-            }
-        }
-        // method which contain static called static methos same like main method وهنا عشان انادى عليها فقط اكتب اسم الكلاس
-        //method which dosent contain ststic called intance method same like EvenNumbers عشان انادى  عليها لازم عمل اوبجت جديد
-        public int Multi(int a,int b)  // mean will trturn data type int
-        {
-            return a + b;  // this called intance method and return int
-        }
-
-
-
-    }
     class DifferentTypesOfMethodsParameters
     {
         // 4 types of method parameters
@@ -1746,21 +1704,32 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
         // }
 
     }
-    class Lesson_36_OOP 
+    class Lesson_OOP___________________________________________________OOP__________________________________________ 
     {
         static void Main_36()
         {
             //  اهم شئ فيها الكلاس والكلاس يعتبر تمثيل شامل 
-            // copy from class called object  this operation called instance
+         
             //Can make new class called for ex computer include 1- properties 2-methods 3-events
+
+            //C# have 2 banches To learn toutorial  ???---->  1- Structured Programming(Basic)    2- OOP
+            //What OOP ???
+            // First  we Have Primitive Data Types Like string-int-bool ....   and User defined Data Type ودى اللى بيعرفها المبرمج وهنا نشأت فكره البرمجه كائنيه التوجه ازاى ؟؟؟
+            //مثلا لو عايز دلوقتى اخزن شخص والشخص ده خصائص كيف هاعملها اذن وقتها لازم استخدم البرمجه الشيئيه 
+            //اذن ممكن استخدمها لتعريف اى شئ بالاعلان عن كلاس وبقوله ده مثلا انسان واعطى له خاصائص بدون قيم ثم اعمل له ميثود عشان اعطى له اوامر معينه ثم عن طريق الاوبجت احدد بقى 
+            //الشخص لين والشخص حمزه واعطى لكل شخص ما اريد
+
+            
+            
 
         }
 
     }
-    class Lesson_37_Properties_and_access_Modifiers
+    class Lesson_Properties_access_AccressModifiers_Classes_Objects
     {
+        //مما يتكون الكلاس ؟؟
         //properties - or Attributes    مثلا كمبيوتر وله خصائص وهذه هى الخصائص
-        // public string brand;   
+        // public string brand;  // يتم الاعلان عنه مبدئيا بدون اى قيم  
         // public double price;
         // public DateTime manufacturedate;
         // public string color;
@@ -1771,6 +1740,139 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
         //private على مستوى الكلاس التى تحتوى عليه فقط
         //internal  تسمح من الداخل والخارج ولكن على مستوى المشروع لكن لو ذهبنا لمشروع اخر لن يعمل هى مثل البابلك 
         //protected  فقط على مستوى الفئات او مشتقاته هى مثل البرايفت بس الفرق انها تعمل ايضا على اى شئ يرث منها 
+
+        //using System;
+//namespace Prog
+//{
+//    class Executable
+//    {
+//        static void Main()
+//        {
+//            //-----How To call Methods------💙💜❤️💕😎😃
+//            ProjectOne.Methods.print();  // calling static procedures
+//            Console.WriteLine(ProjectOne.Methods.Addition(100, 9000));
+
+//            //--------------💙💜❤️💕😎😃   OBJECTS----------------------💙💜❤️💕😎😃
+//            // Object is Instance of Class
+//            ProjectOne.CarOne carFirst= new ProjectOne.CarOne();
+//            carFirst.Info("Red", "Ford", 1000);
+//            carFirst.showData();
+
+
+
+//        }
+
+//    }
+//}
+
+
+//namespace ProjectOne
+//{
+
+//    class Methods
+//    {
+//        /// <summary>
+//        /// class:-  Consists Of ........
+//        /// 
+//        /// 1-prpperties 0r Fields 0r Attributes
+//        /// 2-Methods [Procedures-Functions]
+//        /// 3-Events 
+//        /// </summary>
+//        ///
+//        // Ex For prpperties💁💙💜❤️💕😎😃🤪💁💁
+//        //public string Xx;  // public mean accress modifier that mean can accress it any where
+
+//        // Types Of access Modifiers🤪💁💁💙💜❤️💕😎😃
+//        // public --> can access it out of class and prject also
+//        //private -->access it inside of class only and all be default if didnt make access modifiers will be private
+//        //intrtnal-->like public but the only difference is cant access it out of assembly (Cant out of project)
+//        //protected -->can access it inside class and all inheritance from it
+
+
+
+
+//        //  kاهم شئ فى البرمجه الكائنيه  هو   الكلاس والكلاس يعتبر تمثيل شامل 
+//        // lولما بعمل اوبجت هنا بيكون تمثيل خاص 
+//        // copy from class called object  this operation called instance
+//        //Can make new class called for ex computer include 1- properties-fields-attributes  2-methods 3-events
+//        //properties like variables but this belong to class
+
+
+//        // EX:--🤪💁💁💙💜❤️💕😎😃
+//        //public static void print()
+//        // Public ---->because it out of scoop main class to can see
+//        // static --->    to didnt make object if remove it must be make object
+//        // void ---->  that mean that procedure didnt return any thing and called procedures
+
+
+//        //public string Xx;  // public mean accress modifier that mean can accress it any where
+//        // Types Of access Modifiers🤪💁💁💙💜❤️💕😎😃
+//        // public --> can access it out of class and prject also
+//        //private -->access it inside of class only and all be default if didnt make access modifiers will be private
+//        //intrtnal-->like public but the only difference is cant access it out of assembly (Cant out of project)
+//        //protected -->can access it inside class and all inheritance from it  
+
+
+
+
+
+
+
+
+//        //--------💙💜❤️💕😎😃  Methods [procedures   and functions ] -----------💙💜❤️💕😎😃
+
+//        public static void print()
+//            // Public ---->because it out of scoop main class to can see
+//                                   // static --->    to didnt make object if remove it must be make object
+//                                   // void ---->  that mean that procedure didnt return any thing and called procedures
+//        {
+//            Console.WriteLine("Leen");
+//        }
+//        public static int Addition(int a, int b)
+//        {
+//            // int that  mean called function and return thing
+
+//            return a + b;
+//        }
+//        public int Multi(int a, int b)
+//        {
+//            return a * b;
+//        }
+//        public int Substraction(int a, int b)
+//        {
+//            return a / b;
+//        }
+
+//        public static int cv;
+
+
+//        //--------------💙💜❤️💕😎😃   OBJECTS----------------------💙💜❤️💕😎😃
+
+//    }
+//    class CarOne
+//    {
+//        //----Fields 
+//        string color;  // called poperties - Fields 
+//        string model;
+//        int price;
+
+//        // Then give values for this fields by Methods
+//        public void Info(string _color,string _model,int _pric) // between here called parameters 
+//        {
+//            color = _color;
+//            model = _model;
+//            price = _pric;
+//        }
+
+//        //then show class data.....
+//        public void showData()
+//        {
+//            Console.WriteLine("Color is {0}\nModel is {1}\nPrice is {2}",color,model,price);
+//        }
+//    }
+//}
+
+
 
 
 
@@ -1801,11 +1903,139 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
 
         //2- auto properties ولكن هنا لا يتم تطبيق انكابسوليشن  انظر الى اللون فوق ماذا حدث 
 
+
+        //------------------------another Ex.................................
+        //using System;
+//namespace Executable
+//{
+//    class Prog
+//    {
+//        static void Main()
+//        {
+//            Tests.Encapsulation Enc = new Tests.Encapsulation("Ford", 120.00, DateTime.Now, "Red");
+//            Enc.Printing();  // that represent get
+
+//            //taht represent  set
+//            Enc.brandProperty = "BMW";
+//            Enc.Printing();
+//        }
+//    }
+//}
+//namespace Tests
+//{
+//    class Encapsulation
+//    {
+//        // Properties-Attributes-Fields  ---> but properties Have another Deep Meaning that let us To can Incapulate Fields
+//        // Encapsulation اى حمايه ييانات الفيلدز من الوصول المباشر من  الاوبجت هنا لازم يكون الفيلد برافيت
+//        //there are two ways to write Encapsulation
+
+//        //First way Called      Full Properties
+//        private string brand; // A هذا معرف على مستوى الكلاس فقط    by default is private not necessary to declare private 
+//        public double price;
+//        public DateTime manufacturDate;
+//        public string color { get; set; }  // Auto Properties   and we put get and set that maen can read and write on this field
+//        // Auto Properties can write it by Prop + Double tabe
+//        //auti properties  هى  شائعه الاستخدام الا فى حاله تطبيق شرط معين على الفيلد وقتها نستخدم الطريقه الاولى مثال على ذلك سطر رقم ٣٤ لو عايز ارجع حروف كبيره
+
+
+
+//        public string brandProperty  //Encapsulation For Field brand  by Full properties
+//        {
+//            get  // Mean i can Read it Value 
+//            {
+//                return brand;// if i want return upper characters
+//            }
+//            set // Mean I can Give it Value  that maen can Write  ---- Using get and set Mean اى نستطيع الوصل له كتابه وقراءه
+//            {
+//                brand = value;
+//            }
+//        }
+//        //-- Second Way Called Auto Properties
+//        //A-هنا لا نطبق فيها مفهوم انكابسوليشن لان الفيلد يبقى بابلك
+//        //For ex  Look Synatx No 24
+
+
+
+//        public Encapsulation(string brandProperty, double price, DateTime manufacturDate, string color) // same name properties here why ? to use this
+//        {
+//            this.brandProperty = brandProperty;  //we you this to confirm that brandProperty belong to class not in parameters
+//            this.price = price;
+//            this.manufacturDate = manufacturDate;
+//            this.color = color;
+//        }
+
+
+
+//        public void Printing()   //  Procedures 
+//        {
+//            Console.WriteLine(brandProperty + "\n" + price + "\n" + manufacturDate + "\n" + color);  // cw + Double tabe
+//        }
+//    }
+//}
+
+
     }
     class Lesson_39_Methods
     {
         // function or procedures عباره عن داله او اجراء method <----
-        // الشرح موجود فى فجيول بيسيك ستوديو
+        //using System;
+//namespace Executable
+//{
+//    class Prog
+//    {
+//        static void Main()
+//        {
+//            //calling procedure 
+//            Methods.Meth.EvenNumbers(20); // call direct without make intance of class (Object)
+
+//            //calling function
+//            Methods.Meth newMeth = new Methods.Meth();
+//            //output data by two ways   first way;-
+//            var result=newMeth.Multi(30, 900);
+//            Console.WriteLine(result);
+//            //second way---
+//            Console.WriteLine(newMeth.Multi(200,100)); // direct way without intialize new variable
+//        }
+
+//    }
+//}
+
+////--------------
+//namespace Methods
+//{
+//    class Meth
+//    {
+//        //---------Procedures----------------------
+
+//        // write a programe   calling Even Numbers
+
+//        // will not return any thing and its name procedure 
+//        public static void EvenNumbers(int y)  // public mean  access Modifiers //void mean return type and that mean 
+//        {
+//            int n = 0;
+//            while (n <= y)
+//            {
+//                Console.WriteLine(n);
+//                n+=2;
+//            }
+//        }
+//        // method which contain static called static methos or procedure  same like main method وهنا عشان انادى عليها فقط اكتب اسم الكلاس
+//        //method which dosent contain ststic called intance method  or funtion same like EvenNumbers عشان انادى  عليها لازم عمل اوبجت جديد
+
+
+
+
+//        //------------Functions----------------------
+
+//        public int Multi(int a, int b)  // mean will trturn data type int
+//        {
+//            return a + b;  // this called intance method and return int
+//        }
+//    }
+//}
+
+
+
     
     }
     class Lesson_40_Constructor
@@ -1813,17 +2043,7 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
         // Constructor  maen->  A constructor is a  special method that is used to initialize objects.
         //يحمل نفس اسم الكلاس وليس له ارجاع 
        // public بمعنى ممكن عمله عند انشاؤ الكلاس وبيكون بنفس اسمه ويكون  
-       // look at next slid in lesson 39
-
-
-
-
-
-       // public string name{get;set;}
-        // public byte age{get;set;}
-        // public string color;
-        // public string love;
-
+    
 
              //can write it automatic by write (ctor)
              // when creat constructor must be public and must take same name for class 
@@ -1831,20 +2051,58 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
              // we use constructor to save time with short code
 
 
-        // public Constructors(string newname,byte newage)  
-        // {
-        //     name=newname;  //  can define by parameter   عند استخدام البراميتر لازم ايضا تعريفه فى براميتر الاوبجت عند عمله 
-        //     age=newage;   //  can define by parameter
-        //     love="Family";  // can also define it direct
-        //     this.color="red";  // can use this 
- 
-        // }
-        // static void Main()
-        // {
-        //     Constructors pp=new Constructors("loloooooooo",66);
-           
-        //     Console.WriteLine("My daughter's name is " + pp.name + " \n " + "Her age is "+ pp.age + " Years old"+"\n its color is "+pp.color + "\n"+pp.love);
-        // }
+        // Ex------------------------------------
+        //using System;
+//namespace Executable
+//{
+//    class Prog
+//    {
+//        static void Main()
+//        {
+//            Tests.Car newCar = new Tests.Car("Yellow", "Ford", 20000);
+//            newCar.ShowData();
+
+
+
+//        }
+//    }
+//}
+////---------------------------------------------------------
+//namespace Tests
+//{
+//    class Car
+//    {
+//        //prpperties-fields-attributes
+//        string color;
+//        string brand;
+//        int price;
+
+//        //Constructor 
+//        public Car (string _color, string _brand,int _price)  // Con Put Parameters or no as you like
+//        {
+//            this.color = _color; // this--- can use or no as you like
+//            this.brand = _brand;
+//            this.price = _price;
+//        }
+//        //A-ملحوظه مهمه اذا لم يتم عمل كونستراكنور بيتم عملها اتوماتيك وبيكون اسمها Default Constructor
+//        //public Car()
+//        //{
+//           // Default Constructor which in c#  // وتستخدم ايضا لازاله اى خطا لكى لا نستخدم ارجيومينتش     
+//        //}
+
+//        // Old Way --------
+//        //public void sameConstructor(string _house, string _tall)
+//        //{
+//        //    house = _house;
+//        //    tall = _tall;
+//        //}
+
+//        public void ShowData()
+//        {
+//            Console.WriteLine($"My car color is {color} , My car brand is {brand} and its price is {price}");
+//        }
+//    }
+//}
 
 
 
@@ -1859,33 +2117,301 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
         // اى نقل مكونات الفئه الرئيسيه الى الفئه المشتقه
         //الغرض منه تفادى تكرار الاكواد
 
+        //using System;
+//namespace Executable
+//{
+//    class Prog
+//    {
+//        static void Main()
+//        {
+//            Inheritance.Programmer Prog = new Inheritance.Programmer("Leen", "Qutor", 10, 10.00);
+//            Prog.Languags("French");
+//            Console.WriteLine(Prog.salary);
+
+//----------------------------- For   💚💛🧡❤️❣️ Another Ex-----
+//Abstraction.AbstractTwo Abs = new Abstraction.AbstractTwo("LoLAAAA");
+
+//Abs.showMassages();
+
+
+//        }
+//    }
+//}
+
+////--------------------------------------------------
+
+//namespace Inheritance
+//{
+//    // Inheritance represnts relationship betwwen 2 classes (based class or parent class or Main Class   and  Drived Class or child class)
+
+//    class Person  // Based Class
+//    {
+//        public string name { get; set; }
+//        public string address { get; set; }
+//        public int age { get; set; }
+
+//        //Constructor
+//        public Person(string name, string address, int age)  // i فى هذه الحاله او فى حاله عمل ذلك لابد من عملها تحت ايضا
+//        {
+//            this.name = name;
+//            this.address = address;
+//            this.age = age;
+//        }
+//        public Person()
+//        {
+//                // Aنستخدمه حتى لا نعمل للكنستراكتور وراثه وايضا  فى الاوبجت لو مش عايز استخدم ارجيومنت   
+//        }
+
+//        // Procedure ........
+//        public  void Speak()
+//        {
+//            Console.WriteLine("I can speak");
+//        }
+//        // procedure........
+//        public  void Work()
+//        {
+//            Console.WriteLine("I can speak");
+//        }
+
+
+//    }
+//    //deived class 
+//    class Programmer:Person   // drived Class/Child Class
+//    {
+//        // here هنا تم اخذ كل الخصائص من اعلى وممكن ايضا اضافه خاصائص جديده
+//        public double salary { get; set; }
+//        public string waight { get; set; }
+//        //procedure.....
+//        public void Languags(string lang)
+//        {
+//            Console.WriteLine("I love language " + lang);
+
+//        }
+//        //inheritance   for Constructor.....
+//        public Programmer(string _name, string _address, int _age, double _salary) : base(_name, _address, _age) //l  طريقه عمل وراثه للكونستراكتور ووممكن لا اعمل له وراثه لو عملت كونستراكتور فارغ
+//        {
+//            this.salary = _salary;
+//        }
+
+
+
+//    }
+//}
+
+//-----------------------------💚💛🧡❤️❣️ Another Ex-----
+//namespace Abstraction
+//{
+//    class AbstractOne
+//    {
+//        //A-انشاء انواع عامه لايمكن استنساخها  اى لا يمكن عمل اوبجت منها والحل وقتها ان لابد من عمل كلاس يرث منها
+//        //A-الهدف انشاء انواع عامه تسمح لنا باختبارات معينه
+//        //A-هى شئ افتراضى وغير حقيقى
+
+//        //Properties
+//        public string name { get; set; }
+
+//        //Constructor
+//        public AbstractOne(string name)
+//        {
+//            this.name = name;
+//        }
+
+
+//        //Procedure....
+//        public void showMassages()
+//        {
+
+//            Console.WriteLine($"My Name is {name}");
+//        }
+
+//    }
+//    class AbstractTwo : AbstractOne
+//    {
+//        public AbstractTwo(string name) : base(name)
+//        {
+//            this.name = name;
+//        }
+//    }
+//}
+
+
         
     }
     class Method_Overloading
-
     {
-      // 
-        // static int Multi(int x, int y)
-        // {
-        //     return x * y;
-        // }
-        // static double Multi(double x, double y)
-        // {
-        //     return x + y;
-        // }
-        // static string Multi(string name)
-        // {
-        //     return name;
-        // }
-        // static void Main()
-        // {
-        //     Console.WriteLine(Multi(10, 5));
-        //     Console.WriteLine(Multi(10.8, 5));
-        //     Console.WriteLine(Multi("Hamza"));
+        /*
+          *when Creat Many Mathods With Same Name But with different Parameters
+          *its kind of plymorphisme
+          *الغرض منها اوقات نحتاجها فى البحث فى قاعده البيانات 
+          *
+          *
+        */
 
-        // } 
-    }
+//         using System;
+// using System.Collections.Generic;
+
+// namespace Tests
+// {
+//      class overloadingPolymorphisme
+//     {
+
+//         // properties-attributes-fields
+//         public string tvName { get; set; }
+//         public int tvId { get; set; }
+
+
+//         //Constructor
+//         public overloadingPolymorphisme(string _tvName,int _tvId)
+//         {
+//             this.tvName = _tvName;
+//             this.tvId = _tvId;
+//         }
+
+//         //Methods
+
+//         public void searchInfo(string _tvName)
+//         {
+//             // searching By name in SQL 
+//         }
+
+//         public void searchInfo(int _tvId)
+//         {
+//             // searching By id 
+//         }
+
+//         public void searchInfo()
+//         {
+//             // just empty Procedure 
+//         }
+
+//         // Another Ex
+//        public IEnumerable<overloadingPolymorphisme> Find(string _tvName)  // لارجاع مجموعه من الحواسيب او ممكن لا نستخدمها
+//         {
+//             return null;
+//         }
+//         public IEnumerable<overloadingPolymorphisme> Find(int _tvId)
+//         {
+//             return null;
+//         }
         
-    
+//     }
+
+// }
+
+
+    }
+    class Overriding
+{
+                    /*
+                     *Its Method in based Class and we want to override it again in scope of dreived class 
+                     *Overriding  عمليه اعاده التعريف تسمى 
+                     *thre are 2 ways 
+                     *1-Using keyword virual in base class and override in drived class 
+                     *2-using keyword new in dreived class
+                     */
+//     using System;
+// namespace Tests
+// {
+//     class Overriding
+//     {
+
+//         // Base Class
+//         public string macbook { get; set; }
+
+
+//         public Overriding(string _macbook)
+//         {
+//             this.macbook = _macbook;
+//         }
+//         public Overriding()  // default Constructor عشان لا اجبر لعمل باراميتر عند انشاء اوبجت واعتقد ايضا لعدم الحاجه لعمل وراثه له فى درايفيد كلاس
+//         {
+                
+//         }
+
+//         public void MacbookPrinting(string nameBook)
+//         {
+//             Console.WriteLine(nameBook);
+//         }
+
+//     }
+
+//     //drived Class
+//     class OverridingTwo : Overriding
+//     {
+
+//     }
+// }
+
 }
+    class Abstraction___
+    {
+//         using System;
+// namespace Executable
+// {
+//         class Prog
+//     {
+//         static void Main()
+//         {
+           
+//             Abstraction.AbstractTwo Abs = new Abstraction.AbstractTwo("LoLAAAA");
+//             Abs.Walking();
+//         }
+//     }
+// }
+// //-----------------------------💚💛🧡❤️❣️ Another Ex-----
+// namespace Abstraction
+// {
+//     abstract class AbstractOne  // abstract mean cant make intance  but can make inheritance to redeclare it 
+//     {
+//         //A-انشاء انواع عامه لايمكن استنساخها  اى لا يمكن عمل اوبجت منها والحل وقتها ان لابد من عمل كلاس يرث منها
+//         //A-الهدف انشاء انواع عامه تسمح لنا باختبارات معينه
+//         //A-هى شئ افتراضى وغير حقيقى
+
+//         //Properties
+//         public string name { get; set; }
+
+//         //Constructor
+//         public AbstractOne(string name)
+//         {
+//             this.name = name;
+//         }
+
+
+//         //Procedure....
+//         public  void showMassages() // Must لابد من اعاده تعريفها طالما تم استخدام ابستراكت
+//         {
+
+//             Console.WriteLine($"My Name is {name}");
+//         }
+//         public void Walking()
+//         {
+//             Console.WriteLine("Im Walking");
+//         }
+
+//     }
+
+    
+//     class AbstractTwo : AbstractOne
+//     {
+//         public AbstractTwo(string name) : base(name)
+//         {
+//             this.name = name;
+//         }
+//         //public override void Walking() // Must لابد من اعاده تعريفها طالما تم استخدام ابستراكت
+//         //{
+
+//         //    Console.WriteLine($"My Name is {name}");
+//         //}
+
+//     }
+// }
+    }
+
+}
+
+
+
+    
+
+
 
