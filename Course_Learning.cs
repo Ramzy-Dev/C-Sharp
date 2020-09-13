@@ -2131,23 +2131,18 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
         // اى نقل مكونات الفئه الرئيسيه الى الفئه المشتقه
         //الغرض منه تفادى تكرار الاكواد
 
-        //using System;
+        
+//using System;
 //namespace Executable
 //{
 //    class Prog
 //    {
 //        static void Main()
 //        {
-//            Inheritance.Programmer Prog = new Inheritance.Programmer("Leen", "Qutor", 10, 10.00);
-//            Prog.Languags("French");
-//            Console.WriteLine(Prog.salary);
-
-//----------------------------- For   💚💛🧡❤️❣️ Another Ex-----
-//Abstraction.AbstractTwo Abs = new Abstraction.AbstractTwo("LoLAAAA");
-
-//Abs.showMassages();
-
-
+//            Inheritance.Programmer ProgOne = new Inheritance.Programmer("Leen", "Qutor", 10, 10.00,10);
+//            ProgOne.Languags("French");
+//            ProgOne.ShowData();
+//            Console.WriteLine(ProgOne.salary);
 //        }
 //    }
 //}
@@ -2173,16 +2168,16 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
 //        }
 //        public Person()
 //        {
-//                // Aنستخدمه حتى لا نعمل للكنستراكتور وراثه وايضا  فى الاوبجت لو مش عايز استخدم ارجيومنت   
+//            // Aنستخدمه حتى لا نعمل للكنستراكتور وراثه وايضا  فى الاوبجت لو مش عايز استخدم ارجيومنت   
 //        }
 
 //        // Procedure ........
-//        public  void Speak()
+//        public void Speak()
 //        {
 //            Console.WriteLine("I can speak");
 //        }
 //        // procedure........
-//        public  void Work()
+//        public void Work()
 //        {
 //            Console.WriteLine("I can speak");
 //        }
@@ -2190,11 +2185,11 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
 
 //    }
 //    //deived class 
-//    class Programmer:Person   // drived Class/Child Class
+//    class Programmer : Person   // drived Class/Child Class
 //    {
 //        // here هنا تم اخذ كل الخصائص من اعلى وممكن ايضا اضافه خاصائص جديده
 //        public double salary { get; set; }
-//        public string waight { get; set; }
+//        public int waight { get; set; }
 //        //procedure.....
 //        public void Languags(string lang)
 //        {
@@ -2202,9 +2197,19 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
 
 //        }
 //        //inheritance   for Constructor.....
-//        public Programmer(string _name, string _address, int _age, double _salary) : base(_name, _address, _age) //l  طريقه عمل وراثه للكونستراكتور ووممكن لا اعمل له وراثه لو عملت كونستراكتور فارغ
+//        public Programmer(string name, string address, int age, double salary,int waight) : base(name, address, age) //l  طريقه عمل وراثه للكونستراكتور ووممكن لا اعمل له وراثه لو عملت كونستراكتور فارغ
 //        {
-//            this.salary = _salary;
+//            this.salary = salary;
+//            this.waight = waight;
+//        }
+//        public void ShowData()
+//        {
+//            Console.WriteLine($"MY name is {name}" +
+//                $"\n My address is {address}" +
+//                $"\n My age is {age}" +
+//                $"\n Salary is {salary}" +
+//                $"\n My wight is {waight}" +
+//                $"\n Thanks ......");
 //        }
 
 
@@ -2212,44 +2217,8 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
 //    }
 //}
 
-//-----------------------------💚💛🧡❤️❣️ Another Ex-----
-//namespace Abstraction
-//{
-//    class AbstractOne
-//    {
-//        //A-انشاء انواع عامه لايمكن استنساخها  اى لا يمكن عمل اوبجت منها والحل وقتها ان لابد من عمل كلاس يرث منها
-//        //A-الهدف انشاء انواع عامه تسمح لنا باختبارات معينه
-//        //A-هى شئ افتراضى وغير حقيقى
 
-//        //Properties
-//        public string name { get; set; }
-
-//        //Constructor
-//        public AbstractOne(string name)
-//        {
-//            this.name = name;
-//        }
-
-
-//        //Procedure....
-//        public void showMassages()
-//        {
-
-//            Console.WriteLine($"My Name is {name}");
-//        }
-
-//    }
-//    class AbstractTwo : AbstractOne
-//    {
-//        public AbstractTwo(string name) : base(name)
-//        {
-//            this.name = name;
-//        }
-//    }
-//}
-
-
-        
+ 
     }
     class Method_Overloading
     {
@@ -2260,57 +2229,77 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
           *
           *
         */
+        //        /*
+//         * Method Overloading
+//         * mean that Many Methods with same name But with different Parameters
+//         * اوقات نستخدمها فى البحث فى قواعد البيانات 
+//         * is consider Type Of Polymorphisme
+//         * 
+//         */
 
-//         using System;
-// using System.Collections.Generic;
+///using System;
+//namespace Executable
+//{
+//    class Prog
+//    {
+//        /*
+//         * Method Overloading
+//         * mean that Many Methods with same name But with different Parameters
+//         * اوقات نستخدمها فى البحث فى قواعد البيانات 
+//         * is consider Type Of Polymorphisme
+//         * 
+//         */
+//        static void Main()
+//        {
+//            overloadingPolymorphisme OverLoad = new overloadingPolymorphisme("LG", 050);
+//            OverLoad.searchInfo(666); // حيث يظهر هنا اكثر من اختيار وهذا هو مفهوم اوفر لودينج
+//        }
+//    }
+//}
+//    class overloadingPolymorphisme
+//    {
 
-// namespace Tests
-// {
-//      class overloadingPolymorphisme
-//     {
-
-//         // properties-attributes-fields
-//         public string tvName { get; set; }
-//         public int tvId { get; set; }
+//        // properties-attributes-fields
+//        public string tvName { get; set; }
+//        public int tvId { get; set; }
 
 
-//         //Constructor
-//         public overloadingPolymorphisme(string _tvName,int _tvId)
-//         {
-//             this.tvName = _tvName;
-//             this.tvId = _tvId;
-//         }
+//        //Constructor
+//        public overloadingPolymorphisme(string _tvName, int _tvId)
+//        {
+//            this.tvName = _tvName;
+//            this.tvId = _tvId;
+//        }
 
-//         //Methods
+//        //Methods
 
-//         public void searchInfo(string _tvName)
-//         {
-//             // searching By name in SQL 
-//         }
+//        public void searchInfo(string _tvName)
+//        {
+//        Console.WriteLine("Toshipa"); 
+//        }
 
-//         public void searchInfo(int _tvId)
-//         {
-//             // searching By id 
-//         }
+//        public void searchInfo(int _tvId)
+//        {
+//        Console.WriteLine("0581847320");
+//        }
 
-//         public void searchInfo()
-//         {
-//             // just empty Procedure 
-//         }
+//        public void searchInfo()
+//        {
+//        Console.WriteLine("under maintanance");
+//        }
 
-//         // Another Ex
-//        public IEnumerable<overloadingPolymorphisme> Find(string _tvName)  // لارجاع مجموعه من الحواسيب او ممكن لا نستخدمها
-//         {
-//             return null;
-//         }
-//         public IEnumerable<overloadingPolymorphisme> Find(int _tvId)
-//         {
-//             return null;
-//         }
-        
-//     }
+//        // Another Ex
+//        public void Find(string _tvName)  // لارجاع مجموعه من الحواسيب او ممكن لا نستخدمها
+//        {
+            
+//        }
+//        public void Find(int _tvId)
+//        {
+            
+//        }
 
-// }
+//    }
+
 
 
     }
@@ -2323,41 +2312,81 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
                      *1-Using keyword virual in base class and override in drived class 
                      *2-using keyword new in dreived class
                      */
-//     using System;
-// namespace Tests
-// {
-//     class Overriding
-//     {
 
-//         // Base Class
-//         public string macbook { get; set; }
+                     //using System;
+//namespace Tests
+//{
+//    class Prog
+//    {
+//        static void Main()
+//        {
+//            OverridingOne OverOne = new OverridingOne("MacBook 13 inch");
+//            OverridingTwo OverTow = new OverridingTwo("MacBook 13 inch");
+//            OverridingThree OverThree = new OverridingThree("MacBook 13 inch");
+
+//            OverOne.MacbookPrinting();
+//            OverTow.MacbookPrinting();
+//            OverThree.MacbookPrinting();
 
 
-//         public Overriding(string _macbook)
-//         {
-//             this.macbook = _macbook;
-//         }
-//         public Overriding()  // default Constructor عشان لا اجبر لعمل باراميتر عند انشاء اوبجت واعتقد ايضا لعدم الحاجه لعمل وراثه له فى درايفيد كلاس
-//         {
-                
-//         }
+//        }
+//    }
+//    class OverridingOne
+//    {
 
-//         public void MacbookPrinting(string nameBook)
-//         {
-//             Console.WriteLine(nameBook);
-//         }
+//        // Base Class
+//        public string name { get; set; }
 
-//     }
+//        //Constrauctor
+//        public OverridingOne(string name)
+//        {
+//            this.name = name;
+//        }
+//        public OverridingOne()  // default Constructor عشان لا اجبر لعمل باراميتر عند انشاء اوبجت واعتقد ايضا لعدم الحاجه لعمل وراثه له فى درايفيد كلاس
+//        {
 
-//     //drived Class
-//     class OverridingTwo : Overriding
-//     {
+//        }
 
-//     }
-// }
+//        public virtual void MacbookPrinting()  // اى قابله لاعاده التعريف على مستوى الكلاسات المشتقه
+//        {
+//            Console.WriteLine($" My Laptop is.........{name}");
+//        }
+
+//    }
+
+//    //derived Class
+//    class OverridingTwo : OverridingOne
+//    {
+//        public OverridingTwo(string macbook) : base(macbook)
+//        {
+
+//        }
+//        // بعد عمل فيرجوال فوق نعمل هنا اوفر ريد
+//        public override void MacbookPrinting()
+//        {
+//            string name = "hp";
+//            Console.WriteLine($" My Laptop is.........{name}");
+//        }
+
+
+//    }
+//    class OverridingThree : OverridingOne
+//    {
+//        public OverridingThree(string macbook) : base(macbook)
+//        {
+            
+//        }
+//        public override void MacbookPrinting()
+//        {
+//            string name = "Dell";
+//            Console.WriteLine($" My Laptop is.........{name}");
+//        }
+//    }
+
+//}
 
 }
-    class Abstraction___
+    class Abstract_Classes_And_Sealed_Classes
     {
 //         using System;
 // namespace Executable
