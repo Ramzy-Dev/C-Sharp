@@ -1729,7 +1729,7 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
     {
         //مما يتكون الكلاس ؟؟
         //properties - or Attributes    مثلا كمبيوتر وله خصائص وهذه هى الخصائص
-        // public string brand;  // يتم الاعلان عنه مبدئيا بدون اى قيم  
+        // public string brand; // properties ---  // يتم الاعلان عنه مبدئيا بدون اى قيم  
         // public double price;
         // public DateTime manufacturedate;
         // public string color;
@@ -1737,9 +1737,42 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
         // access modifiers  
         //public   private   internal    protected 
         //public  اى ممكن الوصول له من اى مكان حتى لو ملف اخر حتى لو مشروع اخر
-        //private على مستوى الكلاس التى تحتوى عليه فقط
-        //internal  تسمح من الداخل والخارج ولكن على مستوى المشروع لكن لو ذهبنا لمشروع اخر لن يعمل هى مثل البابلك 
+        //private  and by default without declare it all private على مستوى الكلاس التى تحتوى عليه فقط
+        //internal  ---> like public but one different   تسمح من الداخل والخارج ولكن على مستوى المشروع لكن لو ذهبنا لمشروع اخر لن يعمل هى مثل البابلك 
         //protected  فقط على مستوى الفئات او مشتقاته هى مثل البرايفت بس الفرق انها تعمل ايضا على اى شئ يرث منها 
+
+        //-----------------💜❤️💕😎😃💜❤️💕😎😃💜❤️💕😎😃💜❤️💕😎😃----------------
+        //using System;
+//namespace Tests
+//{
+//    class Prog
+//    {
+//        static void Main()
+//        {
+//            ClasseAccess Cls = new ClasseAccess();
+//            Cls.AssignData("Leen", 10);
+//            Cls.PrintDetails();
+//        }
+//    }
+//    class ClasseAccess
+//    {
+//        //Attributes-fields-Variables For class-prppertes
+//        string name;
+//        int age;
+
+//        public void AssignData(string name,int age)
+//        {
+//            this.name = name;
+//            this.age = age;
+//        }
+
+//        public void PrintDetails()
+//        {
+//            Console.WriteLine($"My Name is {name} My Age is {age}");
+//        }
+
+//    }
+//--------------------------💜❤️💕😎😃💜❤️💕😎😃💜❤️💕😎😃💜❤️💕😎😃----------------
 
         //using System;
 //namespace Prog
@@ -1805,19 +1838,6 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
 //        // void ---->  that mean that procedure didnt return any thing and called procedures
 
 
-//        //public string Xx;  // public mean accress modifier that mean can accress it any where
-//        // Types Of access Modifiers🤪💁💁💙💜❤️💕😎😃
-//        // public --> can access it out of class and prject also
-//        //private -->access it inside of class only and all be default if didnt make access modifiers will be private
-//        //intrtnal-->like public but the only difference is cant access it out of assembly (Cant out of project)
-//        //protected -->can access it inside class and all inheritance from it  
-
-
-
-
-
-
-
 
 //        //--------💙💜❤️💕😎😃  Methods [procedures   and functions ] -----------💙💜❤️💕😎😃
 
@@ -1872,14 +1892,8 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
 //    }
 //}
 
-
-
-
-
-
-
     }
-    class lesson_38_Encapsulation_Full_properties_autoproperties
+     class lesson_Encapsulation_Full_properties_autoproperties
     {
         //encapsulation حمايه بيانات الكلاس من الوصول المباشر
         //properties طريقه كتابه 
@@ -1975,7 +1989,7 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
 
 
     }
-    class Lesson_39_Methods
+    class Lesson_Methods
     {
         // function or procedures عباره عن داله او اجراء method <----
         //using System;
@@ -2038,7 +2052,7 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
 
     
     }
-    class Lesson_40_Constructor
+    class Lesson_Constructor
     {
         // Constructor  maen->  A constructor is a  special method that is used to initialize objects.
         //يحمل نفس اسم الكلاس وليس له ارجاع 
@@ -2108,7 +2122,7 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
 
 
     }
-    class Lesson_41_Inheritance
+    class Lesson_Inheritance
     {
         // Inheritance mean t is possible to inherit fields and methods from one class to another. 
 
