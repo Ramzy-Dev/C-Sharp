@@ -2305,149 +2305,129 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
     }
     class Overriding
 {
-                    /*
-                     *Its Method in based Class and we want to override it again in scope of dreived class 
-                     *Overriding  عمليه اعاده التعريف تسمى 
-                     *thre are 2 ways 
-                     *1-Using keyword virual in base class and override in drived class 
-                     *2-using keyword new in dreived class
-                     */
+    //using System;
+//namespace Exexutable
+//{
+//                /*
+//                *Its Method in based Class and we want to override it again in scope of dreived class 
+//                *Overriding  عمليه اعاده التعريف تسمى 
+//                *thre are 2 ways 
+//                *1-Using keyword virual in base class and override in drived class  called override
+//                *2-using keyword new in dreived class  called hiding or shadwing 
+//                */
+//class Prog
+//    {
+//        static void Main()
+//        {
+//            Programmer Progg = new Programmer();
+//            Person Per = new Person();
+//            Progg.Name();
+//            Progg.Speaking();
+            
+//        }
+//    }
+//    //Based Classe
+//    class Person
+//    {
+//        public virtual void Name()
+//        {
+//            Console.WriteLine("Im Working .........");
+//        }
 
-                     //using System;
-//namespace Tests
+//        //---For second Way Hiding
+//        public void Speaking()
+//        {
+//            Console.WriteLine("i speak ........");
+//        }
+//    }
+//    //Derived Class
+//    class Programmer:Person
+//    {
+//        // First Way using Overriding
+//        public override void Name()
+//        {
+//            base.Name();  // That Mean Will Print Massage in Based Class
+//            Console.WriteLine("Im Programmer");// massage after override
+//        }
+//        // for second Way
+//        public new void Speaking()
+//        {
+//            Console.WriteLine("i speak ........  C#");
+//        }
+//    }
+//}
+
+
+
+}
+    class Abstract_Classes_And_Sealed_Classes
+    {
+        //using System;
+//namespace Executable
 //{
 //    class Prog
 //    {
 //        static void Main()
 //        {
-//            OverridingOne OverOne = new OverridingOne("MacBook 13 inch");
-//            OverridingTwo OverTow = new OverridingTwo("MacBook 13 inch");
-//            OverridingThree OverThree = new OverridingThree("MacBook 13 inch");
 
-//            OverOne.MacbookPrinting();
-//            OverTow.MacbookPrinting();
-//            OverThree.MacbookPrinting();
-
-
+//            Abstraction.AbstractTwo Abs = new Abstraction.AbstractTwo("LoLAAAA");
+//            Abs.Walking();
 //        }
 //    }
-//    class OverridingOne
-//    {
+//}
 
-//        // Base Class
+//namespace Abstraction
+//{
+//    abstract class AbstractOne  // abstract mean cant make intance  but can make inheritance to redeclare it 
+//    {
+//        //Abstract class cant inheritance it but can creat new class to inherit from it 
+//        //A-انشاء انواع عامه لايمكن استنساخها  اى لا يمكن عمل اوبجت منها والحل وقتها ان لابد من عمل كلاس يرث منها
+//        //A-الهدف انشاء انواع عامه تسمح لنا باختبارات معينه
+//        //A-هى شئ افتراضى وغير حقيقى
+
+//        //Properties
 //        public string name { get; set; }
 
-//        //Constrauctor
-//        public OverridingOne(string name)
+//        //Constructor
+//        public AbstractOne(string name)
 //        {
 //            this.name = name;
 //        }
-//        public OverridingOne()  // default Constructor عشان لا اجبر لعمل باراميتر عند انشاء اوبجت واعتقد ايضا لعدم الحاجه لعمل وراثه له فى درايفيد كلاس
+
+
+//        //Procedure....
+//        public void showMassages() // Must لابد من اعاده تعريفها طالما تم استخدام ابستراكت
 //        {
 
+//            Console.WriteLine($"My Name is {name}");
 //        }
-
-//        public virtual void MacbookPrinting()  // اى قابله لاعاده التعريف على مستوى الكلاسات المشتقه
+//        public void Walking()
 //        {
-//            Console.WriteLine($" My Laptop is.........{name}");
+//            Console.WriteLine("Im Walking");
 //        }
 
 //    }
 
-//    //derived Class
-//    class OverridingTwo : OverridingOne
+
+//    class AbstractTwo : AbstractOne
 //    {
-//        public OverridingTwo(string macbook) : base(macbook)
+//        public AbstractTwo(string name) : base(name)
 //        {
-
+//            this.name = name;
 //        }
-//        // بعد عمل فيرجوال فوق نعمل هنا اوفر ريد
-//        public override void MacbookPrinting()
-//        {
-//            string name = "hp";
-//            Console.WriteLine($" My Laptop is.........{name}");
-//        }
-
-
 //    }
-//    class OverridingThree : OverridingOne
+//                     /*
+//                      * Sealed Classes.......
+//                      * 
+//                      * cant inherite it never وهى ومستقه بذاتها 
+//                      * A بمعنى انها تحمى الكلاس من اى عمليه وراثه
+//                      */
+//    sealed class Book
 //    {
-//        public OverridingThree(string macbook) : base(macbook)
-//        {
-            
-//        }
-//        public override void MacbookPrinting()
-//        {
-//            string name = "Dell";
-//            Console.WriteLine($" My Laptop is.........{name}");
-//        }
+//        // Cant Make any inheritnce from Book
 //    }
-
 //}
 
-}
-    class Abstract_Classes_And_Sealed_Classes
-    {
-//         using System;
-// namespace Executable
-// {
-//         class Prog
-//     {
-//         static void Main()
-//         {
-           
-//             Abstraction.AbstractTwo Abs = new Abstraction.AbstractTwo("LoLAAAA");
-//             Abs.Walking();
-//         }
-//     }
-// }
-// //-----------------------------💚💛🧡❤️❣️ Another Ex-----
-// namespace Abstraction
-// {
-//     abstract class AbstractOne  // abstract mean cant make intance  but can make inheritance to redeclare it 
-//     {
-//         //A-انشاء انواع عامه لايمكن استنساخها  اى لا يمكن عمل اوبجت منها والحل وقتها ان لابد من عمل كلاس يرث منها
-//         //A-الهدف انشاء انواع عامه تسمح لنا باختبارات معينه
-//         //A-هى شئ افتراضى وغير حقيقى
-
-//         //Properties
-//         public string name { get; set; }
-
-//         //Constructor
-//         public AbstractOne(string name)
-//         {
-//             this.name = name;
-//         }
-
-
-//         //Procedure....
-//         public  void showMassages() // Must لابد من اعاده تعريفها طالما تم استخدام ابستراكت
-//         {
-
-//             Console.WriteLine($"My Name is {name}");
-//         }
-//         public void Walking()
-//         {
-//             Console.WriteLine("Im Walking");
-//         }
-
-//     }
-
-    
-//     class AbstractTwo : AbstractOne
-//     {
-//         public AbstractTwo(string name) : base(name)
-//         {
-//             this.name = name;
-//         }
-//         //public override void Walking() // Must لابد من اعاده تعريفها طالما تم استخدام ابستراكت
-//         //{
-
-//         //    Console.WriteLine($"My Name is {name}");
-//         //}
-
-//     }
-// }
     }
 
 }
