@@ -113,7 +113,7 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
 
 {
 
-    class Lesson_11_Rules_Identifiers //ولكن خاص بنا  namespace    ملف تحت المجلد ويسمى ايضا  //class---> object يتم كتابه داخلها كل الاوامر لان السى شارب عباره عن اوبجت اورينتيت وكل شئ عباره عن   
+    class Lesson_Rules_Identifiers //ولكن خاص بنا  namespace    ملف تحت المجلد ويسمى ايضا  //class---> object يتم كتابه داخلها كل الاوامر لان السى شارب عباره عن اوبجت اورينتيت وكل شئ عباره عن   
      {
         static void Main_11()  // called method    called main method  // all is reserved keywords // ومن هنا يتم تنفيذ البرنامج 
         {
@@ -138,7 +138,7 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
 
         }
      }
-    class Lesson_12_Data_Types_Variables 
+    class Lesson_Data_Types_Variables 
      {
 
         static void Main_12()  // called main method  or function 
@@ -302,7 +302,7 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
 
         }
      }
-    class Lesson_13_Printing
+    class Lesson_Printing
      {
         static void Main_13()
         {
