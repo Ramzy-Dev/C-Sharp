@@ -1,10 +1,11 @@
 ﻿using System;  // called namespace // that mean i will use namespace called "System"  //تسمى مكتبه  library..................//هى من الاخر مكتبه عشان هاستخدم جواها حاجات زى كونسول
 using static System.Console; //console  فى حاله لو لا نريد كتابه   <----
 using static System.Convert; //convert  فى حاله لو لا نريد كتابه   <----
-
-//.net framework class library (FCL) --- such as system ,system.security.... مكتبات الدوت نت 
-//what .Net    (DLL) هى بيئه للتطوير من قبل المبرمج والتشغيل من قبل العميل ولو نلاحظ اوقات لما نشغل برنامج او لعبه فى اوقات معينه يطلبه ملف اسمه دوت نت وده ملف اللى اتعلم به التطبيق عشان يشتغل وهو بيكون دى ال الى 
-//How the .Net faramewor works??
+class Preface_For_Programming
+{
+    //.net framework class library (FCL) --- such as system ,system.security.... مكتبات الدوت نت 
+    //what .Net    (DLL) هى بيئه للتطوير من قبل المبرمج والتشغيل من قبل العميل ولو نلاحظ اوقات لما نشغل برنامج او لعبه فى اوقات معينه يطلبه ملف اسمه دوت نت وده ملف اللى اتعلم به التطبيق عشان يشتغل وهو بيكون دى ال الى 
+    //How the .Net faramewor works??
              /*
               *Source Code اول حاجه كتابه الكود
               *Microsoft Intermediate Language Compiler (MSIL)    ثم بعد ذلك يتم  تحويله  الى لغه وسيطه عن طريق  
@@ -26,13 +27,13 @@ using static System.Convert; //convert  فى حاله لو لا نريد كتا�
 
 
 
-//Solution Explorer عند انشاء المشروع بالبدايه خالص يتم تكوين شئ اسمه 
-//ماذا يحتوى اذن ؟؟؟ 
-//1- solution ودى بتعرفنى كام مشروع موجود وممكن عمل مشروع جديد اخر منه
-//2-solution ماذا يحتوى ؟؟؟
-//يحتوى على  اسم المشروع ويكون هذا هو اسم نيم سبيس اتوماتيك  الذى تعمل عمله من البدايه وبداخله عدد 2 ملف وهم 
-//dependencies ويتحوى على مكتبات كتير تسهل التعامل مع الطابعات ووووو حيث تتم اوتوماتيك 
-//programme.cs وهذا هو ملف المشروع وبيتعمل كلاس ويكون بنفس الاسم اتوماتيك 
+            //Solution Explorer عند انشاء المشروع بالبدايه خالص يتم تكوين شئ اسمه 
+            //ماذا يحتوى اذن ؟؟؟ 
+            //1- solution ودى بتعرفنى كام مشروع موجود وممكن عمل مشروع جديد اخر منه
+            //2-solution ماذا يحتوى ؟؟؟
+            //يحتوى على  اسم المشروع ويكون هذا هو اسم نيم سبيس اتوماتيك  الذى تعمل عمله من البدايه وبداخله عدد 2 ملف وهم 
+            //dependencies ويتحوى على مكتبات كتير تسهل التعامل مع الطابعات ووووو حيث تتم اوتوماتيك 
+            //programme.cs وهذا هو ملف المشروع وبيتعمل كلاس ويكون بنفس الاسم اتوماتيك 
 
 
 //---------
@@ -103,16 +104,13 @@ using static System.Convert; //convert  فى حاله لو لا نريد كتا�
 //Run   يعنى اشغل البرنامج عشان بس اشوفه بدون عمل له بناء
 //Debug ----->      عند سطر معين عشان انفذ الكود سطر سطر واعرف وين المشكله    break point  معناها عمل تصحيح للكود   وممكن عمل   <--------------
 
+
+            //namespace Training   //  مثل المجلد  ويقوم بترتيب الكود وعن طريقه عن انشاء واحد جديد وقتها اقدر استخدم كلاس بنفس الاسم فى كلاس سابق عادى 
+            // اى يسمح لنا بعمل كلاس بنفس الاسم فى كلاس اخر
+            //وهى من الاخر المشروع بتاعى اللى اسمه كذا 
  
-
-
-namespace Training   //  مثل المجلد  ويقوم بترتيب الكود وعن طريقه عن انشاء واحد جديد وقتها اقدر استخدم كلاس بنفس الاسم فى كلاس سابق عادى 
-// اى يسمح لنا بعمل كلاس بنفس الاسم فى كلاس اخر
-//وهى من الاخر المشروع بتاعى اللى اسمه كذا 
-
-
-{
-
+    
+}
     class Lesson_Rules_Identifiers //ولكن خاص بنا  namespace    ملف تحت المجلد ويسمى ايضا  //class---> object يتم كتابه داخلها كل الاوامر لان السى شارب عباره عن اوبجت اورينتيت وكل شئ عباره عن   
      {
         static void Main_11()  // called method    called main method  // all is reserved keywords // ومن هنا يتم تنفيذ البرنامج 
@@ -133,8 +131,6 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
             //x#// المتعيرات يفضل ان تبدا بحرف صغير
             // = called    assignment  operator
             //----------------------------------------------------
-
-
 
         }
      }
@@ -188,27 +184,48 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
              */
 
 
-            //----------------------
+             //----------------------🍄🌈🌈🌈🍉
             /*
              *bool bb=true;
              *bool bbb =false;
              */
 
 
-             //-----------------------------
+             //----------------------🍄🌈🌈🌈🍉
              /*
               *DateTime d = DateTime.Now;  // called struct  its lik class because contains Many Methods
               */
 
 
-                          //----------------------
+             //----------------------🍄🌈🌈🌈🍉
             /*
              *object O = 123;
              *O = "Leen";  // لايعترض ويشيل اى حاجه 
+             *O=10;
+             *O=O+20; // Problem Cant because still object but there are solution With (var) 
              */
 
+             //------------------------🍄🌈🌈🌈🍉
+              /*
+               * var
+               */
 
-           
+             //--------------------------------------------------
+             //Question Interview 💚💚💚
+                /*
+                 *ايه الفرق الجوهرى بين الاوبجت والفار ؟ مش الاتنين بيشيلو اى داتا تايب 
+                 *الاوبجت بيحط جواه القيمه وبتاخد الداتا تايب بتاعه ك اوبجت 
+                 *الفار بياخد القيمه وبياخد معاها الداتا تايب الجديده اللى هايشتغل بيها 
+                 */
+
+            //------------------------🍄🌈🌈🌈🍉
+            //Const.........Fix Value
+             //const int x = 100;
+             // Cant Change 
+
+
+
+
            
 
            // Converting .........................🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠🦠
@@ -286,8 +303,8 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
             //Console.WriteLine(int.MaxValue);
 
             
-            // int x;------>  mean intialize ---
-            //int x=5;  -----> mean assignment  Or Declare 
+            // int x;------>  ---?
+            //int x=5;  -----> mean assignment  Or Declare  or Initialize 
                          /*
                           *قاعده  💚 : ما يتم جمعه على سترينج فهو سترينج   مثال  💚
                           * int x=5;
@@ -372,32 +389,118 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
      {
         static void Main_14()
         {
-            // assignment operator     =
+                        //// assignment operator     =
 
-            // + addition      - subtraction    * multiplication  / division    % -> Modulus اى متبقى قسمه   ++ increemnt   -- decrement
-            //int number_1 = 10, number_2 = 5 , count = number_1 * number_2; // Can declare One Data Type if all same 
-            // ################   using  +=
-            /*
-            *int x=10;
-            * x+=90;  //output 100  
-            */
+            //// + addition      - subtraction    * multiplication  / division    % -> Modulus اى متبقى قسمه   ++ increemnt   -- decrement
+            //int number_1 = 10, number_2 = 5 , total = number_1 * number_2; // Can declare all variables  One same line if Data Type For all same 
+            //// ################   using  +=
+            ///*
+            //*int x=10;
+            //* x+=90;  //output 100  
+            //*/
 
-            //####################using +
-            /*
-             *int x=10+5; // out 15
-             *
-             */
-            //##############   using  ++  or --  
-            //             int x = 10;
-            // x += 1;  //  or ++
-            // Console.WriteLine(x);
+            ////####################using +
+            ///*
+            // *int x=10+5; // out 15
+            // *
+            // */
+            // //   using  ++  or --  
+            //int x = 10;
+            //x += 1;  //  or ++
+            //Console.WriteLine(x);
 
-            //#############################
+            //Console.WriteLine($"The Number is {total} ");
 
 
-            
-            //Console.WriteLine($"The Number is {count} ");
+            ////-----------------Hawas------------------------
+            //// Literals
+            //Console.WriteLine("Leen\thamza");// t mean tab and take distance between words
+            //Console.WriteLine("---------------------------");
+            //Console.WriteLine("Leen\nHamza"); // new Line
+            //Console.WriteLine("---------------------------");
+            //Console.WriteLine("Leen \"Hamza\" Ramzy"); // To Put double quotation
+            //Console.WriteLine("---------------------------");
+            //Console.WriteLine("\a");  // beeb voice
+            //Console.WriteLine("---------------------------");
 
+            ////-----  Operators
+            ////-----------Modulus معناها المتبقى من خارج القسمه 
+            ////for instance ...
+            //int xx = 5;
+            //xx = xx % 3;
+            //Console.WriteLine("Modulus");
+            //Console.WriteLine(x);  // 2 لان النتيجه واحد ومتبقى عدد اثنان بعد القسمه
+            //Console.WriteLine("---------------------------");
+            ////--------- Increment
+            //int y = 10;
+            ////y++;  //same 
+            //++y;   // same 
+            //Console.WriteLine(y);
+            //int z = 10;
+            //Console.WriteLine(++z); //but here if i used increment will not same why called prefix ومعناها اجمع واحد على واى 
+            //Console.WriteLine(z++);//but here if i used increment will not same why  called postfix معناها اجمع واحد بعد ما تطلع قيمه واى  وكل هذا هايبان اكثر فى اللوب
+            //int C = 10;
+            //C += 50;   ///  Same  C=C+50;
+            //Console.WriteLine(C);
+            //Console.WriteLine("---------------------------");
+            ////Convertion Or Casting  -----------------------
+            //// Convert between data Types
+            ///*
+            // *1-Implicit Convertion
+            // *2-Explicit Convertion
+            // *3-System Convert Convertion
+            // */
+            ////Implicit Convertion   وهو يقصد به سهل اى من الصغير الى الكبير او الصغير داخل الكبير ولا يسبب مشاكل
+            //int aa = 3;
+            //long ss = 40000;
+            //ss = aa;  // هنا القاعده دائما اليمين بيتحط فى الشمال
+            //Console.WriteLine("Implicit Convertion");
+            //Console.WriteLine(ss);// output 3
+            //Console.WriteLine("---------------------------");
+
+            ////Explicit Convertion 
+            //int ww = 8;
+            //double sde = 20.90;
+            //ww = (int)sde;  // Cant implicit convertion and must make explicit by (int)
+            ////but we will lost data like 0.90
+            //int w = 6;
+            //double dd = 20.3;
+            //w = (int)dd;
+
+            //Console.WriteLine("Explicit For Object");
+            ////Explicit For Object Also
+            //object f = 10;
+            //f = (int)f + 70;
+            //Console.WriteLine(f);
+            //Console.WriteLine("---------------------------");
+            ////------------  A مهم جدا لتنظيم الكود ويستخدم فى الحياه العمليه 
+            //#region OldCod
+            //int ssss = 10;
+            //Console.WriteLine(ssss);
+
+            //#endregion
+
+            ///*
+            // * string to any type      use     int.pars();
+            // * any type to any type    use     convert.toint32     
+            // */
+
+            //Console.WriteLine("Enter Age Please");
+            //int age = int.Parse(Console.ReadLine());   //string to any type      use     int.pars();
+            //Console.WriteLine(age);
+
+            //char c = 'a';
+            //string name =Convert.ToString(c);  //any type to any type    use     convert.toint32
+            //Console.WriteLine("---------------------------");
+
+
+
+            ////if we want to know ASCII code for ant thing
+            //Console.WriteLine("ASCII ");
+            //char ch = 'z';
+            //int ch2 = ch;
+            //Console.WriteLine(ch2);
+            //Console.WriteLine("---------------------------");
 
         }
      }
@@ -2481,10 +2584,11 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
 //        // Cant Make any inheritnce from Book
 //    }
 //}
-
     }
 
-}
+    
+
+
 
 
 
