@@ -892,6 +892,51 @@ namespace Training   //  مثل المجلد  ويقوم بترتيب الكود
             // }
 
 
+            //-------------------🦠🦠🦠🦠💥💥💥💥💥💥HAWAS-----------------------
+                        /*
+             * Write A Programme To Show Multiplication For Any Number
+             * 
+             */
+            //Console.WriteLine("Enter Number Please ......");
+            //int number = Int32.Parse(Console.ReadLine());
+            //for (int i = 1; i <= 1; i++)
+            //{
+            //    Console.WriteLine("Welcome To Multiplication schudual ");
+            //    Console.WriteLine("-----------------------------------");
+            //    for (int ii = 0; ii <= 10; ii++)
+            //    {
+            //        int result = number * ii;
+            //        Console.WriteLine(number+" * "+ii +"        = " + result);
+            //    }
+            //}
+
+            /*
+             * Write A Programme to show that 2 Company Consists of 2 Building and every Building has 3 floor and every floor has 2 Room
+             * 
+             */
+            //for (int company = 1; company <= 2; company++)
+            //{
+            //    Console.WriteLine("Company No " + company);
+            //    Console.WriteLine("--------------------");
+            //    for (int build = 1; build <= 2; build++)
+            //    {
+            //        Console.WriteLine("   Buiding No "+build);
+            //        Console.WriteLine("       __________");
+            //        for(int floor = 1; floor <= 3; floor++)
+            //        {
+            //            Console.WriteLine("      Floor No  "+floor);
+            //            for(int room = 1; room <= 2; room++)
+            //            {
+            //                Console.WriteLine("          Room No. "+room);
+            //            }
+            //        }
+            //    }
+            //    Console.WriteLine("==========================================");
+            //}
+            
+
+
+
 
 
 
