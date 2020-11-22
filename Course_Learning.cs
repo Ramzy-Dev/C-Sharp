@@ -193,7 +193,7 @@ class Preface_For_Programming
 
              //----------------------🍄🌈🌈🌈🍉
              /*
-              *DateTime d = DateTime.Now;  // called struct  its lik class because contains Many Methods
+              *DateTime d = DateTime.Now;  // called struct  its like class because contains Many Methods
               */
 
 
@@ -532,10 +532,14 @@ class Preface_For_Programming
         {
                         //  AND &&      OR ||      NOT  !
                         // can use  &     and  |   but in this case cmpiler must check all بمعنى لو تحقق شرط لازم ايضا يعمل فحص للطرف الاخر ايضا بعكس الاخريات
-            //bool result_5 = 6<5  && 8>9;  // تعتبر صحيحه لو تحقق كل الشروط 
-            //bool result_6 = 6>3 || 6>6; // اى طرف صحيح يكون 
-            //bool result_7 = !(6>3 || 6>6);// mean not true 
-            //bool result_8 = !(5==8); // inside mean flase but when using ! now mean true 
+            //bool result1= 6<5  && 8>9;  // تعتبر صحيحه لو تحقق كل الشروط وتسخدم فى اليوزر والباسورد
+
+            //bool result2 = 6>3 || 6>6; // اى طرف صحيح يكون 
+
+            //bool result3 = !(6>3 || 6>6);// mean not true 
+
+            //bool result4 = !(5==8); // inside mean flase but when using ! now mean true 
+
             //Console.WriteLine(result_8);
 
             //######## EX   &&
@@ -545,12 +549,12 @@ class Preface_For_Programming
             //#######  EX     !
             //             int x = 10;
             // Console.WriteLine(!(x < 1 || x > 5));//Reverse the result, returns false if the result is true
+            
 
 
 
-
-            //----------------------------null coalecing Operator   Mean ??   تستخدم فى اختصار الاكواد-----------------------
-            //int ? ticketonsale = null;
+            //----------------------------null-coalescing Operator   Mean ??   تستخدم فى اختصار الاكواد-----------------------
+            //int ? ticketOnSale = null;
             // int availableticket;
             // if (ticketonsale == null)
             // {
@@ -997,9 +1001,9 @@ class Preface_For_Programming
 
             //-------------------🦠🦠🦠🦠💥💥💥💥💥💥HAWAS-----------------------
                         /*
-             * Write A Programme To Show Multiplication For Any Number
-             * 
-             */
+                            * Write A Programme To Show Multiplication For Any Number
+                            * 
+                         */
             //Console.WriteLine("Enter Number Please ......");
             //int number = Int32.Parse(Console.ReadLine());
             //for (int i = 1; i <= 1; i++)
